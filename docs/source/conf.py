@@ -19,7 +19,7 @@
 import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
-project = 'ezblock3.0'
+project = 'ezblock3'
 copyright = '2021, sunfounder'
 author = 'sunfounder'
 
