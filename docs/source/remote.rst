@@ -1,7 +1,7 @@
 How to Use the Remote Control Function?
 ==============================================
 
-1. 进入 **Remote Control Page** 。
+1. Enter the **Remote Control Page**.
 
     .. image:: img/img_remote1.png
 
@@ -9,10 +9,10 @@ How to Use the Remote Control Function?
 
     .. image:: img/img_remote3.png
 
-#. 返回 **Programming Page** , you can see the new block appears. Complete your code please.
+#. Go back to **Programming Page**, you can see the new block appears. Complete your code please.
 
     .. image:: img/img_remote5.png
 
-#. After you run the code, go back to the **Remote Control Page** , Play it.
+#. After you run the code, go back to the **Remote Control Page**, play it.
 
     .. image:: img/img_remote6.png
