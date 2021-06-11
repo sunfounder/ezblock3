@@ -6,7 +6,7 @@ How to Use the Video Function?
     .. image:: img/img_remote_camera1.png
 
 2. In **Remote Control Page** , drag the **Video** widget and run the project.
-   
+
     .. image:: img/img_remote_camera2.png
 
 3. Now you can see the video.
