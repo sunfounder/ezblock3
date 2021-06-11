@@ -19,15 +19,7 @@ Open the browser and enter the following URL. Google Chrome is recommended.
 
 http://ezblock.cc/ezblock_studio/beta/index.html?lang=en
 
-Then click the link icon in the upper left corner, and then click Change Product.
-
-.. image:: img/web1.png
-
-You need to select the product that matches yours.
-
-.. image:: img/web2.png
-
-Click **Connect**.
+Then click the link icon in the upper left corner and click **Connect**.
 
 .. image:: img/web3.png
 

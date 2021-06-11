@@ -12,18 +12,18 @@ Ezblock Studio 3 2021.06.08
 
 **Home Page**
 
-* Remove
+
 - Remove the carousel.
 - Remove the product selection page and change it to a pop-up window.
 - Remove the way you must log in to get to the home page.
-* Add
+
 - Add My Project entry.
 - Add Product Information pop-up window button. This Product Information pop-up window is used to show the product name, product type, IP, version, working voltage, and power.
 - Add online update function of product image.
 - Add product calibration function.
 - Add product name modification function.
 - Add the Menu function in the upper left corner.
-* Optimize
+
 - Optimize the pop-up window for New Project button.
 
 
