@@ -14,7 +14,7 @@ Ezblock 3 is still in public beta. Please do not hesitate to point out any incon
 
 Here is the Email: cs@sunfounder.com.
 
-Download and Install Ezblock 3 image
+Download and Install Ezblock OS
 ------------------------------------
 
 #. Download the **Raspberry Pi OS for Ezblock 3 Beta** image file here: `Ezblock Studio Download Center <https://ezblock.cc/download/index.html>`_.
