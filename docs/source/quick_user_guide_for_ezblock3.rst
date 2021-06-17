@@ -133,6 +133,10 @@ How to connect the product and Ezblock Studio?
 
 #. Enter your Wi-Fi account and password.
 
+    .. note::
+
+        If you have already configured Wi-Fi on the Raspberry Pi Imager, then this step of **Quick Configuration** will not appear and you will go directly to the next step **Set Name**.
+
     .. image:: img/imgIMG_0396.PNG
         :align: center
 #. Select the product that matches yours.
