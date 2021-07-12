@@ -27,4 +27,4 @@ Enter the IP/Hostname.
 
 .. image:: img/web4.png
 
-When prompted that the connection is successful, you can run the example or create your own Porject.
+When prompted that the connection is successful, you can run the example or create your own project.
