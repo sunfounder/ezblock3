@@ -17,7 +17,7 @@ Here is the Email: cs@sunfounder.com.
 Download and Install Ezblock OS
 ------------------------------------
 
-#. Download the **Raspberry Pi OS for Ezblock 3 Beta** image file here: `Ezblock Studio Download Center <https://ezblock.cc/download/index.html>`_.
+#. Download the **Raspberry Pi OS with Ezblock Pre-installed** image file here: http://ezblock.cc/download/v3.html.
 
 #. Unzip the package downloaded and you will see the .img file inside.
 
@@ -39,7 +39,7 @@ Download and Install Ezblock OS
 
     .. image:: img/choose_os.png
         :align: center
-#. Scroll down to the bottom and select **Use Custom**. On the pop-up page, select the image you downloaded from `Ezblock Studio Download Center <https://ezblock.cc/download/index.html>`_ and click **Open**.
+#. Scroll down to the bottom and select **Use Custom**. On the pop-up page, select the image you downloaded from `Ezblock Studio Download Center <http://ezblock.cc/download/v3.html>`_ and click **Open**.
         
     .. image:: img/use_custom.png
         :align: center
