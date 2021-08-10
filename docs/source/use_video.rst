@@ -1,7 +1,7 @@
 How to Use the Video Function?
 ====================================
 
-1. Drag the 「camera monitor on」 block to 「Start」.
+1. Drag the **camera monitor on** block to **Start**.
 
     .. image:: img/img_remote_camera1.png
 

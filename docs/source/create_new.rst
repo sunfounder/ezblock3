@@ -9,7 +9,7 @@ How to Create a New Project?
 
     .. image:: img/img_new_project2.png
 
-#. Now we get to the programming screen.
+#. Now we get to the programming page.
 
     .. image:: img/img_new_project3.png
 

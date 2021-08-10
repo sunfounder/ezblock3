@@ -14,15 +14,43 @@ Please do not hesitate to point out any inconveniences or errors, and any sugges
 
 Here is the Email: cs@sunfounder.com.
 
+**Quick Guide :**
+
 .. toctree::
     :maxdepth: 3
     
     quick_user_guide_for_ezblock3
+
+**How to ... :**
+
+.. toctree::
+    :maxdepth: 3
+
     use_on_the_web
     create_new
     use_video
     remote
+    use_iot
+    use_library
+
+**Interface:**
+
+.. toctree::
+    :maxdepth: 3
+
+    home_page
+    profile_page
+    programming_page
+
+
+
+**Release Note**
+  
+.. toctree::
+    :maxdepth: 3
+
     ezblock_studio_release_notes
+
     
     
 
