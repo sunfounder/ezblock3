@@ -8,7 +8,7 @@ Compared with the Bluetooth communication of EzBlock 2, EzBlock 3 uses Websocket
 
 To make it faster and easier to use, we have optimized the connection and usage process so that you can learn programming quickly with Ezblock Studio.
 
-The Ezblock 3 version should be used with the Ezblock 3 image (`Ezblock Studio Download Center <https://ezblock.cc/download/index.html>`_). The v3.0 version is currently in the public test stage. 
+The Ezblock 3 version should be used with the Ezblock 3 image (`Ezblock Studio Download Center <http://ezblock.cc/download/v3.html>`_). The v3.0 version is currently in the public test stage. 
 
 Ezblock 3 is still in public beta. Please do not hesitate to point out any inconveniences or errors, and any suggestions are welcome.
 
