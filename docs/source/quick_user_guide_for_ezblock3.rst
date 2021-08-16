@@ -52,7 +52,7 @@ Download and Install Ezblock OS
 #. Press **Ctrl+Shift+X** to open the **Advanced options** page to set hostname and enable SSH. You can choose to always use this image customization options.
 
     .. note::
-        The hostname is set so that when you use Ezblock Studio on the web, you can use the hostname to connect to your product. You can also leave it unset.
+        The hostname is set so that when you use Ezblock Studio on the `web <https://docs.sunfounder.com/projects/ezblock3/en/latest/use_on_the_web.html>`_, you can use the hostname to connect to your product. You can also leave it unset.
 
     .. image:: img/configure.png
         :align: center
@@ -73,6 +73,7 @@ Download and Install Ezblock OS
 
 
 #. After waiting for a while, you will be prompted to tell you that the image has been written to your Micro SD card and you can remove it. Then you can insert it into the Raspberry Pi.
+
     .. image:: img/burning2.png
         :align: center
 
@@ -92,6 +93,7 @@ Open App Store (iOS/Mac OS X system) or Play Store (Android/Windows/Linux system
 
 How to enter Ezblock Studio 3?
 ------------------------------------------------------
+The current download version is still Ezblock 2, you need to upgrade to Ezblock 3 manually, as follows.
 
 1. Open Ezblock Studio and log in to your account.
 #. Go to your account page by clicking on your avatar in the upper right corner of the home page.
@@ -135,7 +137,7 @@ How to connect the product and Ezblock Studio?
 
     .. note::
 
-        If you have already configured Wi-Fi on the Raspberry Pi Imager, then this step of **Quick Configuration** will not appear and you will go directly to the next step **Set Name**.
+        If you have already configured Wi-Fi on the Raspberry Pi Imager, then this step will not appear and you will go directly to the next step.
 
     .. image:: img/imgIMG_0396.PNG
         :align: center
