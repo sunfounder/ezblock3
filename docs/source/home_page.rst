@@ -5,12 +5,12 @@ When we open ezblock, we can see the homepage, as shown below:
 
 .. image:: img/sp210805_135127.png
 
-1. Menu : After clicking, a menu window will pop up.
-2. Product: Connect your robot from here, please see :ref:`Quick User Guide for Ezblock 3` and :ref:`How to Use Ezblock Studio on the Web` for specific operations.
-3. Profile : Enter the Profile interface from here, please see :ref:`Profile` for details.
-4. Examples : You can view the preset examples here to let you play quickly.
-5. My Projects : Your personal project is saved here, and you can also enter the My Project interface from the Profile interface.
-6. New project : Create a new project.
+1. Menu: After clicking, a menu window will pop up.
+2. Product: Connect your robot from here, please see :ref:`Quick User Guide for Ezblock 3` and :ref:`How to use Ezblock Studio in a browser` for specific operations.
+3. Profile: Enter the Profile interface from here, please see :ref:`Profile` for details.
+4. Examples: You can view the preset examples here to let you play quickly.
+5. My Projects: Your personal project is saved here, and you can also enter the My Project interface from the Profile interface.
+6. New project: Create a new project.
 
 
 **Menu**

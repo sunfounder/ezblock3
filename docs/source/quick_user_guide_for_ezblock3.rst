@@ -1,23 +1,21 @@
-Quick User Guide for Ezblock 3
+Quick User Guide for EzBlock 3
 =====================================
 
-About Ezblock 3
+About EzBlock 3
 ----------------------
 
 Compared with the Bluetooth communication of EzBlock 2, EzBlock 3 uses Websocket to communicate, which is much faster.
 
 To make it faster and easier to use, we have optimized the connection and usage process so that you can learn programming quickly with Ezblock Studio.
 
-The Ezblock 3 version should be used with the Ezblock 3 image (`Ezblock Studio Download Center <http://ezblock.cc/download/v3.html>`_). The v3.0 version is currently in the public test stage. 
+The EzBlock Studio 3 version should be used with the Ezblock 3 image (`Ezblock Studio Download Center <http://ezblock.cc/download/v3.html>`_).
 
-Ezblock 3 is still in public beta. Please do not hesitate to point out any inconveniences or errors, and any suggestions are welcome.
 
-Here is the Email: cs@sunfounder.com.
 
-Download and Install Ezblock OS
+Download and Install EzBlock OS
 ------------------------------------
 
-#. Download the **Raspberry Pi OS with Ezblock Pre-installed** image file here: http://ezblock.cc/download/v3.html.
+#. Download the **Raspberry Pi OS with EzBlock Pre-installed** image file here: http://ezblock.cc/download/v3.html.
 
 #. Unzip the package downloaded and you will see the .img file inside.
 
@@ -39,7 +37,7 @@ Download and Install Ezblock OS
 
     .. image:: img/choose_os.png
         :align: center
-#. Scroll down to the bottom and select **Use Custom**. On the pop-up page, select the image you downloaded from `Ezblock Studio Download Center <http://ezblock.cc/download/v3.html>`_ and click **Open**.
+#. Scroll down to the bottom and select **Use Custom**. On the pop-up page, select the image you downloaded from `EzBlock Studio Download Center <http://ezblock.cc/download/v3.html>`_ and click **Open**.
         
     .. image:: img/use_custom.png
         :align: center
@@ -52,7 +50,7 @@ Download and Install Ezblock OS
 #. Press **Ctrl+Shift+X** to open the **Advanced options** page to set hostname and enable SSH. You can choose to always use this image customization options.
 
     .. note::
-        The hostname is set so that when you use Ezblock Studio on the `web <https://docs.sunfounder.com/projects/ezblock3/en/latest/use_on_the_web.html>`_, you can use the hostname to connect to your product. You can also leave it unset.
+        The hostname is set so that when you `use Ezblock Studio in a browser <https://docs.sunfounder.com/projects/EzBlock3/en/latest/use_on_the_web.html>`_, you can use the hostname to connect to your product. You can also leave it unset.
 
     .. image:: img/configure.png
         :align: center
@@ -77,48 +75,22 @@ Download and Install Ezblock OS
     .. image:: img/burning2.png
         :align: center
 
-Install Ezblock Studio
+Install EzBlock Studio
 -------------------------------
 
-**Ezblock Studio** is a development platform developed by SunFounder designed for beginners to lower the barriers to getting started with Raspberry Pi. 
+**EzBlock Studio** is an App for programming and controlling SunFounder Raspberry Pi robots, which allows beginners (students) to quickly get started with Raspberry Pi robot programming. It has built-in TTS, camera recognition, remote control, music/sound effects, and sensor control functions.
 
-It has two programming languages: Graphical and Python, and available on almost all different types of devices.
+Open App Store (iOS/Mac OS X system) or Play Store (Android/Windows), then search and download **EzBlock Studio**.
 
-With Bluetooth and Wi-Fi support, you can download code, remote control a Raspberry Pi, on Ezblock Studio.
-
-Open App Store (iOS/Mac OS X system) or Play Store (Android/Windows/Linux system), then search and download Ezblock Studio.
+Linux users can use EzBlock Studio in a browser. For a detailed tutorial, please refer to: https://docs.sunfounder.com/projects/EzBlock3/en/latest/use_on_the_web.html.
 
 .. image:: img/IMG_0407.PNG
     :align: center
 
-How to enter Ezblock Studio 3?
+
+How to connect the product and EzBlock Studio?
 ------------------------------------------------------
-The current download version is still Ezblock 2, you need to upgrade to Ezblock 3 manually, as follows.
-
-1. Open Ezblock Studio and log in to your account.
-#. Go to your account page by clicking on your avatar in the upper right corner of the home page.
-#. Go to the **Setting** page, and then click **About Version**.
-
-    .. image:: img/imgIMG_0381.PNG
-        :width: 600
-        :align: center
-
-#. Click **Enter a new version** in the pop-up window.
-
-    .. image:: img/imgIMG_0382.PNG
-            :align: center
-
-#. A new pop-up window will appear, select **Enter a new version** again.
-
-    .. image:: img/imgIMG_0383.PNG
-        :align: center
-
-#. After a few minutes of loading, you will enter the Ezblock 3.
-
-How to connect the product and Ezblock Studio?
-------------------------------------------------------
-
-1. At this time, there is a pop-up window with an empty device list. You need to power on your product and turn on the Bluetooth of your mobile device at the same time, then the product number will appear.
+1. Open the Ezblock Studio, a window with an empty device list will pop-up. You need to power on your product and turn on the Bluetooth of your mobile device at the same time, then the product number will appear.
 
     .. image:: img/imgIMG_0388.PNG
         :align: center
@@ -141,6 +113,7 @@ How to connect the product and Ezblock Studio?
 
     .. image:: img/imgIMG_0396.PNG
         :align: center
+
 #. Select the product that matches yours.
 
     .. image:: img/imgIMG_0398.PNG
@@ -155,6 +128,7 @@ How to connect the product and Ezblock Studio?
 
     .. image:: img/imgIMG_0401.PNG
         :align: center
+
 #. The calibration page of each product is different, but there is a reminder which part needs to be calibrated. You can click the corresponding part, and then refer to the **Calibration Help** to calibrate. After the calibration is completed, click **Comfirm**.
 
     .. image:: img/imgIMG_0403.PNG
@@ -170,24 +144,4 @@ How to Open and Run examples?
 #. If you want to view and modify the code inside, then you need to click **Edit**. The following picture is the programming page.
 
     .. image:: img/imgIMG_0393.PNG
-        :align: center
-
-
-How to go back to Ezblock 2?
-----------------------------------------
-
-1. If you are not used to the Ezblock 3, then you can go back to the Ezblock 2.
-#. Click the **menu** icon in the upper right corner of the homepage.
-
-    .. image:: img/imgIMG_0406.png
-        :align: center
-
-#. Click **Version**.
-
-    .. image:: img/imgIMG_0405.png
-        :align: center
-
-#. Click **Head to EzBlock version 2.5** to jump to Ezblock 2!
-
-    .. image:: img/imgIMG_0404.png
         :align: center

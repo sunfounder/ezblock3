@@ -1,30 +1,29 @@
-How to Use Ezblock Studio on the Web
-========================================
+How to use Ezblock Studio in a browser
+==========================================
 
 
-In addition to using Ezlock Studio on a mobile device, you can also use it on the web.
+In addition to using EzBlock Studio on a mobile device, you can also use it in a browser.
 
-The web links is as follow:
+The steps are as follows:
 
-http://ezblock.cc/ezblock_studio/beta/index.html?lang=en
+1. First, you need to :ref:`Download and Install EzBlock OS`. During this time you can set a hostname to connect to your Raspberry Pi in the browser.
 
+#. Open the browser and enter the following URL. Google Chrome is recommended.
 
-First, you need to get the IP or hostname of the Raspberry Pi.
+    http://ezblock.cc/ezblock_studio/beta/index.html?lang=en
 
-You can connect to the product on your mobile device, and then click the product icon in the upper left corner to get the IP.
+#. Then click the connect icon in the upper left corner and click **Connect**.
 
-.. image:: img/IMG_0458.PNG
+    .. image:: img/web3.png
 
-Open the browser and enter the following URL. Google Chrome is recommended.
+#. Enter the IP/Hostname.
 
-http://ezblock.cc/ezblock_studio/beta/index.html?lang=en
+    .. image:: img/web4.png
 
-Then click the link icon in the upper left corner and click **Connect**.
+    .. note::
 
-.. image:: img/web3.png
+        If you have already connected your product on your mobile device, you can click the product icon in the upper left corner to get the IP.
 
-Enter the IP/Hostname.
+        .. image:: img/IMG_0458.PNG
 
-.. image:: img/web4.png
-
-When prompted that the connection is successful, you can run the example or create your own Porject.
+#. When prompted that the connection is successful, you can run the examples or create your own porjects.
