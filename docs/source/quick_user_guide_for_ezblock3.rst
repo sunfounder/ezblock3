@@ -50,7 +50,7 @@ Download and Install EzBlock OS
 #. Press **Ctrl+Shift+X** to open the **Advanced options** page to set hostname and enable SSH. You can choose to always use this image customization options.
 
     .. note::
-        The hostname is set so that when you `use Ezblock Studio in a browser <https://docs.sunfounder.com/projects/EzBlock3/en/latest/use_on_the_web.html>`_, you can use the hostname to connect to your product. You can also leave it unset.
+        The hostname is set so that when you `use Ezblock Studio in a browser <https://docs.sunfounder.com/projects/ezblock3/en/latest/use_on_the_web.html>`_, you can use the hostname to connect to your product. You can also leave it unset.
 
     .. image:: img/configure.png
         :align: center
@@ -82,7 +82,7 @@ Install EzBlock Studio
 
 Open App Store (iOS/Mac OS X system) or Play Store (Android/Windows), then search and download **EzBlock Studio**.
 
-Linux users can use EzBlock Studio in a browser. For a detailed tutorial, please refer to: https://docs.sunfounder.com/projects/EzBlock3/en/latest/use_on_the_web.html.
+Linux users can use EzBlock Studio in a browser. For a detailed tutorial, please refer to: https://docs.sunfounder.com/projects/ezblock3/en/latest/use_on_the_web.html.
 
 .. image:: img/IMG_0407.PNG
     :align: center
