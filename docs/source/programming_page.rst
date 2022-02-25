@@ -1,8 +1,11 @@
+
+.. _programming_block:
+
 Programming Page
 ==========================
 
 When you write code (create new project, edit example, edit your personal project), you will enter the Programming Page.
-Shown here is the programming interface in blockly language. For programming in python language, please see :ref:`Python Programming Page`.
+Shown here is the programming interface in blockly language. For programming in python language, please see :ref:`programming_python`.
 
 .. image:: img/sp210805_143809.png
 
@@ -12,9 +15,9 @@ Shown here is the programming interface in blockly language. For programming in 
 4. Help
 5. Menu
 6. Programming interface
-7. IoT interface
-8. Remote control interface
-9. Debug Monitor
+
+7. Remote control interface
+8. Debug Monitor
     
 A. Block Categories
 B. Programming Area
@@ -44,7 +47,7 @@ After selection, ezblock tutorials will pop up, including FAQ, get started and `
 
 .. image:: img/sp210805_150436.png
 
-You can save/open projects and create/import libraries (see :ref:`How to Use Library Function?` for details) in the Menu.
+You can save/open projects and create/import libraries (see :ref:`library_function` for details) in the Menu.
 
 **TIPS**
 
@@ -91,6 +94,8 @@ You can long press the programming area or block to use some auxiliary functions
     * - Delete `xxx` Blocks
       - Delete all blocks
 
+.. _programming_python:
+
 
 Python Programming Page
 ---------------------------
@@ -101,27 +106,12 @@ If you use python language when creating a project, you can enter the Python Pro
 
 You will need to refer to `Python Reference <https://docs.ezblock.cc/en/latest/reference-for-python/ezblock.html>`_ to complete your project.
 
-IoT Interface
--------------------------------
-
-For how to use it, please see :ref:`How to Use IoT Function?`
-
-.. image:: img/sp210805_143929.png
-
-1. The widgets that have been added will appear in the box.
-2. Click +Add widget.
-
-.. image:: img/sp210805_152059.png
-
-Long press the box to delete the widget.
-
-
 
 
 Remote Control Interface
 --------------------------------
 
-For how to use it, please see :ref:`How to Use the Remote Control Function?`
+For how to use it, please see :ref:`remote_control_function`
 
 .. image:: img/sp210805_144019.png
 
@@ -149,7 +139,7 @@ Click on the widget to display the message box, long press the widget or click t
     * - Switch
       - When ON, the value is 1; when OFF, the value is 0.
     * - Video
-      - Please check :ref:`How to Use the Video Function?`
+      - Please check :ref:`video_function`
     * - Digital Tube
       - It can display NUMBER (such as 123.3) or TIME (such as 11:55) like a real four-digit digital tube.
     * - Pie Chart

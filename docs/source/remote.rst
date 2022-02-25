@@ -1,3 +1,5 @@
+.. _remote_control_function:
+
 How to Use the Remote Control Function?
 ==============================================
 

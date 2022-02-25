@@ -1,3 +1,5 @@
+.. _video_function:
+
 How to Use the Video Function?
 ====================================
 

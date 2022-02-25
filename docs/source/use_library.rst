@@ -1,3 +1,5 @@
+.. _library_function:
+
 How to Use Library Function?
 ======================================
 

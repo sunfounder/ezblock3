@@ -5,15 +5,16 @@ When we open ezblock, we can see the homepage, as shown below:
 
 .. image:: img/sp210805_135127.png
 
-1. Menu: After clicking, a menu window will pop up.
-2. Product: Connect your robot from here, please see :ref:`Quick User Guide for Ezblock 3` and :ref:`How to use Ezblock Studio in a browser` for specific operations.
-3. Profile: Enter the Profile interface from here, please see :ref:`Profile` for details.
-4. Examples: You can view the preset examples here to let you play quickly.
-5. My Projects: Your personal project is saved here, and you can also enter the My Project interface from the Profile interface.
-6. New project: Create a new project.
+* :ref:`1. Menu`: After clicking, a menu window will pop up.
+* :ref:`2. Product`: Connect your robot from here, please see :ref:`quick_guide_3.0` and :ref:`use_on_the_web` for specific operations.
+* :ref:`3. Profile`: Enter the Profile interface from here.
+* :ref:`4. Examples`: You can view the preset examples here to let you play quickly.
+* :ref:`5. My Projects`: Your personal project is saved here, and you can also enter the My Project interface from the Profile interface.
+* :ref:`6. New Project`: Create a new project.
 
 
-**Menu**
+1. Menu
+-------------------------
 
 .. image:: img/sp210805_140425.png
 
@@ -23,8 +24,64 @@ When we open ezblock, we can see the homepage, as shown below:
 * About Us: Introduction to SunFounder.
 * Help: When selected, ezblock related tutorials will pop up, including FAQ, get started and `reference <https://docs.ezblock.cc/en/latest/reference.html>`_.
 
+2. Product
+------------------
 
-**Examples**
+**Product Information**
+
+.. image:: img/ezblock3.1/product_page.jpg
+    :align: center
+
+This is the product information page, which contains the product name (you name it), product type, Raspberry Pi IP, APP version, operating voltage and the current power of the product.
+
+**Settings**
+
+.. image:: img/ezblock3.1/settings.jpg
+    :align: center
+
+* **Edit Name**: If you are not satisfied with the name you gave before, you can change it here.
+* **Change Product**: Change to another product.
+* **Check for Updates**: Check the current version of the app, and check if there is a newer version.
+* **Calibrate**: If you think your product is still a bit deviated during use, you can use this button to recalibrate it to the right position.
+
+
+3. Profile
+------------------
+
+The Profile interface is as follows:
+
+.. image:: img/sp210805_140821.png
+
+1. Long press to edit profile picture.
+2. Click Edit at the bottom right to edit personal information.
+3. Your personal projects are saved here, you can also enter here from the homepage.
+4. Your personal library.
+5. Modify email, password or delete account here.
+6. Log out.
+
+
+**My Project**
+
+.. image:: img/sp210805_140940.png
+
+1. Your project will be saved under the corresponding product category, switch the product category here.
+2. Choose your personal project here. Click Run to flash and run the program directly (if the project uses remote control, it will also enter the remote control interface), click edit to enter the programming interface.
+
+**My Library**
+
+.. image:: img/sp210805_141703.png
+
+The information of the library you have saved will be displayed here. If you want to use it, you need to import it from a specific project.
+
+**Security**
+
+.. image:: img/sp210805_141840.png
+
+Modify email, password or delete account here.
+
+
+4. Examples
+-------------------
 
 .. image:: img/sp210805_135846.png
 
@@ -36,7 +93,19 @@ When we open ezblock, we can see the homepage, as shown below:
 
     Before entering the Examples page, you need to select the correct product first.
 
-**New Project**
+
+
+5. My Projects
+-----------------
+
+.. image:: img/sp210805_140940.png
+
+1. Your project will be saved under the corresponding product category, switch the product category here.
+2. Choose your personal project here. Click Run to flash and run the program directly (if the project uses remote control, it will also enter the remote control interface), click edit to enter the programming interface.
+
+
+6. New Project
+--------------------
 
 .. image:: img/sp210805_143611.png
 
