@@ -20,7 +20,7 @@ The EzBlock Studio 3 version should be used with the Ezblock 3 image (`Ezblock S
 Install EzBlock OS(3.0)
 -----------------------------------------
 
-#. Download the **Raspberry Pi OS with EzBlock Pre-installed** image file here: http://ezblock.cc/download/v3.html.
+#. Download the **Raspberry Pi OS with EzBlock Pre-installed** image file here: https://ezblock.cc/download/v3.html.
 
 #. Unzip the package downloaded and you will see the .img file inside.
 
@@ -33,7 +33,7 @@ Install EzBlock OS(3.0)
     .. image:: img/image11.png
         :align: center
 
-#. When you launch the installer, your operating system may try to block you from running it. For example, on Windows I receive the followingmessage. If this pops up, click on **More info** and then **Run anyway**, then follow the instructions to install the Raspberry Pi Imager.
+#. When you launch the installer, your operating system may try to block you from running it. For example, on Windows I receive the following message. If this pops up, click on **More info** and then **Run anyway**, then follow the instructions to install the Raspberry Pi Imager.
     
     .. image:: img/image12.png
         :align: center
@@ -85,9 +85,9 @@ Install EzBlock Studio
 
 **EzBlock Studio** is an App for programming and controlling SunFounder Raspberry Pi robots, which allows beginners (students) to quickly get started with Raspberry Pi robot programming. It has built-in TTS, camera recognition, remote control, music/sound effects, and sensor control functions.
 
-Open App Store (iOS/Mac OS X system) or Play Store (Android/Windows), then search and download **EzBlock Studio**.
+Open App Store (iOS) or Play Store (Android), then search and download **EzBlock Studio**.
 
-Linux users can use EzBlock Studio in a browser. For a detailed tutorial, please refer to: https://docs.sunfounder.com/projects/ezblock3/en/latest/use_on_the_web.html.
+Linux/Mac OS X system/Windows users can use EzBlock Studio in a browser. For a detailed tutorial, please refer to: https://docs.sunfounder.com/projects/ezblock3/en/latest/use_on_the_web.html.
 
 .. image:: img/IMG_0407.PNG
     :align: center
