@@ -12,8 +12,8 @@ To make it faster and easier to use, we have optimized the connection and usage 
 
 The EzBlock Studio 3 version should be used with the Ezblock 3 image (`Ezblock Studio Download Center <http://ezblock.cc/download/v3.html>`_).
 
-.. note::
-    EzBlock Studio has been updated to version 3.1, it is recommended to update to the new version, for a detailed tutorial please refer to: :ref:`quick_guide_3.1`.
+.. .. note::
+..     EzBlock Studio has been updated to version 3.1, it is recommended to update to the new version, for a detailed tutorial please refer to: :ref:`quick_guide_3.1`.
 
 .. _ezblock_os_3.0:
 
@@ -52,7 +52,7 @@ Install EzBlock OS(3.0)
     .. image:: img/image14.png
             :align: center
 
-#. Press **Ctrl+Shift+X** to open the **Advanced options** page to set hostname and enable SSH. You can choose to always use this image customization options.
+#. Press **Ctrl+Shift+X** or click the **setting** button to open the **Advanced options** page to set hostname and enable SSH. You can choose to always use this image customization options.
 
     .. note::
         The hostname is set so that when you `use Ezblock Studio in a browser <https://docs.sunfounder.com/projects/ezblock3/en/latest/use_on_the_web.html>`_, you can use the hostname to connect to your product. You can also leave it unset.
