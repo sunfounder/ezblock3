@@ -10,10 +10,10 @@ Compared with the Bluetooth communication of EzBlock 2, EzBlock 3 uses Websocket
 
 To make it faster and easier to use, we have optimized the connection and usage process so that you can learn programming quickly with Ezblock Studio.
 
-The EzBlock Studio 3 version should be used with the Ezblock 3 image (`Ezblock Studio Download Center <http://ezblock.cc/download/v3.html>`_).
+The EzBlock Studio 3 version should be used with the Ezblock 3 image (`Ezblock Studio Download Center <https://ezblock.cc/download/v3.html>`_).
 
-.. .. note::
-..     EzBlock Studio has been updated to version 3.1, it is recommended to update to the new version, for a detailed tutorial please refer to: :ref:`quick_guide_3.1`.
+.. note::
+    EzBlock Studio has been updated to version 3.1, it is recommended to update to the new version, for a detailed tutorial please refer to: :ref:`quick_guide_3.1`.
 
 .. _ezblock_os_3.0:
 
@@ -42,7 +42,7 @@ Install EzBlock OS(3.0)
 
     .. image:: img/choose_os.png
         :align: center
-#. Scroll down to the bottom and select **Use Custom**. On the pop-up page, select the image you downloaded from `EzBlock Studio Download Center <http://ezblock.cc/download/v3.html>`_ and click **Open**.
+#. Scroll down to the bottom and select **Use Custom**. On the pop-up page, select the image you downloaded from `EzBlock Studio Download Center <https://ezblock.cc/download/v3.html>`_ and click **Open**.
         
     .. image:: img/use_custom.png
         :align: center

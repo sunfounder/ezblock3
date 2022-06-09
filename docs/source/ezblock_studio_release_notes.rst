@@ -2,22 +2,37 @@ Ezblock Studio Release Notes
 =====================================
 
 
-.. Ezblock Studio 3.1 2022.03.08
-.. -----------------------------------------------
+Ezblock Studio 3.1
+-----------------------------------------------
 
-.. The update of Ezblock version 3.1 is mainly to optimize the connection at the bottom layer. Solved the problem that the Bluetooth of the Raspberry Pi could not be successfully paired when the peripheral was used in the past. This means that the Ezblock can directly pair with the Raspberry Pi's Bluetooth without the need for an external Bluetooth expansion board.
-.. Note: The old version of the robot can also be used normally after burning the new image. The bluetooth module on the original robot hat will not conflict with the new system.
+**Main Optimization**
 
-.. 1. Compatible with the built-in Bluetooth of Raspberry Pi, no need to use an expansion board with Bluetooth. 
-.. 2. A custom Bluetooth name function has been added to the app to avoid the problem that multiple devices are indistinguishable. (Reboot to take effect.)
-.. 3. Added three sound effects for boot, successful connection, and disconnection, which gives more feedback.
-.. 4. The LED next to the power indicator will be used as a bluetooth indicator, which is always on when connected and flashes slowly when not connected.
-.. 5. (Android) Add a full-screen input box to prevent the input box from being blocked.
-.. 6. Optimize the battery display, now you can see more accurate information on the APP.
-.. 7. Optimized the usage details of some connection functions.
+The main optimization of EzBlock 3.1 is the compatibility with the built-in Bluetooth of the Raspberry Pi, no need to use an expansion board with Bluetooth module. 
+
+.. note::
+    * The old version of the robot can also be used normally after burning the new image. The bluetooth module on the original robot hat will not conflict with the new system.
+
+    * The EzBlock Studio 3.1 version should be used with the Ezblock 3.1 image (https://ezblock.cc/download/v31.html).
+
+**Add**
+
+* A custom Bluetooth name function has been added to the app to avoid the problem that multiple devices are indistinguishable. (Reboot to take effect.)
+* Added three sound effects for boot, successful connection, and disconnection, which gives more feedback.
+* The LED next to the power indicator will be used as a bluetooth indicator, which is always on when connected and flashes slowly when not connected.
+* (Android) Add a full-screen input box to prevent the input box from being blocked.
 
 
+**Optimization**
 
+* Optimize the battery display, now you can see more accurate information on the APP.
+* Optimize the display of product example images and personal information icons.
+
+**Fix**
+
+* Fix a series of problems of Bluetooth search and Bluetooth connection.
+* Fix the problem that the product name is not displayed after the wifi configuration.
+* Fix the problem of product information not being saved after modification.
+* Fix the problem that the picture cannot be saved after taking pictures in the remote control page.
 
 Ezblock Studio 3 2021.06.08
 -----------------------------

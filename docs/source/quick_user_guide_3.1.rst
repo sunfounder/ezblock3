@@ -6,20 +6,14 @@ Quick User Guide for EzBlock 3.1
 About EzBlock 3.1
 ----------------------
 
-The update of Ezblock version 3.1 is mainly to optimize the connection at the bottom layer. Solved the problem that the Bluetooth of the Raspberry Pi could not be successfully paired when the peripheral was used in the past. This means that the Ezblock can directly pair with the Raspberry Pi's Bluetooth without the need for an external Bluetooth expansion board.
-Note: The old version of the robot can also be used normally after burning the new image. The bluetooth module on the original robot hat will not conflict with the new system.
+The main optimization of EzBlock 3.1 is the compatibility with the built-in Bluetooth of the Raspberry Pi, no need to use an expansion board with Bluetooth module. 
 
-1. Compatible with the built-in Bluetooth of Raspberry Pi, no need to use an expansion board with Bluetooth. 
-2. A custom Bluetooth name function has been added to the app to avoid the problem that multiple devices are indistinguishable. (Reboot to take effect.)
-3. Added three sound effects for boot, successful connection, and disconnection, which gives more feedback.
-4. The LED next to the power indicator will be used as a bluetooth indicator, which is always on when connected and flashes slowly when not connected.
-5. (Android) Add a full-screen input box to prevent the input box from being blocked.
-6. Optimize the battery display, now you can see more accurate information on the APP.
-7. Optimized the usage details of some connection functions.
+.. note::
+    The old version of the robot can also be used normally after burning the new image. The bluetooth module on the original robot hat will not conflict with the new system.
 
 
 .. note::
-    The EzBlock Studio 3.1 version should be used with the Ezblock 3.1 image (https://ezblock.cc/download/v3.1.html).
+    The EzBlock Studio 3.1 version should be used with the Ezblock 3.1 image (https://ezblock.cc/download/v31.html).
 
 
 .. _ezblock_os_3.1:
@@ -27,7 +21,7 @@ Note: The old version of the robot can also be used normally after burning the n
 Install EzBlock OS(3.1)
 ------------------------------------
 
-#. Download the **Raspberry Pi OS with EzBlock Pre-installed** image file here: http://ezblock.cc/download/v3.1.html.
+#. Download the **Raspberry Pi OS with EzBlock Pre-installed** image file here: https://ezblock.cc/download/v31.html.
 
 #. Unzip the package downloaded and you will see the ``.img`` file inside.
 
@@ -50,7 +44,7 @@ Install EzBlock OS(3.1)
     .. image:: img/choose_os.png
         :align: center
 
-#. Scroll down to the bottom and select **Use Custom**. On the pop-up page, select the image you downloaded from `EzBlock Studio Download Center <http://ezblock.cc/download/v3.html>`_ and click **Open**.
+#. Scroll down to the bottom and select **Use Custom**. On the pop-up page, select the image you downloaded from `EzBlock Studio Download Center <https://ezblock.cc/download/v31.html>`_ and click **Open**.
         
     .. image:: img/use_custom.png
         :align: center
