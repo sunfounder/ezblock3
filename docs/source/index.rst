@@ -19,15 +19,17 @@ Here is the Email: cs@sunfounder.com.
 .. toctree::
     :maxdepth: 3
 
-    quick_user_guide_for_ezblock3
-    quick_user_guide_3.1
+    quick_guide_3.1/quick_guide_3.1
+    quick_guide_3.0/quick_guide_3.0
+
 
 **How to ... :**
 
 .. toctree::
     :maxdepth: 3
 
-    use_on_the_web
+    use_on_web_3.0
+    use_on_web_3.1
     create_new
     use_video
     remote
