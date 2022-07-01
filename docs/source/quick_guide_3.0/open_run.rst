@@ -1,4 +1,4 @@
-Open and Run examples?
+Open and Run examples
 ======================================
 1. On the homepage, click **Examples** to enter the Examples page. If you just need to simply test these examples, you only need to click **Run** to make your product work.
 
