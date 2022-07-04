@@ -1,4 +1,4 @@
-.. _library_function:
+.. _library_function_latest:
 
 How to Use Library Function?
 ======================================

@@ -1,4 +1,4 @@
-.. _remote_control_function:
+.. _remote_control_latest:
 
 How to Use the Remote Control Function?
 ==============================================

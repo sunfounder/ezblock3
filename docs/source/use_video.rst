@@ -1,4 +1,4 @@
-.. _video_function:
+.. _video_latest:
 
 How to Use the Video Function?
 ====================================
