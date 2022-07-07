@@ -100,3 +100,14 @@ EzBlock Studio 3.0
     * Check whether the configured WiFi and the Wi-Fi connected by the mobile device are the same.
 
 
+Temporary Pages
+------------------------
+  
+.. toctree::
+    :maxdepth: 3
+
+    ia_os
+    ia_app
+    ia_connect
+    ia_open_run
+    ia_web
