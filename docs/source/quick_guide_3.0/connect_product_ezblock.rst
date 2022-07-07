@@ -1,6 +1,6 @@
 .. _connect_product_ezblock_3.0:
 
-Connect the product and EzBlock Studio?
+Connect the product and EzBlock Studio(3.0)
 =================================================
 
 

@@ -7,7 +7,7 @@ In addition to using EzBlock Studio on a mobile device, you can also use it in a
 
 The steps are as follows:
 
-1. First, you need to :ref:`ezblock_os_3.0`. During this time you can set a hostname to connect to your Raspberry Pi in the browser.
+1. First, you need to :ref:`install_ezblock_os_3.0`. During this time you can set a hostname to connect to your Raspberry Pi in the browser.
 
 #. Open the browser and enter the following URL. Google Chrome is recommended.
 

@@ -19,7 +19,7 @@ The main optimization of EzBlock 3.1 is the compatibility with the built-in Blue
 * A custom Bluetooth name function has been added to the app to avoid the problem that multiple devices are indistinguishable. (Reboot to take effect.)
 * Added three sound effects for boot, successful connection, and disconnection, which gives more feedback.
 * The LED next to the power indicator will be used as a bluetooth indicator, which is always on when connected and flashes slowly when not connected.
-* (Android) Add a full-screen input box to prevent the input box from being blocked.
+* (**Android**) Add a full-screen input box to prevent the input box from being blocked.
 
 
 **Optimization**

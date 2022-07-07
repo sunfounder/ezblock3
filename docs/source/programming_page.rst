@@ -47,7 +47,7 @@ After selection, ezblock tutorials will pop up, including FAQ, get started and `
 
 .. image:: img/sp210805_150436.png
 
-You can save/open projects and create/import libraries (see :ref:`library_function` for details) in the Menu.
+You can save/open projects and create/import libraries (see :ref:`library_function_latest` for details) in the Menu.
 
 **TIPS**
 
@@ -111,7 +111,7 @@ You will need to refer to `Python Reference <https://docs.ezblock.cc/en/latest/r
 Remote Control Interface
 --------------------------------
 
-For how to use it, please see :ref:`remote_control_function`
+For how to use it, please see :ref:`remote_control_latest`
 
 .. image:: img/sp210805_144019.png
 
@@ -139,7 +139,7 @@ Click on the widget to display the message box, long press the widget or click t
     * - Switch
       - When ON, the value is 1; when OFF, the value is 0.
     * - Video
-      - Please check :ref:`video_function`
+      - Please check :ref:`video_latest`
     * - Digital Tube
       - It can display NUMBER (such as 123.3) or TIME (such as 11:55) like a real four-digit digital tube.
     * - Pie Chart

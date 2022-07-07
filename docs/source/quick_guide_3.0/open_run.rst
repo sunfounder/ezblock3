@@ -1,4 +1,7 @@
-Open and Run examples
+
+.. _open_run_3.0:
+
+Open and Run examples(3.0)
 ======================================
 1. On the homepage, click **Examples** to enter the Examples page. If you just need to simply test these examples, you only need to click **Run** to make your product work.
 

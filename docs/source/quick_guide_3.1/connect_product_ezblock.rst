@@ -1,6 +1,6 @@
-.. _connect_product_ezblock_latest:
+.. _connect_product_ezblock_3.1:
 
-Connect the Product and EzBlock
+Connect the Product and EzBlock(3.1)
 =====================================================
 
 #. Toggle the power switch of the Robot HAT to the ON position. After a while, you will hear a power-on sound, which means the Raspberry Pi has been successfully started.
@@ -69,7 +69,7 @@ Connect the Product and EzBlock
         :align: center
 
 
-#. Give your product a unique name, which will be your Bluetooth name ( takes effect after restarting the product and app) and can also be used as hostname when you use EzBlock on a browser, see :ref:`use_on_web_latest` for more details.
+#. Give your product a unique name, which will be your Bluetooth name ( takes effect after restarting the product and app) and can also be used as hostname when you use EzBlock on a browser, see :ref:`use_on_web_3.1` for more details.
 
     .. image:: ../img/ezblock3.1/set_name.jpg
         :align: center

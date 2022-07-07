@@ -1,4 +1,4 @@
-.. _install_ezblock_os_latest:
+.. _install_ezblock_os_3.1:
 
 Install EzBlock OS(3.1)
 ===========================
@@ -29,7 +29,7 @@ Install EzBlock OS(3.1)
     .. image:: ../img/choose_os.png
         :align: center
 
-#. Go to the bottom of the page and select **Use Custom**. In the pop-up window, select **Raspios-xxx_EzBlockOS-xxx.img** that you downloaded in **Step 1**, and click **Open**.
+#. Go to the bottom of the page and select **Use Custom**. In the pop-up window, select **Rasp**iOS**-xxx_EzBlockOS-xxx.img** that you downloaded in **Step 1**, and click **Open**.
         
     .. image:: ../img/use_custom.png
         :align: center
@@ -42,7 +42,7 @@ Install EzBlock OS(3.1)
 #. Press **Ctrl+Shift+X** to open the **Advanced options** page to set hostname and enable SSH. You can choose to always use this image customization options.
 
     .. note::
-        The hostname is set so that when you :ref:`use_on_web_latest`, you can use the hostname to connect to your product. You can also leave it unset.
+        The hostname is set so that when you :ref:`use_on_web_3.1`, you can use the hostname to connect to your product. You can also leave it unset.
 
 
     .. image:: ../img/configure.png
