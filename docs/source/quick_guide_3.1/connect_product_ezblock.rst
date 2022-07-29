@@ -1,4 +1,4 @@
-.. _connect_product_ezblock_3.1:
+.. _connect_product_ezblock_latest:
 
 Connect the Product and EzBlock(3.1)
 =====================================================
@@ -69,7 +69,7 @@ Connect the Product and EzBlock(3.1)
         :align: center
 
 
-#. Give your product a unique name, which will be your Bluetooth name ( takes effect after restarting the product and app) and can also be used as hostname when you use EzBlock on a browser, see :ref:`use_on_web_3.1` for more details.
+#. Give your product a unique name, which will be your Bluetooth name ( takes effect after restarting the product and app) and can also be used as hostname when you use EzBlock on a browser, see :ref:`use_on_web_latest` for more details.
 
     .. image:: ../img/ezblock3.1/set_name.jpg
         :align: center

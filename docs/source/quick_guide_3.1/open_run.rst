@@ -1,4 +1,4 @@
-.. _open_run_3.1:
+.. _open_run_latest:
 
 Open and Run Examples(3.1)
 =======================================

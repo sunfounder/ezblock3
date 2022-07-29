@@ -40,7 +40,7 @@ Install EzBlock OS(3.0)
 #. Press **Ctrl+Shift+X** or click the **setting** button to open the **Advanced options** page to set hostname and enable SSH. You can choose to always use this image customization options.
 
     .. note::
-        The hostname is set so that when you use the Ezblock Studio in a browser, you can use the hostname to connect to your product, see :ref:`use_on_web_3.1` for more details. You can also leave it unset.
+        The hostname is set so that when you use the Ezblock Studio in a browser, you can use the hostname to connect to your product, see :ref:`use_on_web_latest` for more details. You can also leave it unset.
 
     .. image:: ../img/configure.png
         :align: center

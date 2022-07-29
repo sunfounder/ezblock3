@@ -1,4 +1,4 @@
-.. _create_project_3.1:
+.. _create_project_latest:
 
 How to Create a New Project?
 =================================

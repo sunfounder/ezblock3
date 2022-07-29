@@ -1,4 +1,4 @@
-.. _use_on_web_3.1:
+.. _use_on_web_latest:
 
 How to use EzBlock 3.1 in a Browser
 ===========================================
@@ -7,7 +7,7 @@ In addition to using EzBlock Studio on a mobile device, you can also use it in a
 
 The steps are as follows:
 
-1. First, you need to :ref:`install_ezblock_os_3.1`. During this time you can set a hostname to connect to your Raspberry Pi in the browser.
+1. First, you need to :ref:`install_ezblock_os_latest`. During this time you can set a hostname to connect to your Raspberry Pi in the browser.
 
 #. Open the browser and enter the following URL. Google Chrome is recommended.
 

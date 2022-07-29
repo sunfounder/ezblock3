@@ -6,7 +6,7 @@ When we open ezblock, we can see the homepage, as shown below:
 .. image:: img/sp210805_135127.png
 
 * :ref:`1. Menu`: After clicking, a menu window will pop up.
-* :ref:`2. Product`: Connect your robot from here, please see :ref:`quick_guide_3.1` and :ref:`use_on_web_3.1` for specific operations.
+* :ref:`2. Product`: Connect your robot from here, please see :ref:`quick_guide_latest` and :ref:`use_on_web_latest` for specific operations.
 * :ref:`3. Profile`: Enter the Profile interface from here.
 * :ref:`4. Examples`: You can view the preset examples here to let you play quickly.
 * :ref:`5. My Projects`: Your personal project is saved here, and you can also enter the My Project interface from the Profile interface.

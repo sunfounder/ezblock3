@@ -20,7 +20,7 @@ Now you can view the version.
 
 .. note::
 
-    If it is EzBlock 3.0, it is recommended to update to the new version, for a detailed tutorial please refer to: :ref:`quick_guide_3.1`.
+    If it is EzBlock 3.0, it is recommended to update to the new version, for a detailed tutorial please refer to: :ref:`quick_guide_latest`.
 
     .. image:: img/ezblock3.1/app_version.jpg
         :align: center
@@ -32,7 +32,7 @@ EzBlock Studio 3.1
 
 #. APP can't search Bluetooth
 
-    * Power on the product and see if there is pleasant music (not only current "zi~" sound). If not, please :ref:`install_ezblock_os_3.1` again.
+    * Power on the product and see if there is pleasant music (not only current "zi~" sound). If not, please :ref:`install_ezblock_os_latest` again.
     * whether the Bluetooth of your mobile device is turned on or not.
     * Whether the app is allowed to access the device's location.
     * Some mobile devices also require location services to be turned on.
@@ -41,7 +41,7 @@ EzBlock Studio 3.1
 
 #. The APP searches for Bluetooth, but cannot connect.
 
-    * Power on the product and see if there is pleasant music (not only current "zi~" sound). If not, please :ref:`install_ezblock_os_3.1` again.
+    * Power on the product and see if there is pleasant music (not only current "zi~" sound). If not, please :ref:`install_ezblock_os_latest` again.
     * Check if the BLE or USR light on ROBOT HAT is always on (which means the product is connected by other devices), if yes, disconnect the other devices or restart the product.
     * If all the above methods have been tried, try to press RST button, or restart the product and APP.
 
@@ -77,7 +77,7 @@ EzBlock Studio 3.0
 -------------------------------
 
 .. note::
-    EzBlock Studio has been updated to version 3.1, it is recommended to update to the new version, for a detailed tutorial please refer to: :ref:`quick_guide_3.1`.
+    EzBlock Studio has been updated to version 3.1, it is recommended to update to the new version, for a detailed tutorial please refer to: :ref:`quick_guide_latest`.
 
 
 #. APP can't search Bluetooth
@@ -98,16 +98,3 @@ EzBlock Studio 3.0
     * Check the network status of this WIFI.
     * Check the power level. If both power indicators are off or only one power indicator is blinking; the power level is low, please charge the batteries.
     * Check whether the configured WiFi and the Wi-Fi connected by the mobile device are the same.
-
-
-Temporary Pages
-------------------------
-  
-.. toctree::
-    :maxdepth: 3
-
-    ia_os
-    ia_app
-    ia_connect
-    ia_open_run
-    ia_web
