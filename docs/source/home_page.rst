@@ -48,36 +48,38 @@ This is the product information page, which contains the product name (you name 
 3. Profile
 ------------------
 
-The Profile interface is as follows:
+This feature will be canceled after version 3.2.
 
-.. image:: img/sp210805_140821.png
+.. The Profile interface is as follows:
 
-1. Long press to edit profile picture.
-2. Click Edit at the bottom right to edit personal information.
-3. Your personal projects are saved here, you can also enter here from the homepage.
-4. Your personal library.
-5. Modify email, password or delete account here.
-6. Log out.
+.. .. image:: img/sp210805_140821.png
+
+.. 1. Long press to edit profile picture.
+.. 2. Click Edit at the bottom right to edit personal information.
+.. 3. Your personal projects are saved here, you can also enter here from the homepage.
+.. 4. Your personal library.
+.. 5. Modify email, password or delete account here.
+.. 6. Log out.
 
 
-**My Project**
+.. **My Project**
 
-.. image:: img/sp210805_140940.png
+.. .. image:: img/sp210805_140940.png
 
-1. Your project will be saved under the corresponding product category, switch the product category here.
-2. Choose your personal project here. Click Run to flash and run the program directly (if the project uses remote control, it will also enter the remote control interface), click edit to enter the programming interface.
+.. 1. Your project will be saved under the corresponding product category, switch the product category here.
+.. 2. Choose your personal project here. Click Run to flash and run the program directly (if the project uses remote control, it will also enter the remote control interface), click edit to enter the programming interface.
 
-**My Library**
+.. **My Library**
 
-.. image:: img/sp210805_141703.png
+.. .. image:: img/sp210805_141703.png
 
-The information of the library you have saved will be displayed here. If you want to use it, you need to import it from a specific project.
+.. The information of the library you have saved will be displayed here. If you want to use it, you need to import it from a specific project.
 
-**Security**
+.. **Security**
 
-.. image:: img/sp210805_141840.png
+.. .. image:: img/sp210805_141840.png
 
-Modify email, password or delete account here.
+.. Modify email, password or delete account here.
 
 
 4. Examples

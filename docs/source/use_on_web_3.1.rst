@@ -1,6 +1,6 @@
 .. _use_on_web_latest:
 
-How to use EzBlock 3.1 in a Browser
+How to use EzBlock in a Browser
 ===========================================
 
 In addition to using EzBlock Studio on a mobile device, you can also use it in a browser.

@@ -19,6 +19,7 @@ Here is the Email: cs@sunfounder.com.
 .. toctree::
     :maxdepth: 3
 
+    quick_guide_3.2/quick_guide_3.2
     quick_guide_3.1/quick_guide_3.1
     quick_guide_3.0/quick_guide_3.0
 

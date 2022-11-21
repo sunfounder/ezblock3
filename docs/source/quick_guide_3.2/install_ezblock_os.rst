@@ -1,6 +1,6 @@
-.. _install_ezblock_os_3.1:
+.. _install_ezblock_os_latest:
 
-Install EzBlock OS(3.1)
+Install EzBlock OS(3.2)
 ===========================
 
 #. Download the **Raspberry Pi OS with EzBlock Pre-installed** image file here: 
@@ -42,7 +42,7 @@ Install EzBlock OS(3.1)
 #. Press **Ctrl+Shift+X** to open the **Advanced options** page to set hostname and enable SSH. You can choose to always use this image customization options.
 
     .. note::
-        The hostname is set so that when you :ref:`use_on_web_3.1`, you can use the hostname to connect to your product. You can also leave it unset.
+        The hostname is set so that when you :ref:`use_on_web_latest`, you can use the hostname to connect to your product. You can also leave it unset.
 
 
     .. image:: ../img/configure.png
