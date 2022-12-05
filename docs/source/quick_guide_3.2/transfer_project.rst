@@ -3,7 +3,7 @@ Save Your Project in time (For Old Users)
 
 
 .. note::
-    On March 1, 2023, all accounts and items stored in your account will be cleared and can not be retrieved. Sorry for the inconvenience caused.
+    On February 28, 2023, all accounts and items stored in your account will be cleared and can not be retrieved. Sorry for the inconvenience caused.
 
 When you log into your account, you will see a pop-up prompt.
 
