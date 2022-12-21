@@ -1,6 +1,6 @@
 .. _quick_guide_latest:
 
-Quick User Guide for EzBlock(3.2)
+Quick User Guide
 =====================================
 
 
@@ -18,5 +18,4 @@ Online services will be closed after a period of time.
     install_ezblock_app
     connect_product_ezblock
     open_run
-    file_manage
-    transfer_project
+    import_export

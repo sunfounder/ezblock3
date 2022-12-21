@@ -1,6 +1,6 @@
 .. _install_ezblock_os_latest:
 
-Install EzBlock OS(3.2)
+Install EzBlock OS
 ===========================
 
 #. Download the **Raspberry Pi OS with EzBlock Pre-installed** image file here: 
@@ -16,36 +16,36 @@ Install EzBlock OS(3.2)
 
 #. Downlaod the tool - **Raspberry Pi Imager** from https://www.raspberrypi.org/software/. Click on the link for the Raspberry Pi Imager that matches your operating system, when the download finishes, click it to launch the installer.
 
-    .. image:: ../img/image11.png
+    .. image:: img/image11.png
         :align: center
 
 #. When you launch the installer, your operating system may try to block you from running it. For example, on Windows I receive the following message. If this pops up, click on **More info** and then **Run anyway**, then follow the instructions to install the Raspberry Pi Imager.
     
-    .. image:: ../img/image12.png
+    .. image:: img/image12.png
         :align: center
 
 #. Insert your SD card into the computer or laptop SD card slot. Then open Raspberry Pi Imager and click **CHOOSE OS**.
 
-    .. image:: ../img/choose_os.png
+    .. image:: img/choose_os.png
         :align: center
 
-#. Go to the bottom of the page and select **Use Custom**. In the pop-up window, select **Rasp**iOS**-xxx_EzBlockOS-xxx.img** that you downloaded in **Step 1**, and click **Open**.
+#. Go to the bottom of the page and select **Use Custom**. In the pop-up window, select **RaspiOS-xxx_EzBlockOS-xxx.img** that you downloaded in **Step 1**, and click **Open**.
         
-    .. image:: ../img/use_custom.png
+    .. image:: img/use_custom.png
         :align: center
 
 #. Select the SD card you are using.
         
-    .. image:: ../img/image14.png
+    .. image:: img/image14.png
             :align: center
 
-#. Press **Ctrl+Shift+X** to open the **Advanced options** page to set hostname and enable SSH. You can choose to always use this image customization options.
+#. Press **Ctrl+Shift+X** or click **settings** icon to open the **Advanced options** page to set hostname, enable SSH and set username and password. You can choose to always use this image customization options.
 
     .. note::
         The hostname is set so that when you :ref:`use_on_web_latest`, you can use the hostname to connect to your product. You can also leave it unset.
 
 
-    .. image:: ../img/configure.png
+    .. image:: img/configure.png
         :align: center
 
 #. Then scroll down to complete the wifi configuration and click **SAVE**.
@@ -56,16 +56,16 @@ Install EzBlock OS(3.2)
         
         This step is optional, if you do not configure WIFI in this step, you can also use the app to configure it directly later.
 
-    .. image:: ../img/image16.png
+    .. image:: img/image16.png
         :align: center
 
 #. Click the **WRITE** button.
 
-    .. image:: ../img/image17.png
+    .. image:: img/image17.png
         :align: center
 
 
 #. After waiting for a while, you will be prompted to tell you that the image has been written to your Micro SD card and you can remove it. Then you can insert it into the Raspberry Pi.
 
-    .. image:: ../img/burning2.png
+    .. image:: img/burning2.png
         :align: center

@@ -5,13 +5,15 @@ When we open ezblock, we can see the homepage, as shown below:
 
 .. image:: img/sp210805_135127.png
 
-* :ref:`1. Menu`: After clicking, a menu window will pop up.
-* :ref:`2. Product`: Connect your robot from here, please see :ref:`quick_guide_latest` and :ref:`use_on_web_latest` for specific operations.
-* :ref:`3. Profile`: Enter the Profile interface from here.
-* :ref:`4. Examples`: You can view the preset examples here to let you play quickly.
-* :ref:`5. My Projects`: Your personal project is saved here, and you can also enter the My Project interface from the Profile interface.
-* :ref:`6. New Project`: Create a new project.
+* :ref:`home_menu`: After clicking, a menu window will pop up.
+* :ref:`home_product`: Connect your robot from here, please see :ref:`quick_guide_latest` and :ref:`use_on_web_latest` for specific operations.
+* **3. Profile**: After version 3.2, you will no longer need to register or log in to your account, and this icon will be removed.
+* :ref:`home_examples`: You can view the preset examples here to let you play quickly.
+* :ref:`home_myprojects`: Your personal project or library will be saved here.
+* :ref:`home_newproject`: Create a new project.
+* :ref:`import_project_library`: Used to import projects or libraries.
 
+.. _home_menu:
 
 1. Menu
 -------------------------
@@ -19,24 +21,26 @@ When we open ezblock, we can see the homepage, as shown below:
 .. image:: img/sp210805_140425.png
 
 * Language: Chinese and English are included.
-* Version: View the current version. You can also switch between Ezblock2.0 and 3.0 here.
+* Version: View the current version. 
 * Contact us: If you have any questions, you can ask for help here.
 * About Us: Introduction to SunFounder.
 * Help: When selected, ezblock related tutorials will pop up, including FAQ, get started and `reference <https://docs.ezblock.cc/en/latest/reference.html>`_.
+
+.. _home_product:
 
 2. Product
 ------------------
 
 **Product Information**
 
-.. image:: img/ezblock3.1/product_page.jpg
+.. image:: img/product_page.jpg
     :align: center
 
 This is the product information page, which contains the product name (you name it), product type, Raspberry Pi IP, APP version, operating voltage and the current power of the product.
 
 **Settings**
 
-.. image:: img/ezblock3.1/settings.jpg
+.. image:: img/settings.jpg
     :align: center
 
 * **Edit Name**: If you are not satisfied with the name you gave before, you can change it here.
@@ -45,10 +49,10 @@ This is the product information page, which contains the product name (you name 
 * **Calibrate**: If you think your product is still a bit deviated during use, you can use this button to recalibrate it to the right position.
 
 
-3. Profile
-------------------
+.. 3. Profile
+.. ------------------
 
-This feature will be canceled after version 3.2.
+.. This feature will be canceled after version 3.2.
 
 .. The Profile interface is as follows:
 
@@ -81,6 +85,7 @@ This feature will be canceled after version 3.2.
 
 .. Modify email, password or delete account here.
 
+.. _home_examples:
 
 4. Examples
 -------------------
@@ -95,16 +100,21 @@ This feature will be canceled after version 3.2.
 
     Before entering the Examples page, you need to select the correct product first.
 
-
+.. _home_myprojects:
 
 5. My Projects
 -----------------
 
-.. image:: img/sp210805_140940.png
+.. image:: img/my_projects_page.png
 
-1. Your project will be saved under the corresponding product category, switch the product category here.
-2. Choose your personal project here. Click Run to flash and run the program directly (if the project uses remote control, it will also enter the remote control interface), click edit to enter the programming interface.
+1. Import projects or libraries.
+2. Select button: After clicking it, you can choose to select multiple projects or libraries at once, or select all to export or delete.
+3. Here are two categories My Projects or My Library.
+4. Your project will be saved under the corresponding product category.
+5. Select your personal project here. You can click **Run** to flash and run the program directly (if the project uses remote control, it will also take you to the remote control page), and click **Edit** to enter the programming page.
+6. The export icon is located in the upper right corner of each project or library.
 
+.. _home_newproject:
 
 6. New Project
 --------------------
@@ -114,6 +124,7 @@ This feature will be canceled after version 3.2.
 1. Enter the name of the project.
 2. To choose a programming language, there are two options: Blockly and Python.
 3. Click to enter the programming interface.
+
 
 
 

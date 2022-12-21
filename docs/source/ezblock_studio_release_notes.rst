@@ -11,41 +11,40 @@ EzBlock Studio will be switched to offline mode from version 3.2 and the online 
 
 **Detailed Information**
 
-* EzBlock Studio转离线模式后，老用户可以继续登录，并保存云端项目到本地，但新项目都将保存在本地
-* 注册入口关闭。新用户不在需要注册账户以使用EzBlock的项目保存功能。
-* 新增项目导入导出功能。本地项目导入导出为.ezbpro文件，该功能可以实现设备间传输项目，或者分享项目给其他人
-* 新增库导入导出功能。本地库导入导出为.ezblib文件，该功能可以实现设备间传输库，或者分享库给其他人
-
-
 * After EzBlock Studio goes to offline mode, old users can continue to log in and save cloud projects to local, but all new projects will be saved locally.
 * Registration portal is closed. New users are no longer required to register an account to use EzBlock's project saving feature.
-* Add project import and export function in .ezbpro format, which allows you to transfer projects between devices or share projects with others.
-* Libraries can also be imported and exported in .ezblib format for transfer and sharing.
+* Add project import and export function in ``.ezbpro`` format, which allows you to transfer projects between devices or share projects with others.
+* Libraries can also be imported and exported in ``.ezblib`` format for transfer and sharing.
 
 **FAQ**
 
 * What happens to my account?
 
-    从XXX年X月起至XXX年X月X日，是过渡时间，这段时间内，你可以把云端的项目全部保存到本地。在Ezblock Studio登录后的提醒上点击“保存所有项目到本地”可以一键保存所有云端项目到本地，或者登录后在我的页面，点击“保存所有项目到本地”也可以一键保存所有云端项目到本地。
-    XXX年X月X日后Ezblock Studio将会清除所有在线数据，并关闭在线服务。你也可以在“我的”页面点击“删除账户并退出”按钮来删除自己的所有数据
+    You have until February 28, 2023 to save all your projects in the cloud locally. Here's how to do it: Sign in to your account on Ezblock Studio and select "Save all projects locally" in the pop-up window to save all your cloud projects to My Projects page in one click, then export to your device's folder or share them through the app using the Export button.
 
-* 网页版EzBlock Studio可以正常使用吗？
+    After that, Ezblock Studio will close the online service and clear all online data. You can also delete all your data by clicking the "Delete Account and Log out" button after you have saved all your projects and libraries.
 
-可以正常使用。EzBlock Studio改为离线模式后，网页版仍然可以正常使用，数据将保存在浏览器，所以请注意谨慎清楚浏览器数据。网页版也可以使用项目和库的导入导出，并于移动端相互分享。
+* How is the web version of EzBlock Studio?
 
-* 如何在设备间传输项目和我的库？
+    You can still access EzBlock Studio via the web page at http://ezblock.cc/ezblock-studio after upgrading to version 3.2.
 
-    新版本新增了项目和库的导入导出功能，项目可以导出为.ezbpro文件，库可以导出为.ezblib文件。导出后可以在其他设备导入项目和库
+    Data will be saved in your browser, so be sure to clear your browser data. Of course, you can export your project or library to your computer for sharing.
 
-* 如何批量导出库/项目？
+* How to transfer projects and libraries between devices?
 
-    在库/项目页面，点击右上角的编辑图标，多选想要导出的库/项目，点击导出。这样会导出一个zip文件。文件内是你选择的所有库/项目文件。导入时，你可以直接选择这个压缩包导入或者解压后选择想要的部分库/项目导入
-
-* 如何批量导入库/项目？
-
-    在库/项目页面，点击右上角的导入图标，多选想要导入的库/项目，或者选择导入的zip文件，点击导出。
+    After exporting projects to ``.ezbpro`` format and libraries to ``.ezblib`` format, you can transfer them to other devices and then import them.
 
 
+* How to export libraries/projects?
+
+
+    For a detailed tutorial, please refer to: :ref:`export_project_library`.
+
+
+* How to import libraries/projects?
+
+
+    For a detailed tutorial, please refer to: :ref:`import_project_library`.
 
 
 

@@ -47,7 +47,14 @@ After selection, ezblock tutorials will pop up, including FAQ, get started and `
 
 .. image:: img/sp210805_150436.png
 
-You can save/open projects and create/import libraries (see :ref:`library_function_latest` for details) in the Menu.
+* **New Project**: Use to create a new project.
+* **My Projects**: Use this button to go to the **My Projects** page to view, export or import projects or libraries.
+* **Save**: Adds the project to **My Projects**.
+* **Save As**: The project is saved to the **My Projects** page as a new file name.
+* **Create Library**: To create a library by selecting the functions in the project. For a detailed tutorial, please refer to: :ref:`library_function_latest`.
+* **Import Library**: Import the saved library.
+* **Save As File**: Save to the device's folder. The project (``.ezbpro``) is downloaded to your computer if you are using Web access to EzBlock Studio. With a mobile device, you can save the project (``.ezbpro``) to the device folder or share it with the app.
+
 
 **TIPS**
 

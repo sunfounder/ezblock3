@@ -20,8 +20,6 @@ Here is the Email: cs@sunfounder.com.
     :maxdepth: 3
 
     quick_guide_3.2/quick_guide_3.2
-    quick_guide_3.1/quick_guide_3.1
-    quick_guide_3.0/quick_guide_3.0
 
 
 **How to ... :**
@@ -29,8 +27,8 @@ Here is the Email: cs@sunfounder.com.
 .. toctree::
     :maxdepth: 3
 
-    use_on_web_3.0
-    use_on_web_3.1
+    save_projects_libraries
+    use_on_web
     create_new
     use_video
     remote
@@ -53,6 +51,4 @@ Here is the Email: cs@sunfounder.com.
 
     ezblock_studio_release_notes
     faq
-
-
 

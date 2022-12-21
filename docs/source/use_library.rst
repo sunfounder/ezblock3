@@ -15,13 +15,11 @@ Fill in a description for your library.
 
 .. image:: img/sp210805_150848.png
 
-When using it, click `import library` in the Menu. Find the one you want and click on `import`.
+When using it, click **Import Library** in the **Menu**. Find the one you want and click on **Import**.
 
 .. image:: img/sp210805_151150.png
 
-.. note:: In addition to libraries you created (stored in Mylib), you can also enter Alllib / Syslib from the upper navigation bar to find more. 
-
-The results are as follows.
+The results are as follows. You can click Expand Block to see the content of the function.
 
 .. image:: img/sp210805_151105.png
 
