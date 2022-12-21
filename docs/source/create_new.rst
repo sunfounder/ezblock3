@@ -5,7 +5,7 @@ How to Create a New Project?
 
 1. Click **New Project** on the homepage.
 
-    .. image:: img/ezblock3.2/sp221115_161408.png
+    .. image:: img/sp221115_161408.png
 
 #. Enter the project name, select the programming mode (for novices, Block is recommended), and Confirm.
 

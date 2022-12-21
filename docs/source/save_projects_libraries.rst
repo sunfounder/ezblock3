@@ -11,11 +11,11 @@ Now let's see how to save the projects or libraries.
 
 #. Click on the icon in the top right corner to login to your account.
 
-    .. image:: img/ezblock3.2/login_new.png
+    .. image:: img/login_new.png
 
 #. When you log into your account, you will see a pop-up prompt.
 
-    .. image:: img/ezblock3.2/sp221116_103418.png
+    .. image:: img/sp221116_103418.png
 
     * If you want to save your project locally, please click ``Save All Project Locally``, it will take you a minute, and then you will be able to access your project directly without logging in.
 
@@ -25,14 +25,14 @@ Now let's see how to save the projects or libraries.
 
 #. After clicking **Save All Porjects Locally**, you will see that it will detect all the projects and libraries in your account and download them all. The download here is not to a folder in your device, but to the **My Projects** page of the app.
 
-    .. image:: img/ezblock3.2/ez32_download.png
+    .. image:: img/ez32_download.png
 
 #. Once the download is complete, you will be prompted to go to the **My Projects** page to view the downloaded items. At this point, you can delete your account and logout, or if you are not very confident, you can just click Logout, and check the downloaded projects first.
 
-    .. image:: img/ezblock3.2/ez32_view.png
+    .. image:: img/ez32_view.png
 
 #. Now come to the **My Projects** page to see the downloaded projects. If you have multiple products, you can go to different product pages to view the projects.
 
-    .. image:: img/ezblock3.2/ez32_download_myproject.png
+    .. image:: img/ez32_download_myproject.png
 
 #. At this point if you want to export your project to your mobile device or share it through other APP, you can refer to :ref:`import_export_latest`.

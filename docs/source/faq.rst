@@ -8,12 +8,12 @@ Confirm the app version by the following method, and then go to the FAQ of diffe
 
 Click the **Menu** button in the upper left corner.
 
-.. image:: img/ezblock3.1/click_menu.jpg
+.. image:: img/click_menu.jpg
     :align: center
 
 Then click the **Version** button.
 
-.. image:: img/ezblock3.1/version.jpg
+.. image:: img/version.jpg
     :align: center
 
 Now you can view the version.
