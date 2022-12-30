@@ -4,7 +4,7 @@ Quick User Guide
 =====================================
 
 
-The main optimization of Ezblock 3.2 is to switch the online service to offline mode, and add the import and export function of project files.
+The main optimization of EzBlock 3.2 is to switch the online service to offline mode, and add the import and export function of project files.
 At that time, the channel for new user registration will be closed, and registered users will be prompted after logging in to transfer the project offline.
 Online services will be closed after a period of time.
 

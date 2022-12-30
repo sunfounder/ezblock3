@@ -46,13 +46,13 @@ Export Projects/Libraries
 Import Projects/Libraries
 ----------------------------
 
-Now let's learn how to import projects or libraries into Ezblock Studio.
+Now let's learn how to import projects or libraries into EzBlock Studio.
 
 #. Open the **My Projects** page, click the **Import** icon and select **Choose File**. The **Import Project** button on the home page is the same function.
 
     .. image:: img/import_icon.png
 
-#. In Ezblock Studio, you can only import ``.ezbpro``, ``.ezblib`` and batch exported ``.zip`` format files from EzBlock Studio. Other files cannot be imported.
+#. In EzBlock Studio, you can only import ``.ezbpro``, ``.ezblib`` and batch exported ``.zip`` format files from EzBlock Studio. Other files cannot be imported.
 
     .. image:: img/import_file.png
 

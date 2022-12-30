@@ -84,3 +84,18 @@ Connect the Product and EzBlock
 
     .. image:: img/cali_page.jpg
         :align: center
+
+.. note::
+    If you want to recalibrate the robot during use, please follow the steps below.
+    
+    You can open the product detail page by clicking the connect icon in the upper left corner.
+
+    .. image:: img/calibrate0.png
+
+    Click the **Settings** button.
+
+    .. image:: img/calibrate1.png
+
+    On this page, you can change the product name, product type, view the app version or calibrate the robot. Once you click on **Calibrate** you can go to the calibration page.
+
+    .. image:: img/calibrate2.png

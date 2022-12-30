@@ -1,7 +1,7 @@
 Home Page
 ===================
 
-When we open ezblock, we can see the homepage, as shown below:
+When we open EzBlock, we can see the homepage, as shown below:
 
 .. image:: img/sp210805_135127.png
 
@@ -24,7 +24,7 @@ When we open ezblock, we can see the homepage, as shown below:
 * Version: View the current version. 
 * Contact us: If you have any questions, you can ask for help here.
 * About Us: Introduction to SunFounder.
-* Help: When selected, ezblock related tutorials will pop up, including FAQ, get started and `reference <https://docs.ezblock.cc/en/latest/reference.html>`_.
+* Help: When selected, EzBlock related tutorials will pop up, including FAQ, get started and `reference <https://docs.ezblock.cc/en/latest/reference.html>`_.
 
 .. _home_product:
 
