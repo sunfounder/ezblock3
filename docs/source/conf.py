@@ -17,11 +17,11 @@
 
 
 import sphinx_rtd_theme
-# -- Project information -----------------------------------------------------
+import time
 
-project = 'ezblock3'
-copyright = '2021, sunfounder'
-author = 'sunfounder'
+project = 'SunFounder EzBlock Studio'
+copyright = f'{time.localtime().tm_year}, SunFounder'
+author = 'www.sunfounder.com'
 
 
 # -- General configuration ---------------------------------------------------
