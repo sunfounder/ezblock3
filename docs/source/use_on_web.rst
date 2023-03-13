@@ -31,4 +31,4 @@ The steps are as follows:
 
         .. image:: img/IMG_0458.PNG
 
-#. When prompted that the connection is successful, you can run the examples or create your own porjects.
+#. When prompted that the connection is successful, you can run the examples or create your own projects.
