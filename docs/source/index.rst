@@ -14,6 +14,12 @@ Please do not hesitate to point out any inconveniences or errors, and any sugges
 
 Here is the Email: cs@sunfounder.com.
 
+.. toctree::
+    :maxdepth: 2
+
+
+    About this Kit <self>
+
 **Quick Guide :**
 
 .. toctree::
