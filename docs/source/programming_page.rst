@@ -1,159 +1,155 @@
-
 .. _programming_block:
 
-Programming Page
+プログラミングページ
 ==========================
 
-When you write code (create new project, edit example, edit your personal project), you will enter the Programming Page.
-Shown here is the programming interface in blockly language. For programming in python language, please see :ref:`programming_python`.
+コードを書く際（新しいプロジェクトを作成、例を編集、個人のプロジェクトを編集する際）には、プログラミングページに入ります。
+ここにはBlockly言語でのプログラミングインターフェースが示されています。Python言語でのプログラミングについては、 :ref:`programming_python` を参照してください。
 
 .. image:: img/sp210805_143809.png
 
-1. Return to the home page
-2. Choose a product
-3. Project name
-4. Help
-5. Menu
-6. Programming interface
+1. ホームページに戻る
+2. 製品を選ぶ
+3. プロジェクト名
+4. ヘルプ
+5. メニュー
+6. プログラミングインターフェース
 
-7. Remote control interface
-8. Debug Monitor
-    
-A. Block Categories
-B. Programming Area
-C. Run
-D. Flash & Run
+7. リモートコントロールインターフェース
+8. デバッグモニター
 
-**Block Categories**
+A. ブロックのカテゴリ
+B. プログラミングエリア
+C. 実行
+D. フラッシュ＆実行
+
+**ブロックのカテゴリ**
 
 .. image:: img/sp210805_151353.png
 
-Find the code block from here, and drag the code block into the Programming Area for programming. Please check the specific usage in `Block Reference <https://docs.ezblock.cc/en/latest/reference-for-block/block.html>`_.
+ここからコードブロックを見つけて、プログラミングのためにプログラミングエリアにドラッグします。具体的な使用法は `Block Reference <https://docs.ezblock.cc/en/latest/reference-for-block/block.html>`_ で確認してください。
 
-**Debug Monitor**
+**デバッグモニター**
 
 .. image:: img/sp210805_145042.png
 
-Click the debug icon in the lower right corner, and a movable debug monitor will appear. The text of the **print** block will be displayed here.
+右下隅のデバッグアイコンをクリックすると、移動可能なデバッグモニターが表示されます。**print** ブロックのテキストがここに表示されます。
 
-**Help**
+**ヘルプ**
 
 .. image:: img/sp210805_150120.png
 
-After selection, ezblock tutorials will pop up, including FAQ, get started and `reference <https://docs.ezblock.cc/en/latest/reference.html>`_.
+選択後、ezblockのチュートリアルが表示されます。FAQ、取り始め、および `reference <https://docs.ezblock.cc/en/latest/reference.html>`_ を含む。
 
-
-**Menu**
+**メニュー**
 
 .. image:: img/sp210805_150436.png
 
-* **New Project**: Use to create a new project.
-* **My Projects**: Use this button to go to the **My Projects** page to view, export or import projects or libraries.
-* **Save**: Adds the project to **My Projects**.
-* **Save As**: The project is saved to the **My Projects** page as a new file name.
-* **Create Library**: To create a library by selecting the functions in the project. For a detailed tutorial, please refer to: :ref:`library_function_latest`.
-* **Import Library**: Import the saved library.
-* **Save As File**: Save to the device's folder. The project (``.ezbpro``) is downloaded to your computer if you are using Web access to EzBlock Studio. With a mobile device, you can save the project (``.ezbpro``) to the device folder or share it with the app.
-
+* **New Project**：新しいプロジェクトを作成するために使用します。
+* **My Projects**：このボタンを使用して、 **My Projects** ページに移動して、プロジェクトやライブラリを表示、エクスポート、またはインポートします。
+* **Save**：プロジェクトを **My Projects** に追加します。
+* **Save As**：プロジェクトは新しいファイル名として **My Projects** ページに保存されます。
+* **Create Library**：プロジェクト内の関数を選択してライブラリを作成します。詳しいチュートリアルについては、 :ref:`library_function_latest` を参照してください。
+* **Import Library**：保存されたライブラリをインポートします。
+* **Save As File**：デバイスのフォルダに保存します。EzBlock StudioのWebアクセスを使用している場合、プロジェクト(``.ezbpro``)はコンピュータにダウンロードされます。モバイルデバイスを使用する場合、アプリを使用してプロジェクト(``.ezbpro``)をデバイスのフォルダに保存するか、それを共有することができます。
 
 **TIPS**
 
-You can long press the programming area or block to use some auxiliary functions.
+プログラミングエリアやブロックを長押しすることで、いくつかの補助機能を使用できます。
 
 .. image:: img/sp210805_151610.png
 .. image:: img/sp210805_151819.png
 
-.. list-table:: Menu of Block
+.. list-table:: ブロックのメニュー
 
-    * - **Option**
-      - **Description**
+    * - **オプション**
+      - **説明**
     * - Duplicate 
-      - Copy selected (and dominated by) blocks.
+      - 選択したブロック（およびその支配下のブロック）をコピーします。
     * - Add/Remove Comment
-      - After clicking, a ``?`` icon will appear at the top right of the block, which is used to write text that is helpful for reading the code. These texts will not be executed by the program.
+      - クリックすると、ブロックの右上に``?``アイコンが表示されます。これは、コードの読み取りに役立つテキストを書き込むためのものです。これらのテキストはプログラムによって実行されません。
     * - Expand/Conllapse Block
-      - When your code has more blocks, you can collapse them and expand them when necessary.
+      - コードにより多くのブロックがある場合、それらを収縮させ、必要に応じて展開することができます。
     * - Disable/Enable Block
-      - This function disables specific blocks without changing the program.
+      - この機能は、プログラムを変更せずに特定のブロックを無効にします。
     * - Delete `xxx` Blocks
-      - Remove selected (and dominated by) blocks.
-    * - Help
-      - 
+      - 選択したブロック（およびその支配下のブロック）を削除します。
+    * - ヘルプ
+      -
     * - Create `xxx`
-      - Used in `Vibration` or `Function` blocks. It enables you to quickly create a block paired with the selected block (click `create` from the Function block, the call block appears).
+      - `振動` または `関数` ブロックで使用されます。選択したブロックとペアリングされたブロックを迅速に作成することができます（関数ブロックから「作成」をクリックすると、呼び出しブロックが表示されます）。
     * - Hightlight Function Definition
-      - Used in the call block of funtion, allows you to find the funtion definition
+      - 関数の呼び出しブロックで使用され、関数の定義を見つけることができます。
 
-.. list-table:: Menu of Programming Page
+.. list-table:: プログラミングページのメニュー
 
-    * - **Option**
-      - **Description**
-    * - Undo
+    * - **オプション**
+      - **説明**
+    * - 元に戻す
       - 
-    * - Redo
-      - Cancel Undo
-    * - Clean up Blocks
-      - Align the blocks
-    * - Conllapse Blocks
-      - Collapse all blocks
-    * - Expand Blocks
-      - Expand all blocks
-    * - Delete `xxx` Blocks
-      - Delete all blocks
+    * - やり直し
+      - 元に戻しを取り消し
+    * - ブロックを整理
+      - ブロックを整列させる
+    * - ブロックを折りたたむ
+      - すべてのブロックを折りたたむ
+    * - ブロックを展開
+      - すべてのブロックを展開する
+    * - `xxx` ブロックを削除
+      - すべてのブロックを削除する
 
 .. _programming_python:
 
-
-Python Programming Page
+Pythonプログラミングページ
 ---------------------------
 
-If you use python language when creating a project, you can enter the Python Programming Page.
+プロジェクトを作成する際にpython言語を使用する場合、Pythonプログラミングページに入ることができます。
 
 .. image:: img/sp210805_154924.png
 
-You will need to refer to `Python Reference <https://docs.ezblock.cc/en/latest/reference-for-python/ezblock.html>`_ to complete your project.
+プロジェクトを完成させるためには、 `Pythonリファレンス <https://docs.ezblock.cc/en/latest/reference-for-python/ezblock.html>`_ を参照してください。
 
 
 
-Remote Control Interface
---------------------------------
+リモートコントロールインターフェース
+------------------------------------
 
-For how to use it, please see :ref:`remote_control_latest`
+使用方法については、:ref:`remote_control_latest` をご参照ください。
 
 .. image:: img/sp210805_144019.png
 
-1. Widget Categories
-2. Remote Control Area
+1. ウィジェットカテゴリ
+2. リモートコントロールエリア
 
 
 .. image:: img/sp210805_152451.png
 
-Click on the widget to display the message box, long press the widget or click the delete button to delete the widget.
+ウィジェットをクリックすると、メッセージボックスが表示され、ウィジェットを長押しするか、削除ボタンをクリックすると、ウィジェットを削除できます。
 
 
-.. list-table:: Widget of Remote Control
+.. list-table:: リモートコントロールのウィジェット
 
-    * - **Widget**
-      - **Description**
-    * - Joystick
-      - The white dot is centered, and both X and Y values are 0. Drag the white point to the right to increase the X value; drag it upwards to increase the Y value. The ranges of X and Y are both (-100, 100).
-    * - Slider
-      - When the white point is on the far left, the value is 0. Drag the white point to the right to increase the value. The range is (0, 100).
+    * - **ウィジェット**
+      - **説明**
+    * - ジョイスティック
+      - 白い点が中心にあり、X値とY値の両方が0です。白い点を右にドラッグするとX値が増加し、上にドラッグするとY値が増加します。XおよびYの範囲は共に(-100, 100)です。
+    * - スライダー
+      - 白い点が最も左にあるとき、値は0です。白い点を右にドラッグすると、値が増加します。範囲は(0, 100)です。
     * - D-Pad
-      - This is a control composed of 4 Buttons, each button is independent of each other. The value of the Button is 1 when it is pressed and 0 when it is released.
-    * - Button
-      - The value is 1 when pressed and 0 when released.
-    * - Switch
-      - When ON, the value is 1; when OFF, the value is 0.
-    * - Video
-      - Please check :ref:`video_latest`
-    * - Digital Tube
-      - It can display NUMBER (such as 123.3) or TIME (such as 11:55) like a real four-digit digital tube.
-    * - Pie Chart
-      - It is used to indicate the proportion of the part and the whole in the data series. Each set of data should include a ``name`` and ``value``.
-    * - Bar Chart
-      - The data of multiple objects can be displayed intuitively for comparative analysis. Each object should include a ``name`` and ``value``.
-    * - Line Chart
-      - Continuous data of multiple objects can be displayed. Each object should include a ``name`` and ``value``. Continuous data generation is based on multiple calls (usually, using loops).
-    * - Bulb
-      - Like the actual LED, it lights up when 1 is written, and turns off when 0 is written.
+      - これは4つのボタンで構成されたコントロールで、各ボタンは互いに独立しています。ボタンが押されているときの値は1で、リリースされているときは0です。
+    * - ボタン
+      - 押されているときの値は1で、リリースされているときは0です。
+    * - スイッチ
+      - ONのときの値は1、OFFのときの値は0です。
+    * - ビデオ
+      - :ref:`video_latest` を確認してください。
+    * - デジタルチューブ
+      - 実際の4桁のデジタルチューブのように、NUMBER（例：123.3）またはTIME（例：11:55）を表示できます。
+    * - 円グラフ
+      - データ系列の部分と全体の比率を示すために使用されます。各データセットには ``name`` と ``value`` が含まれている必要があります。
+    * - 棒グラフ
+      - 複数のオブジェクトのデータを直感的に表示し、比較分析を行うことができます。各オブジェクトには ``name`` と ``value`` が含まれている必要があります。
+    * - 折れ線グラフ
+      - 複数のオブジェクトの連続データを表示することができます。各オブジェクトには ``name`` と ``value`` が含まれている必要があります。連続データの生成は、複数の呼び出し（通常、ループを使用）に基づいています。
+    * - 電球
+      - 実際のLEDのように、1が書き込まれると点灯し、0が書き込まれると消灯します。

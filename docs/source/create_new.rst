@@ -1,31 +1,29 @@
 .. _create_project_latest:
 
-How to Create a New Project?
+新しいプロジェクトの作成方法
 =================================
 
-1. Click **New Project** on the homepage.
+1. ホームページで **New Project** をクリックします。
 
     .. image:: img/sp221115_161408.png
 
-#. Enter the project name, select the programming mode (for novices, Block is recommended), and Confirm.
+#. プロジェクト名を入力し、プログラミングモードを選択します（初心者には、Blockを推奨します）。そして、確認をクリックします。
 
     .. image:: img/img_new_project2.png
 
-#. Now we get to the programming page.
+#. これでプログラミングページに移動します。
 
     .. image:: img/img_new_project3.png
 
-#.  Drag and drop **block** to program. Then click the icon at the bottom right to run.
+#. **block** をドラッグアンドドロップしてプログラムします。次に、右下のアイコンをクリックして実行します。
 
     .. image:: img/img_new_project4.png
 
-#. After you're done programming, you can simply exit and click Save. For more options, click the menu in the upper right corner.
+#. プログラミングが完了したら、終了し、保存をクリックします。他のオプションについては、右上のメニューをクリックしてください。
 
-    * **Save**: Saves the current project to the **My Projects** page.
-    * **Save As**: Saves this project to **My Projects** with a new name.
-    * **Save As File**: Save to the device's folder. The project (``.ezbpro``) is downloaded to your computer if you are using Web access to EzBlock Studio. With a mobile device, you can save the project (``.ezbpro``) to the device folder or share it with the app.
-
+    * **Save**：現在のプロジェクトを **My Projects** ページに保存します。
+    * **Save As**：新しい名前でこのプロジェクトを **My Projects** に保存します。
+    * **Save As File**：デバイスのフォルダに保存します。EzBlock StudioのWebアクセスを使用している場合、プロジェクト(``.ezbpro``)がコンピュータにダウンロードされます。モバイルデバイスを使用している場合、プロジェクト(``.ezbpro``)をデバイスのフォルダに保存するか、アプリで共有することができます。
 
     .. image:: img/img_new_project5.png
-
 

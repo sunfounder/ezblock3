@@ -1,25 +1,24 @@
 .. _library_function_latest:
 
-How to Use Library Function?
+ライブラリ関数の使用方法は？
 ======================================
 
-When you need to reuse the same code in multiple projects, you can use the library function in the menu.
+複数のプロジェクトで同じコードを再利用する必要がある場合、メニューのライブラリ関数を使用できます。
 
 .. image:: img/sp210809_111713.png
 
-After writing the function, click create library in the Menu and select the function you want.
+関数を記述した後、メニューで「ライブラリを作成」をクリックし、必要な関数を選択します。
 
 .. image:: img/create_libraries.png
 
-Fill in a description for your library.
+ライブラリの説明を入力します。
 
 .. image:: img/sp210805_150848.png
 
-When using it, click **Import Library** in the **Menu**. Find the one you want and click on **Import**.
+使用する際には、 **Menu** の中の **Import Library** をクリックします。目的のものを見つけて **Import** をクリックします。
 
 .. image:: img/sp210805_151150.png
 
-The results are as follows. You can click Expand Block to see the content of the function.
+結果は以下の通りです。関数の内容を見るには、ブロックを展開をクリックできます。
 
 .. image:: img/sp210805_151105.png
-

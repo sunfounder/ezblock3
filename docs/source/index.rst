@@ -1,20 +1,25 @@
-
 Ezblock Studio 3
 ==================================================
 
-**EzBlock Studio** is a development platform developed by SunFounder designed for beginners to lower the barriers to getting started with Raspberry Pi. 
+**EzBlock Studio** はSunFounderによって開発された開発プラットフォームで、初心者がRaspberry Piを始めやすくするために設計されています。
 
-It has two programming languages: Graphical and Python, and available on almost all different types of devices.
+これには、グラフィカルとPythonの2つのプログラミング言語が含まれており、ほぼすべての異なるタイプのデバイスで利用可能です。
 
-With Bluetooth and Wi-Fi support, you can download code, remote control a Raspberry Pi, on EzBlock Studio.
+BluetoothとWi-Fiのサポートにより、EzBlock Studio上でコードをダウンロードしたり、Raspberry Piをリモートコントロールすることができます。
 
-This includes the quick start guide of EzBlock Studio and other basic operations. Later we will add the use of each page and the introduction of related block or python functions.
+これにはEzBlock Studioのクイックスタートガイドや他の基本的な操作が含まれています。後に、各ページの使用方法や関連するブロックまたはpython関数の紹介を追加します。
 
-Please do not hesitate to point out any inconveniences or errors, and any suggestions are welcome.
+不便や誤りがあれば、どうか遠慮なく指摘してください。また、どんな提案も歓迎です。
 
-Here is the Email: cs@sunfounder.com.
+以下がEメールアドレスです: cs@sunfounder.com。
 
-**Quick Guide :**
+
+.. toctree::
+    :maxdepth: 2
+
+    このキットについて <self>
+
+**クイックガイド：**
 
 .. toctree::
     :maxdepth: 3
@@ -22,7 +27,7 @@ Here is the Email: cs@sunfounder.com.
     quick_guide_3.2/quick_guide_3.2
 
 
-**How to ... :**
+**How to ... ：**
 
 .. toctree::
     :maxdepth: 3
@@ -34,7 +39,7 @@ Here is the Email: cs@sunfounder.com.
     remote
     use_library
 
-**Interface:**
+**インターフェース：**
 
 .. toctree::
     :maxdepth: 3
@@ -44,11 +49,12 @@ Here is the Email: cs@sunfounder.com.
 
 
 
-**Release Note**
-  
+**リリースノート**
+
 .. toctree::
     :maxdepth: 3
 
     ezblock_studio_release_notes
     faq
+
 

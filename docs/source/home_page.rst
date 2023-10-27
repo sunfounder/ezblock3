@@ -1,54 +1,53 @@
-Home Page
+ホームページ
 ===================
 
-When we open EzBlock, we can see the homepage, as shown below:
+EzBlockを開くと、以下のようなホームページが表示されます：
 
 .. image:: img/sp210805_135127.png
 
-* :ref:`home_menu`: After clicking, a menu window will pop up.
-* :ref:`home_product`: Connect your robot from here, please see :ref:`quick_guide_latest` and :ref:`use_on_web_latest` for specific operations.
-* **3. Profile**: After version 3.2, you will no longer need to register or log in to your account, and this icon will be removed.
-* :ref:`home_examples`: You can view the preset examples here to let you play quickly.
-* :ref:`home_myprojects`: Your personal project or library will be saved here.
-* :ref:`home_newproject`: Create a new project.
-* :ref:`import_project_library`: Used to import projects or libraries.
+* :ref:`home_menu`: クリックすると、メニューウィンドウが表示されます。
+* :ref:`home_product`: ここからロボットを接続してください。具体的な操作については、:ref:`quick_guide_latest` と :ref:`use_on_web_latest` をご参照ください。
+* **3. プロフィール**: バージョン3.2以降、アカウントの登録やログインは不要となり、このアイコンは削除されます。
+* :ref:`home_examples`: こちらで予設の例を確認して、すぐに試してみることができます。
+* :ref:`home_myprojects`: あなたのパーソナルプロジェクトやライブラリはここに保存されます。
+* :ref:`home_newproject`: 新しいプロジェクトを作成。
+* :ref:`import_project_library`: プロジェクトやライブラリをインポートするために使用します。
 
 .. _home_menu:
 
-1. Menu
+1. メニュー
 -------------------------
 
 .. image:: img/sp210805_140425.png
 
-* Language: Chinese and English are included.
-* Version: View the current version. 
-* Contact us: If you have any questions, you can ask for help here.
-* About Us: Introduction to SunFounder.
-* Help: When selected, EzBlock related tutorials will pop up, including FAQ, get started and `reference <https://docs.ezblock.cc/en/latest/reference.html>`_.
+* 言語: 中国語と英語を含む。
+* バージョン: 現在のバージョンを確認。
+* お問い合わせ: 質問がある場合は、こちらからヘルプを求めることができます。
+* 会社概要: SunFounderの紹介。
+* ヘルプ: 選択すると、EzBlock関連のチュートリアルが表示されます。FAQ、入門ガイド、 `リファレンス <https://docs.ezblock.cc/en/latest/reference.html>`_ などが含まれます。
 
 .. _home_product:
 
-2. Product
+2. 製品
 ------------------
 
-**Product Information**
+**製品情報**
 
 .. image:: img/product_page.jpg
     :align: center
 
-This is the product information page, which contains the product name (you name it), product type, Raspberry Pi IP, APP version, operating voltage and the current power of the product.
+製品情報ページです。製品名（あなたが命名したもの）、製品タイプ、Raspberry PiのIP、APPのバージョン、動作電圧、製品の現在の電力を表示しています。
 
-**Settings**
+**設定**
 
 .. image:: img/settings.jpg
     :align: center
 
-* **Edit Name**: If you are not satisfied with the name you gave before, you can change it here.
-* **Change Product**: Change to another product.
-* **Check for Updates**: Check the current version of the app, and check if there is a newer version.
-* **Calibrate**: If you think your product is still a bit deviated during use, you can use this button to recalibrate it to the right position.
-
-
+* **Edit Name**: 以前につけた名前に満足していない場合、ここで変更することができます。
+* **Change Product**: 他の製品に変更します。
+* **Check for Updates**: アプリの現在のバージョンを確認し、新しいバージョンがあるかどうかを確認します。
+* **Calibrate**: 使用中に製品が少し偏っていると感じた場合、このボタンを使用して正しい位置に再調整することができます。
+  
 .. 3. Profile
 .. ------------------
 
@@ -87,44 +86,41 @@ This is the product information page, which contains the product name (you name 
 
 .. _home_examples:
 
-4. Examples
+4. 例
 -------------------
 
 .. image:: img/sp210805_135846.png
 
-1. Back to home page
-2. Choose an example. Click Run to flash and run the program directly, and click Edit to enter the programming interface.
-3. To choose a programming language, there are two options: Blockly and Python.
+1. ホームページに戻る
+2. 例を選択します。 **Run** をクリックすると、プログラムが直接フラッシュおよび実行され、 **Edit** をクリックすると、プログラミングインターフェイスに入ります。
+3. プログラミング言語を選択するには、BlocklyとPythonの2つのオプションがあります。
 
 .. note::
 
-    Before entering the Examples page, you need to select the correct product first.
+    Examplesページに入る前に、正しい製品を選択する必要があります。
 
 .. _home_myprojects:
 
-5. My Projects
------------------
+5. マイプロジェクト
+---------------------
 
 .. image:: img/my_projects_page.png
 
-1. Import projects or libraries.
-2. Select button: After clicking it, you can choose to select multiple projects or libraries at once, or select all to export or delete.
-3. Here are two categories My Projects or My Library.
-4. Your project will be saved under the corresponding product category.
-5. Select your personal project here. You can click **Run** to flash and run the program directly (if the project uses remote control, it will also take you to the remote control page), and click **Edit** to enter the programming page.
-6. The export icon is located in the upper right corner of each project or library.
+1. プロジェクトやライブラリをインポートします。
+2. 選択ボタン: クリックすると、複数のプロジェクトやライブラリを一度に選択する、またはすべてをエクスポートまたは削除するために選択することができます。
+3. ここには「マイプロジェクト」と「マイライブラリ」の2つのカテゴリがあります。
+4. あなたのプロジェクトは、対応する製品カテゴリの下に保存されます。
+5. あなたのパーソナルプロジェクトをここで選択してください。 **Run** をクリックすると、プログラムが直接フラッシュおよび実行され、リモートコントロールを使用している場合はリモートコントロールページにも移動します。 **Edit** をクリックすると、プログラミングページに入ります。
+6. 各プロジェクトやライブラリの右上にエクスポートアイコンがあります。
 
 .. _home_newproject:
 
-6. New Project
---------------------
+6. 新しいプロジェクト
+-----------------------
 
 .. image:: img/sp210805_143611.png
 
-1. Enter the name of the project.
-2. To choose a programming language, there are two options: Blockly and Python.
-3. Click to enter the programming interface.
-
-
-
+1. プロジェクトの名前を入力します。
+2. プログラミング言語を選択するには、BlocklyとPythonの2つのオプションがあります。
+3. プログラミングインターフェイスに入るにはクリックします。
 

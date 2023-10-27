@@ -1,100 +1,98 @@
 FAQ
 ============
 
-Check the APP Version
+APPのバージョンの確認方法
 -----------------------------
 
-Confirm the app version by the following method, and then go to the FAQ of different versions.
+以下の方法でアプリのバージョンを確認し、異なるバージョンのFAQに進んでください。
 
-Click the **Menu** button in the upper left corner.
+左上隅の **Menu** ボタンをクリックします。
 
 .. image:: img/click_menu.jpg
     :align: center
 
-Then click the **Version** button.
+次に、 **Version** ボタンをクリックします。
 
 .. image:: img/version.jpg
     :align: center
 
-Now you can view the version.
+これでバージョンが表示されます。
 
 .. note::
 
-    If it is EzBlock 3.1, it is recommended to update to the new version, for a detailed tutorial please refer to: :ref:`quick_guide_latest`.
+    EzBlock 3.1の場合、新しいバージョンに更新することをおすすめします。詳しいチュートリアルはこちらを参照してください: :ref:`quick_guide_latest`。
 
     .. image:: img/check_version.png
         :align: center
 
-
-
 EzBlock Studio 3.1
 --------------------------
 
-#. APP can't search Bluetooth
+#. APPがBluetoothを検出できない
 
-    * Power on the product and see if there is pleasant music (not only current "zi~" sound). If not, please :ref:`install_ezblock_os_latest` again.
-    * whether the Bluetooth of your mobile device is turned on or not.
-    * Whether the app is allowed to access the device's location.
-    * Some mobile devices also require location services to be turned on.
-    * Check the power level. If both power indicators are off, or only one is blinking; the power level is low, please charge the batteries.
-    * If all the above methods have been tried, try to press RST button, or restart the product and APP.
+    * 製品を起動し、心地よい音楽が流れるか（ただの「zi~」音だけでなく）確認します。もし流れない場合、 :ref:`install_ezblock_os_latest` を再度インストールしてください。
+    * あなたのモバイルデバイスのBluetoothがオンになっているかどうかを確認してください。
+    * アプリがデバイスの位置情報にアクセスすることを許可されているかどうか。
+    * 一部のモバイルデバイスでは位置情報サービスをオンにする必要があります。
+    * 電源レベルを確認します。両方の電源インジケータがオフ、または1つだけが点滅している場合、電池が少なくなっているので充電してください。
+    * 上記の方法をすべて試してもだめな場合、RSTボタンを押すか、製品とAPPを再起動してみてください。
 
-#. The APP searches for Bluetooth, but cannot connect.
+#. APPがBluetoothを検出するが、接続できない。
 
-    * Power on the product and see if there is pleasant music (not only current "zi~" sound). If not, please :ref:`install_ezblock_os_latest` again.
-    * Check if the BLE or USR light on ROBOT HAT is always on (which means the product is connected by other devices), if yes, disconnect the other devices or restart the product.
-    * If all the above methods have been tried, try to press RST button, or restart the product and APP.
+    * 製品を起動し、心地よい音楽が流れるか（ただの「zi~」音だけでなく）確認します。もし流れない場合、 :ref:`install_ezblock_os_latest` を再度インストールしてください。
+    * ROBOT HATのBLEまたはUSRのライトが常に点灯しているか（他のデバイスに接続されていることを意味します）確認し、その場合は他のデバイスを切断するか、製品を再起動してください。
+    * 上記の方法をすべて試してもだめな場合、RSTボタンを押すか、製品とAPPを再起動してみてください。
 
-#. APP can't connect after configuring WIFI.
+#. WIFIの設定後、APPが接続できない。
 
-    * Check if the country, SSID and PSK are correct.
-    * Check the network status of this WIFI.
-    * Check the power level. If both power indicators are off or only one power indicator is blinking; the power level is low, please charge the batteries.
-    * Check whether the configured WiFi and the Wi-Fi connected by the mobile device are the same.
+    * 国、SSID、PSKが正しいかどうかを確認してください。
+    * このWIFIのネットワーク状態を確認します。
+    * 電源レベルを確認します。両方の電源インジケータがオフ、または1つだけが点滅している場合、電池が少なくなっているので充電してください。
+    * 設定したWiFiとモバイルデバイスが接続しているWi-Fiが同じであるかどうかを確認してください。
 
-#. The Video block doesn't work?
+#. ビデオブロックが動作しない？
 
     .. image:: img/video_not.png
         :width: 400
 
-    When using the video function on the web page, if your code does not report an error and has run successfully, but you do not see the shot on the remote control page, you need to check the following 2 situations:.
-    
-    * Check the network status and retry.
-    * For the latest version of Google Chrome, you need to set it manually.
+    Webページでビデオ機能を使用する際、コードにエラーが報告されず、正常に実行されているが、リモートコントロールページに撮影内容が表示されない場合、以下の2つの状況を確認する必要があります：。
+
+    * ネットワークの状態を確認し、再試行してください。
+    * Google Chromeの最新バージョンでは、手動で設定する必要があります。
         
-        Open Google Chrome and go to: chrome://flags/page.
+        Google Chromeを開き、以下に移動します: chrome://flags/page。
 
         .. image:: img/chrome1.jpg
 
-        Search for: Block insecure private network requests
+        検索: Block insecure private network requests
 
         .. image:: img/chrome2.jpg
 
-        Set it to **Disabled** and then click **Relaunch**.
+        **Disabled** に設定して、 **Relaunch** をクリックしてください。
 
 
 .. EzBlock Studio 3.0
 .. -------------------------------
 
 .. .. note::
-..     EzBlock Studio has been updated to version 3.1, it is recommended to update to the new version, for a detailed tutorial please refer to: :ref:`quick_guide_latest`.
+..     EzBlock Studioはバージョン3.1に更新されました。新しいバージョンに更新することをおすすめします。詳しいチュートリアルはこちらを参照してください: :ref:`quick_guide_latest`。
 
+.. #. APPがBluetoothを検出できない
+..     * 製品をオンにします。現在の"zi~"音の後に別の心地よい音楽が流れる場合、EzBlock OSが正しくダウンロードされていないことを意味します。:ref:`install_ezblock_os_3.0`を参照して正しいものをインストールしてください。
+..     * あなたのモバイルデバイスのBluetoothがオンになっているかどうか確認してください。
+..     * アプリがデバイスの位置情報にアクセスすることが許可されているかどうかを確認してください。
+..     * 一部のモバイルデバイスでは位置情報サービスをオンにする必要があります。
+..     * 電源レベルを確認します。両方の電源インジケータがオフ、または1つだけが点滅している場合、電源レベルが低いので、バッテリーを充電してください。
+..     * 上記の方法をすべて試してもダメな場合、RSTボタンを押すか、製品とAPPを再起動してください。
 
-.. #. APP can't search Bluetooth
-..     * Turn on the product, after the current "zi~" sound, another piece of pleasant music appears; it means that EzBlock OS is downloaded incorrectly, please refer to :ref:`install_ezblock_os_3.0` to install the correct one.
-..     * whether the Bluetooth of your mobile device is turned on or not.
-..     * Whether the app is allowed to access the device's location.
-..     * Some mobile devices also require location services to be turned on.
-..     * Check the power level. If both power indicators are off, or only one is blinking; the power level is low, please charge the batteries.
-..     * If all the above methods have been tried, try to press RST button, or restart the product and APP.
+.. #. APPはBluetoothを検出するが、接続できない
+..     * 製品をオンにします。現在の"zi~"音の後に別の心地よい音楽が流れる場合、EzBlock OSが正しくダウンロードされていないことを意味します。:ref:`install_ezblock_os_3.0`を参照して正しいものをインストールしてください。
+..     * ROBOT HAT上のBLEまたはUSRのライトが常時点灯しているかどうか確認します（他のデバイスに接続されていることを意味します）。もしそうなら、他のデバイスの接続を解除するか、製品を再起動してください。
+..     * 上記の方法をすべて試してもダメな場合、RSTボタンを押すか、製品とAPPを再起動してください。
 
-.. #. The APP searches for Bluetooth, but cannot connect
-..     * Turn on the product, after the current "zi~" sound, another piece of pleasant music appears; it means that EzBlock OS is downloaded incorrectly, please refer to :ref:`install_ezblock_os_3.0` to install the correct one.
-..     * Check if the BLE or USR light on ROBOT HAT is always on (which means the product is connected by other devices), if yes, disconnect the other devices or restart the product.
-..     * If all the above methods have been tried, try to press RST button, or restart the product and APP.
+.. #. WIFIの設定後、APPが接続できない
+..     * 国名、SSID、およびPSKが正しいかどうかを確認してください。
+..     * このWIFIのネットワーク状態を確認してください。
+..     * 電源レベルを確認します。両方の電源インジケータがオフ、または1つだけが点滅している場合、電源レベルが低いので、バッテリーを充電してください。
+..     * 設定したWiFiとモバイルデバイスが接続しているWi-Fiが同じであるかどうかを確認してください。
 
-.. #. APP can't connect after configuring WIFI
-..     * Check if the country, SSID and PSK are correct.
-..     * Check the network status of this WIFI.
-..     * Check the power level. If both power indicators are off or only one power indicator is blinking; the power level is low, please charge the batteries.
-..     * Check whether the configured WiFi and the Wi-Fi connected by the mobile device are the same.

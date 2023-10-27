@@ -1,20 +1,20 @@
 .. _remote_control_latest:
 
-How to Use the Remote Control Function?
+リモートコントロール機能の使用方法は？
 ==============================================
 
-1. Enter the **Remote Control Page**.
+1. **リモートコントロールページ** に移動します。
 
     .. image:: img/img_remote1.png
 
-#. Drag the **widget** you want, the configuration will also pop up.
+2. 使いたい **ウィジェット** をドラッグします。設定も同時にポップアップ表示されます。
 
     .. image:: img/img_remote3.png
 
-#. Go back to **Programming Page**, you can see the new block appears. Complete your code please.
+3. **プログラミングページ** に戻ると、新しいブロックが表示されます。コードを完成させてください。
 
     .. image:: img/img_remote5.png
 
-#. After you run the code, go back to the **Remote Control Page**, play it.
+4. コードを実行した後、 **リモートコントロールページ** に戻って動作を確認します。
 
     .. image:: img/img_remote6.png

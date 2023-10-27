@@ -1,38 +1,38 @@
-How to Save Projects or Libraries(For Old Users)
+既存ユーザー向けプロジェクトやライブラリの保存方法
 ===========================================================
 
-EzBlock Studio will switch to offline mode starting with version 3.2, which means new users no longer need to register an account to save and transfer projects.
+EzBlock Studioはバージョン3.2からオフラインモードに移行します。これにより、新しいユーザーはプロジェクトを保存および転送するためにアカウントを登録する必要がなくなります。
 
-If you are an old user, you can still login to your account until February 28, 2023. However, it is recommended that you download the projects and libraries inside your account as soon as possible. Otherwise, all data cannot be retrieved.
+既存のユーザーの場合、2023年2月28日までアカウントにログインできます。ただし、アカウント内のプロジェクトやライブラリをできるだけ早くダウンロードすることをおすすめします。それ以降はすべてのデータを取り戻すことはできません。
 
-Now let's see how to save the projects or libraries.
+それでは、プロジェクトやライブラリを保存する方法を見てみましょう。
 
 
 
-#. Click on the icon in the top right corner to login to your account.
+#. 右上のアイコンをクリックしてアカウントにログインします。
 
     .. image:: img/login_new.png
 
-#. When you log into your account, you will see a pop-up prompt.
+#. アカウントにログインすると、ポップアップが表示されます。
 
     .. image:: img/sp221116_103418.png
 
-    * If you want to save your project locally, please click ``Save All Project Locally``, it will take you a minute, and then you will be able to access your project directly without logging in.
+    * プロジェクトをローカルに保存したい場合は、 ``Save All Project Locally`` をクリックしてください。数分で完了し、ログインせずにプロジェクトにアクセスできるようになります。
 
-    * Click ``Log out`` if you do not want to transfer items saved to the online service at this time. You can still transfer your items the next time you log in.
+    * この時点でオンラインサービスに保存されている項目を転送したくない場合は、 ``Log out`` をクリックしてください。次回ログイン時に項目を転送することもできます。
 
-    * If you no longer need the items saved to the online service, you can click ``Delete Account and Log out``.
+    * オンラインサービスに保存されている項目が不要な場合は、 ``Delete Account and Log out`` をクリックしてください。
 
-#. After clicking **Save All Porjects Locally**, you will see that it will detect all the projects and libraries in your account and download them all. The download here is not to a folder in your device, but to the **My Projects** page of the app.
+#. **Save All Projects Locally** をクリックすると、アカウント内のすべてのプロジェクトとライブラリが検出され、すべてダウンロードされます。ここでのダウンロードはデバイスのフォルダーではなく、アプリの **My Projects** ページになります。
 
     .. image:: img/ez32_download.png
 
-#. Once the download is complete, you will be prompted to go to the **My Projects** page to view the downloaded items. At this point, you can delete your account and logout, or if you are not very confident, you can just click Logout, and check the downloaded projects first.
+#. ダウンロードが完了すると、 **My Projects** ページにアクセスしてダウンロードした項目を確認するように促されます。この時点でアカウントを削除してログアウトするか、確信が持てない場合はログアウトのみをクリックして、ダウンロードしたプロジェクトを先に確認できます。
 
     .. image:: img/ez32_view.png
 
-#. Now come to the **My Projects** page to see the downloaded projects. If you have multiple products, you can go to different product pages to view the projects.
+#. **My Projects** ページにアクセスして、ダウンロードしたプロジェクトを確認します。複数の製品をお持ちの場合は、異なる製品のページに移動してプロジェクトを確認できます。
 
     .. image:: img/ez32_download_myproject.png
 
-#. At this point if you want to export your project to your mobile device or share it through other APP, you can refer to :ref:`import_export_latest`.
+#. この段階でプロジェクトをモバイルデバイスにエクスポートしたり、他のAPPを通じて共有したい場合は、 :ref:`import_export_latest` を参照してください。

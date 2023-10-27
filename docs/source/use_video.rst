@@ -1,16 +1,16 @@
 .. _video_latest:
 
-How to Use the Video Function?
+ビデオ機能の使用方法は？
 ====================================
 
-1. Drag the **camera monitor on** block to **Start**.
+1. **Start** に **camera monitor on** のブロックをドラッグします。
 
     .. image:: img/img_remote_camera1.png
 
-2. In **Remote Control Page** , drag the **Video** widget and run the project.
+2. **Remote Control Page** で、 **Video** ウィジェットをドラッグし、プロジェクトを実行します。
 
     .. image:: img/img_remote_camera2.png
 
-3. Now you can see the video.
+3. これでビデオが表示されます。
 
     .. image:: img/img_remote_camera4.png

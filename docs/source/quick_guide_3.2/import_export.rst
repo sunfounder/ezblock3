@@ -1,66 +1,63 @@
 .. _import_export_latest:
 
+プロジェクトやライブラリのインポート・エクスポート
+==================================================
 
-Import or Export Projects or Libraries
-===============================================
-
-Since it is now offline mode, you must know how to export and import the project to transfer it to other devices or share it through APPs.
+現在オフラインモードですので、他のデバイスに転送したりAPPを通じて共有したりするためにプロジェクトをエクスポートおよびインポートする方法を知っておく必要があります。
 
 .. _export_project_library:
 
-Export Projects/Libraries
-----------------------------------
-#. When you have created new projects and selected Save, you will see them in **My Projects**.
+プロジェクト/ライブラリのエクスポート
+-------------------------------------
+
+#. 新しいプロジェクトを作成し、保存を選択したとき、それらは **My Projects** で見ることができます。
 
     .. image:: img/ez32_myproject.png
 
-#. Your saved projects are sorted by product on the My Projects page, and you need to view them according to your product type.
+#. 保存したプロジェクトはMy Projectsページで製品ごとに並べられており、製品タイプに応じてそれらを表示する必要があります。
 
     .. image:: img/ez32_picarx.png
 
-#. In the top right corner of each project there is an export icon that allows you to export them individually.
+#. 各プロジェクトの右上隅には、それらを個別にエクスポートすることを可能にするエクスポートアイコンがあります。
 
     .. image:: img/export_icon.png
 
-#. After clicking on it, a pop-up window will appear and you can choose to share the exported project file (``.ezbpro``) through different APPs. Or choose **Save to Files** to export the project to your device.
+#. クリックすると、ポップアップウィンドウが表示され、異なるAPPを介してエクスポートされたプロジェクトファイル(``.ezbpro``)を共有するか、または **Save to Files** を選択してプロジェクトをデバイスにエクスポートすることができます。
 
     .. image:: img/save_to_single.png
 
-#. If you want to export multiple items at once, you can click the **Select** option.
+#. 複数の項目を一度にエクスポートしたい場合、 **Select** オプションをクリックできます。
 
     .. image:: img/click_select.png
 
-#. Now select the projects you want to export, or use the **Select All** button.
+#. 今、エクスポートしたいプロジェクトを選択するか、 **Select All** ボタンを使用します。
 
     .. image:: img/select_all.png
 
-#. Once you've made your selection, click the **Export** icon to share the package (``.zip``) with different APPs, or select **Save to Files** to export them to your device.
+#. 選択を終えたら、 **Export** アイコンをクリックして異なるAPPとパッケージ(``.zip``)を共有するか、または **Save to Files** を選択してそれらをデバイスにエクスポートします。
 
     .. image:: img/export_zip.png
 
-#. Library exports are done in the same way, but are exported individually in ``.ezblib`` format and in multiple files in ``.zip`` format.
-
+#. ライブラリのエクスポートも同様の方法で行われますが、 ``.ezblib`` 形式で個別にエクスポートされ、 ``.zip`` 形式で複数のファイルにエクスポートされます。
 
 .. _import_project_library:
 
-Import Projects/Libraries
-----------------------------
+プロジェクト/ライブラリのインポート
+------------------------------------
 
-Now let's learn how to import projects or libraries into EzBlock Studio.
+次に、EzBlock Studioにプロジェクトやライブラリをインポートする方法を学びましょう。
 
-#. Open the **My Projects** page, click the **Import** icon and select **Choose File**. The **Import Project** button on the home page is the same function.
+#. **My Projects** ページを開き、 **Import** アイコンをクリックして **Choose File** を選択します。ホームページの **Import Project** ボタンも同じ機能です。
 
     .. image:: img/import_icon.png
 
-#. In EzBlock Studio, you can only import ``.ezbpro``, ``.ezblib`` and batch exported ``.zip`` format files from EzBlock Studio. Other files cannot be imported.
+#. EzBlock Studioでは、EzBlock Studioからバッチエクスポートされた ``.ezbpro`` 、 ``.ezblib`` 、 ``.zip`` 形式のファイルのみをインポートできます。他のファイルはインポートできません。
 
     .. image:: img/import_file.png
 
-#. If the project or library you are importing has the same contents as the project in EzBlock Studio, there will be a pop-up window reminding you to **Keep both**, **Skip** or **Replace**.
+#. インポートしているプロジェクトやライブラリがEzBlock Studioのプロジェクトと同じ内容の場合、 **Keep both** 、 **Skip** 、または **Replace** を選択するようにポップアップウィンドウが表示されます。
 
     .. image:: img/import_same.png
 
-#. Then they will be imported into different product categories depending on your files.
-
-
+#. それらは、ファイルに応じて異なる製品カテゴリにインポートされます。
 

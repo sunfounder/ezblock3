@@ -1,132 +1,119 @@
-Ezblock Studio Release Notes
+Ezblock Studio リリースノート
 =====================================
-
-
 
 EzBlock Studio 3.2
 -----------------------------------------------
 
-EzBlock Studio will be switched to offline mode from version 3.2 and the online service will be closed on 2023/2/28 for user-friendly use. Thus, you can save your projects locally without registering and import them on different devices later.
+EzBlock Studioはバージョン3.2からオフラインモードに移行し、ユーザーフレンドリーな使用のために2023年2月28日にオンラインサービスを終了します。そのため、登録せずにプロジェクトをローカルに保存し、後で別のデバイスでインポートすることができます。
 
+**詳細情報**
 
-**Detailed Information**
-
-* After EzBlock Studio goes to offline mode, old users can continue to log in and save cloud projects to local, but all new projects will be saved locally.
-* Registration portal is closed. New users are no longer required to register an account to use EzBlock's project saving feature.
-* Add project import and export function in ``.ezbpro`` format, which allows you to transfer projects between devices or share projects with others.
-* Libraries can also be imported and exported in ``.ezblib`` format for transfer and sharing.
+* EzBlock Studioがオフラインモードになった後、古いユーザーはログインして続けることができ、クラウドプロジェクトをローカルに保存することができますが、すべての新しいプロジェクトはローカルに保存されます。
+* 登録ポータルは閉鎖されます。新しいユーザーは、EzBlockのプロジェクト保存機能を使用するためにアカウントを登録する必要はありません。
+* ``.ezbpro`` 形式でのプロジェクトのインポートおよびエクスポート機能を追加し、デバイス間でのプロジェクトの転送や他の人とのプロジェクトの共有を可能にします。
+* また、 ``.ezblib`` 形式でライブラリもインポートおよびエクスポートされ、転送および共有ができます。
 
 **FAQ**
 
-* What happens to my account?
+* 私のアカウントには何が起こりますか？
 
-    You have until February 28, 2023 to save all your projects in the cloud locally. Here's how to do it: Sign in to your account on EzBlock Studio and select "Save all projects locally" in the pop-up window to save all your cloud projects to My Projects page in one click, then export to your device's folder or share them through the app using the Export button.
+    2023年2月28日まで、クラウド内のすべてのプロジェクトをローカルに保存する時間があります。方法は次のとおりです：EzBlock Studioでアカウントにサインインし、ポップアップウィンドウで「すべてのプロジェクトをローカルに保存」を選択し、クラウドプロジェクトを一度に「My Projects」ページに保存して、エクスポートボタンを使用してデバイスのフォルダにエクスポートしたり、アプリを通じて共有したりします。
 
-    After that, EzBlock Studio will close the online service and clear all online data. You can also delete all your data by clicking the "Delete Account and Log out" button after you have saved all your projects and libraries.
+    その後、EzBlock Studioはオンラインサービスを閉鎖し、すべてのオンラインデータをクリアします。すべてのプロジェクトとライブラリを保存した後、「アカウントを削除してログアウト」ボタンをクリックすることで、すべてのデータを削除することもできます。
 
-* How is the web version of EzBlock Studio?
+* EzBlock Studioのウェブ版はどうですか？
 
-    You can still access EzBlock Studio via the web page at http://ezblock.cc/ezblock-studio after upgrading to version 3.2.
+    バージョン3.2にアップグレードした後も、 http://ezblock.cc/ezblock-studio のウェブページでEzBlock Studioにアクセスできます。
 
-    Data will be saved in your browser, so be sure to clear your browser data. Of course, you can export your project or library to your computer for sharing.
+    データはブラウザに保存されるので、ブラウザのデータをクリアすることを忘れないでください。もちろん、コンピュータにプロジェクトやライブラリをエクスポートして共有することができます。
 
-* How to transfer projects and libraries between devices?
+* デバイス間でプロジェクトとライブラリを転送する方法は？
 
-    After exporting projects to ``.ezbpro`` format and libraries to ``.ezblib`` format, you can transfer them to other devices and then import them.
+    プロジェクトを ``.ezbpro`` 形式、ライブラリを ``.ezblib`` 形式でエクスポートした後、他のデバイスに転送してからインポートできます。
 
+* ライブラリ/プロジェクトをエクスポートする方法は？
 
-* How to export libraries/projects?
+    詳細なチュートリアルについては、次のリンクを参照してください: :ref:`export_project_library`。
 
+* ライブラリ/プロジェクトをインポートする方法は？
 
-    For a detailed tutorial, please refer to: :ref:`export_project_library`.
-
-
-* How to import libraries/projects?
-
-
-    For a detailed tutorial, please refer to: :ref:`import_project_library`.
-
-
+    詳細なチュートリアルについては、次のリンクを参照してください: :ref:`import_project_library`。
 
 EzBlock Studio 3.1
 -----------------------------------------------
 
-**Main Optimization**
+**主な最適化**
 
-The main optimization of EzBlock 3.1 is the compatibility with the built-in Bluetooth of the Raspberry Pi, no need to use an expansion board with Bluetooth module. 
+EzBlock 3.1の主な最適化は、Raspberry Piの内蔵Bluetoothとの互換性で、Bluetoothモジュールを備えた拡張ボードを使用する必要はありません。
 
 .. note::
-    * The old version of the robot can also be used normally after burning the new image. The bluetooth module on the original robot hat will not conflict with the new system.
+    * 新しいイメージを焼く後も、古いバージョンのロボットは正常に使用することができます。元のロボットハットのBluetoothモジュールは、新しいシステムと競合することはありません。
 
-    * The EzBlock Studio 3.1 version should be used with the EBlock 3.1 image (https://ezblock.cc/download/v31.html).
+    * EzBlock Studio 3.1のバージョンは、EBlock 3.1のイメージ(https://ezblock.cc/download/v31.html)と一緒に使用すべきです。
 
-**Add**
+**追加**
 
-* A custom Bluetooth name function has been added to the app to avoid the problem that multiple devices are indistinguishable. (Reboot to take effect.)
-* Added three sound effects for boot, successful connection, and disconnection, which gives more feedback.
-* The LED next to the power indicator will be used as a bluetooth indicator, which is always on when connected and flashes slowly when not connected.
-* (**Android**) Add a full-screen input box to prevent the input box from being blocked.
+* アプリにカスタムBluetooth名の機能が追加され、複数のデバイスが区別できない問題を回避します。(再起動して効果を適用します。)
+* 起動時、成功した接続時、および切断時に3つのサウンドエフェクトを追加し、より多くのフィードバックを提供します。
+* 電源インジケーターの隣のLEDはBluetoothインジケータとして使用され、接続されていると常に点灯し、接続されていないとゆっくり点滅します。
+* (**Android**) 入力ボックスがブロックされるのを防ぐために、フルスクリーン入力ボックスを追加しました。
 
 
-**Optimization**
 
-* Optimize the battery display, now you can see more accurate information on the APP.
-* Optimize the display of product example images and personal information icons.
+**最適化**
 
-**Fix**
+* バッテリー表示を最適化し、アプリでより正確な情報が表示できるようになりました。
+* 製品のサンプル画像や個人情報アイコンの表示を最適化しました。
 
-* Fix a series of problems of Bluetooth search and Bluetooth connection.
-* Fix the problem that the product name is not displayed after the wifi configuration.
-* Fix the problem of product information not being saved after modification.
-* Fix the problem that the picture cannot be saved after taking pictures in the remote control page.
+**修正**
+
+* Bluetoothの検索や接続に関連する一連の問題を修正しました。
+* Wi-Fi設定後に製品名が表示されない問題を修正しました。
+* 変更後に製品情報が保存されない問題を修正しました。
+* リモートコントロールページで写真を撮影後に画像が保存できない問題を修正しました。
 
 EzBlock Studio 3 2021.06.08
------------------------------
+------------------------------
 
-**Improve the product connection**
+**製品接続の向上**
 
-* Improve the connection method: Compared with the Bluetooth communication of EzBlock 2, EzBlock 3 uses Websocket to communicate, which is much faster.
-* Improve the connection process: EzBlock 3 uses Bluetooth to assist with the product's fast Wi-Fi connection.
+* 接続方法を改善：EzBlock 2のBluetooth通信と比べ、EzBlock 3はWebsocketを使用して通信し、速度が大幅に向上しています。
+* 接続プロセスを改善：EzBlock 3はBluetoothを使用して製品の高速Wi-Fi接続を補助します。
 
+**ホームページ**
 
-**Home Page**
+- カルーセルを削除しました。
+- 製品選択ページを削除し、ポップアップウィンドウに変更しました。
+- ホームページにアクセスするためのログイン要求を削除しました。
 
+- 「My Project」エントリを追加しました。
+- 製品情報のポップアップウィンドウボタンを追加しました。このポップアップウィンドウは、製品名、製品タイプ、IP、バージョン、動作電圧、および電源を表示するためのものです。
+- 製品画像のオンライン更新機能を追加しました。
+- 製品のキャリブレーション機能を追加しました。
+- 製品名の変更機能を追加しました。
+- 左上隅に「Menu」機能を追加しました。
 
-- Remove the carousel.
-- Remove the product selection page and change it to a pop-up window.
-- Remove the way you must log in to get to the home page.
+- 「New Project」ボタン用のポップアップウィンドウを最適化しました。
 
-- Add My Project entry.
-- Add Product Information pop-up window button. This Product Information pop-up window is used to show the product name, product type, IP, version, working voltage, and power.
-- Add online update function of product image.
-- Add product calibration function.
-- Add product name modification function.
-- Add the Menu function in the upper left corner.
+**サンプルページ**
 
-- Optimize the pop-up window for New Project button.
+* UIを美しくしました。
+* クイックラン/編集ボタンを追加しました。
+* リモートコントロールまたはIoTのプロンプトアイコンを追加しました。
 
+**プログラミングページ**
 
-**Examples Page**
+* プログラミング、IoT、リモートコントロール、デバッグモニタボタンの配置を最適化しました。
+* 左上隅に製品接続ボタンを追加しました。
+* Stop/Runプログラムボタンを追加しました。
+* プロジェクトを保存し、IoTページに入るためには、アカウントにログインしていることを確認してください。
 
-* Beautify the UI.
-* Add quick run/edit button.
-* Add remote control or IoT prompt icon.
+**個人情報ページ**
 
-**Programming Page**
+* 設定ページを削除しました。
+* 「My Project」ページに製品カテゴリ機能を追加しました。
 
-* Optimize the arrangement of Programming, IoT, Remote Control and Debug Monitor buttons.
-* Add product connect button in the top left corner.
-* Add Stop/Run program button.
-* To save the project and enter the IoT page, make sure that you have logged in to your account.
+**その他**
 
-
-**Personal Info Page**
-
-* Remove the settings page.
-* Add product category function to My Project page.
-
-
-**Other**
-
-* Change the font of all pages.
-* Add the function of entering IP or hostname on the web to connect to the product.
+* すべてのページのフォントを変更しました。
+* Web上でIPまたはホスト名を入力して製品に接続する機能を追加しました。

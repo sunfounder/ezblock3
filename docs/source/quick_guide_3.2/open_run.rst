@@ -1,14 +1,14 @@
 .. _open_run_latest:
 
-Open and Run Examples
+サンプルの開くと実行
 =======================================
 
-1. On the homepage, click **Examples** to enter the Examples page. If you just need to simply test these examples, you only need to click **Run** to make your product work.
+1. ホームページで、 **Examples** をクリックしてサンプルページに進みます。これらのサンプルを単純にテストしたいだけの場合、 **Run** をクリックするだけで製品を動作させることができます。
 
     .. image:: img/imgIMG_0392.PNG
         :align: center
 
-#. If you want to view and modify the code inside, then you need to click **Edit**. The following picture is the programming page.
+#. コードの中身を見たり、変更したりしたい場合、 **Edit** をクリックする必要があります。以下の画像はプログラミングページのものです。
 
     .. image:: img/imgIMG_0393.PNG
         :align: center

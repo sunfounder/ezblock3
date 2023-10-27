@@ -1,34 +1,34 @@
 .. _use_on_web_latest:
 
-How to use EzBlock in a Browser
+ブラウザでEzBlockを使用する方法
 ===========================================
 
-In addition to using EzBlock Studio on a mobile device, you can also use it in a browser.
+EzBlock Studioをモバイルデバイスで使用するだけでなく、ブラウザでも利用できます。
 
-The steps are as follows:
+手順は以下の通りです：
 
-1. First, you need to :ref:`install_ezblock_os_latest`. During this time you can set a hostname to connect to your Raspberry Pi in the browser.
+1. まず、 :ref:`install_ezblock_os_latest` をインストールする必要があります。この間、ブラウザでRaspberry Piに接続するためのホスト名を設定できます。
 
-#. Open the browser and enter the following URL. Google Chrome is recommended.
+#. ブラウザを開き、以下のURLを入力します。Google Chromeの使用を推奨します。
 
     http://ezblock.cc/ezblock-studio
 
-#. Then click the **connect** icon in the upper left corner.
+#. 左上の **connect** アイコンをクリックします。
 
     .. image:: img/click_connect.png
 
-#. And click **Connect**.
+#. そして、 **Connect** をクリックします。
 
     .. image:: img/web3.png
 
-#. Enter the IP/Hostname, or enter the name you have given to the product.
+#. IP/ホスト名を入力するか、製品に付けた名前を入力します。
 
     .. image:: img/web4.png
 
     .. note::
 
-        If you have already connected your product on your mobile device, you can click the product icon in the upper left corner to get the IP.
+        モバイルデバイスで製品に既に接続している場合、左上の製品アイコンをクリックしてIPを取得できます。
 
         .. image:: img/IMG_0458.PNG
 
-#. When prompted that the connection is successful, you can run the examples or create your own porjects.
+#. 接続が成功したことが表示されたら、例を実行するか、独自のプロジェクトを作成することができます。
