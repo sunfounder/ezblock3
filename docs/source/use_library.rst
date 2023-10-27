@@ -1,25 +1,26 @@
 .. _library_function_latest:
 
-How to Use Library Function?
+Wie nutzt man die Bibliotheksfunktion?
 ======================================
 
-When you need to reuse the same code in multiple projects, you can use the library function in the menu.
+Wenn Sie denselben Code in mehreren Projekten wiederverwenden möchten, können Sie die Bibliotheksfunktion im Menü verwenden.
 
 .. image:: img/sp210809_111713.png
 
-After writing the function, click create library in the Menu and select the function you want.
+Nachdem Sie die Funktion verfasst haben, klicken Sie im Menü auf Bibliothek erstellen und wählen die gewünschte Funktion aus.
 
 .. image:: img/create_libraries.png
 
-Fill in a description for your library.
+Geben Sie eine Beschreibung für Ihre Bibliothek ein.
 
 .. image:: img/sp210805_150848.png
 
-When using it, click **Import Library** in the **Menu**. Find the one you want and click on **Import**.
+Um sie zu verwenden, klicken Sie im **Menu** auf **Import Library**. Finden Sie die gewünschte und klicken auf **Import**.
 
 .. image:: img/sp210805_151150.png
 
-The results are as follows. You can click Expand Block to see the content of the function.
+Die Ergebnisse sehen wie folgt aus. Sie können auf Block erweitern klicken, um den Inhalt der Funktion zu sehen.
 
 .. image:: img/sp210805_151105.png
+
 

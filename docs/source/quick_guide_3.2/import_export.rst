@@ -1,66 +1,66 @@
 .. _import_export_latest:
 
 
-Import or Export Projects or Libraries
-===============================================
+Projekte oder Bibliotheken importieren oder exportieren
+===========================================================
 
-Since it is now offline mode, you must know how to export and import the project to transfer it to other devices or share it through APPs.
+Da es sich jetzt um einen Offline-Modus handelt, müssen Sie wissen, wie man das Projekt exportiert und importiert, um es auf andere Geräte zu übertragen oder es über Apps zu teilen.
 
 .. _export_project_library:
 
-Export Projects/Libraries
+Projekte/Bibliotheken exportieren
 ----------------------------------
-#. When you have created new projects and selected Save, you will see them in **My Projects**.
+#. Wenn Sie neue Projekte erstellt und gespeichert haben, finden Sie diese unter **My Projects**.
 
     .. image:: img/ez32_myproject.png
 
-#. Your saved projects are sorted by product on the My Projects page, and you need to view them according to your product type.
+#. Ihre gespeicherten Projekte werden nach Produkt auf der Seite Meine Projekte sortiert. Sie müssen sie entsprechend Ihrem Produkttyp anzeigen.
 
     .. image:: img/ez32_picarx.png
 
-#. In the top right corner of each project there is an export icon that allows you to export them individually.
+#. In der oberen rechten Ecke jedes Projekts gibt es ein Export-Symbol, mit dem Sie diese einzeln exportieren können.
 
     .. image:: img/export_icon.png
 
-#. After clicking on it, a pop-up window will appear and you can choose to share the exported project file (``.ezbpro``) through different APPs. Or choose **Save to Files** to export the project to your device.
+#. Nachdem Sie darauf geklickt haben, erscheint ein Pop-up-Fenster, und Sie können das exportierte Projektfile (``.ezbpro``) über verschiedene Apps teilen. Oder wählen Sie **Save to Files**, um das Projekt auf Ihr Gerät zu exportieren.
 
     .. image:: img/save_to_single.png
 
-#. If you want to export multiple items at once, you can click the **Select** option.
+#. Wenn Sie mehrere Elemente auf einmal exportieren möchten, klicken Sie auf die Option **Select**.
 
     .. image:: img/click_select.png
 
-#. Now select the projects you want to export, or use the **Select All** button.
+#. Wählen Sie nun die Projekte aus, die Sie exportieren möchten, oder verwenden Sie die Schaltfläche **Select All**.
 
     .. image:: img/select_all.png
 
-#. Once you've made your selection, click the **Export** icon to share the package (``.zip``) with different APPs, or select **Save to Files** to export them to your device.
+#. Nachdem Sie Ihre Auswahl getroffen haben, klicken Sie auf das **Export**-Symbol, um das Paket (``.zip``) über verschiedene Apps zu teilen, oder wählen Sie **Save to Files**, um sie auf Ihr Gerät zu exportieren.
 
     .. image:: img/export_zip.png
 
-#. Library exports are done in the same way, but are exported individually in ``.ezblib`` format and in multiple files in ``.zip`` format.
-
+#. Das Exportieren von Bibliotheken erfolgt auf die gleiche Weise, sie werden jedoch einzeln im Format ``.ezblib`` und in mehreren Dateien im Format ``.zip`` exportiert.
 
 .. _import_project_library:
 
-Import Projects/Libraries
-----------------------------
+Projekte/Bibliotheken importieren
+-------------------------------------
 
-Now let's learn how to import projects or libraries into EzBlock Studio.
+Jetzt lernen wir, wie man Projekte oder Bibliotheken in EzBlock Studio importiert.
 
-#. Open the **My Projects** page, click the **Import** icon and select **Choose File**. The **Import Project** button on the home page is the same function.
+#. Öffnen Sie die Seite **My Projects**, klicken Sie auf das **Import**-Symbol und wählen Sie **Choose File**. Die Schaltfläche **Import Project** auf der Startseite hat die gleiche Funktion.
 
     .. image:: img/import_icon.png
 
-#. In EzBlock Studio, you can only import ``.ezbpro``, ``.ezblib`` and batch exported ``.zip`` format files from EzBlock Studio. Other files cannot be imported.
+#. In EzBlock Studio können Sie nur ``.ezbpro``, ``.ezblib`` und im Batch exportierte ``.zip`` Formatdateien aus EzBlock Studio importieren. Andere Dateien können nicht importiert werden.
 
     .. image:: img/import_file.png
 
-#. If the project or library you are importing has the same contents as the project in EzBlock Studio, there will be a pop-up window reminding you to **Keep both**, **Skip** or **Replace**.
+#. Wenn das Projekt oder die Bibliothek, die Sie importieren, denselben Inhalt wie das Projekt in EzBlock Studio hat, erscheint ein Pop-up-Fenster, das Sie daran erinnert, **Keep both**, **Skip** oder **Replace** zu wählen.
 
     .. image:: img/import_same.png
 
-#. Then they will be imported into different product categories depending on your files.
+#. Anschließend werden sie je nach Ihren Dateien in verschiedene Produktkategorien importiert.
+
 
 
 

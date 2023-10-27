@@ -1,31 +1,30 @@
 .. _create_project_latest:
 
-How to Create a New Project?
-=================================
+Wie erstellt man ein neues Projekt?
+======================================
 
-1. Click **New Project** on the homepage.
+1. Klicken Sie auf der Startseite auf **New Project**.
 
     .. image:: img/sp221115_161408.png
 
-#. Enter the project name, select the programming mode (for novices, Block is recommended), and Confirm.
+#. Geben Sie den Projektnamen ein, wählen Sie den Programmiermodus (für Anfänger wird der Blockmodus empfohlen) und bestätigen Sie.
 
     .. image:: img/img_new_project2.png
 
-#. Now we get to the programming page.
+#. Nun gelangen wir zur Programmierseite.
 
     .. image:: img/img_new_project3.png
 
-#.  Drag and drop **block** to program. Then click the icon at the bottom right to run.
+#. Ziehen Sie den **block** per Drag-and-Drop, um zu programmieren. Klicken Sie dann auf das Symbol unten rechts, um das Programm auszuführen.
 
     .. image:: img/img_new_project4.png
 
-#. After you're done programming, you can simply exit and click Save. For more options, click the menu in the upper right corner.
+#. Nachdem Sie mit dem Programmieren fertig sind, können Sie einfach beenden und auf Speichern klicken. Für weitere Optionen klicken Sie auf das Menü in der oberen rechten Ecke.
 
-    * **Save**: Saves the current project to the **My Projects** page.
-    * **Save As**: Saves this project to **My Projects** with a new name.
-    * **Save As File**: Save to the device's folder. The project (``.ezbpro``) is downloaded to your computer if you are using Web access to EzBlock Studio. With a mobile device, you can save the project (``.ezbpro``) to the device folder or share it with the app.
+    * **Save**: Speichert das aktuelle Projekt auf der Seite **My Projects**.
+    * **Save As**: Speichert dieses Projekt mit einem neuen Namen auf **My Projects**.
+    * **Save As File**: Speichert im Ordner des Geräts. Das Projekt (``.ezbpro``) wird auf Ihren Computer heruntergeladen, wenn Sie über den Webzugriff auf EzBlock Studio zugreifen. Mit einem mobilen Gerät können Sie das Projekt (``.ezbpro``) im Geräteordner speichern oder es mit der App teilen.
 
 
     .. image:: img/img_new_project5.png
-
 

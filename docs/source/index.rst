@@ -1,26 +1,24 @@
-
 Ezblock Studio 3
 ==================================================
 
-**EzBlock Studio** is a development platform developed by SunFounder designed for beginners to lower the barriers to getting started with Raspberry Pi. 
+**EzBlock Studio** ist eine Entwicklungsplattform von SunFounder für Anfänger entwickelt, um den Einstieg in den Raspberry Pi zu erleichtern.
 
-It has two programming languages: Graphical and Python, and available on almost all different types of devices.
+Es unterstützt zwei Programmiersprachen: Grafisch und Python und ist auf fast allen verschiedenen Gerätetypen verfügbar.
 
-With Bluetooth and Wi-Fi support, you can download code, remote control a Raspberry Pi, on EzBlock Studio.
+Mit Bluetooth- und Wi-Fi-Unterstützung können Sie Code herunterladen und einen Raspberry Pi aus der Ferne über EzBlock Studio steuern.
 
-This includes the quick start guide of EzBlock Studio and other basic operations. Later we will add the use of each page and the introduction of related block or python functions.
+Hier finden Sie die Schnellstartanleitung für EzBlock Studio und weitere grundlegende Funktionen. Später werden wir die Nutzung jeder Seite hinzufügen und eine Einführung in die jeweiligen Blöcke oder Python-Funktionen geben.
 
-Please do not hesitate to point out any inconveniences or errors, and any suggestions are welcome.
+Bitte zögern Sie nicht, jegliche Unannehmlichkeiten oder Fehler zu melden. Alle Vorschläge sind willkommen.
 
-Here is the Email: cs@sunfounder.com.
+Hier ist die E-Mail-Adresse: cs@sunfounder.com.
 
 .. toctree::
     :maxdepth: 2
 
+    Über dieses Kit <self>
 
-    About this Kit <self>
-
-**Quick Guide :**
+**Schnellstartanleitung:**
 
 .. toctree::
     :maxdepth: 3
@@ -28,7 +26,7 @@ Here is the Email: cs@sunfounder.com.
     quick_guide_3.2/quick_guide_3.2
 
 
-**How to ... :**
+**So geht's ... :**
 
 .. toctree::
     :maxdepth: 3
@@ -40,7 +38,7 @@ Here is the Email: cs@sunfounder.com.
     remote
     use_library
 
-**Interface:**
+**Benutzeroberfläche:**
 
 .. toctree::
     :maxdepth: 3
@@ -49,8 +47,7 @@ Here is the Email: cs@sunfounder.com.
     programming_page
 
 
-
-**Release Note**
+**Versionshinweise**
   
 .. toctree::
     :maxdepth: 3

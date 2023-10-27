@@ -1,101 +1,93 @@
 .. _connect_product_ezblock_latest:
 
-Connect the Product and EzBlock
+Produkt und EzBlock verbinden
 =====================================================
 
-#. Toggle the power switch of the Robot HAT to the ON position. After a while, you will hear a power-on sound, which means the Raspberry Pi has been successfully started.
+#. Schalten Sie den Stromschalter des Robot HAT in die ON-Position. Nach einer Weile hören Sie ein Einschaltgeräusch, was bedeutet, dass der Raspberry Pi erfolgreich gestartet wurde.
 
     .. image:: img/slide_to_power.png
             :align: center
 
-#. Connect your mobile device (phone/tablet) to WiFi and turn on Bluetooth.
+#. Verbinden Sie Ihr mobiles Gerät (Handy/Tablet) mit dem WLAN und schalten Sie Bluetooth ein.
 
     .. image:: img/open_wif_bluetooth.jpg
         :align: center
 
-#. Now open the APP-EzBlock Studio, you will be prompted to allow EzBlock Studio access to the following 2 permissions.
+#. Öffnen Sie nun die APP-EzBlock Studio. Es wird Sie aufgefordert, dem EzBlock Studio den Zugriff auf die folgenden 2 Berechtigungen zu gewähren.
     
-    * Access photos, media and files on your device: If you are logged in and need to change your avatar, the APP needs access to your device's photos; when you use the product's photo feature, the APP needs this permission to save the photos.
-    * Access your device's location: This permission must be selected as **Allow**, otherwise APP will not be able to connect to the product via Bluetooth.
-
+    * Zugriff auf Fotos, Medien und Dateien auf Ihrem Gerät: Wenn Sie angemeldet sind und Ihr Avatar ändern möchten, benötigt die APP Zugriff auf Ihre Gerätefotos. Wenn Sie die Fotofunktion des Produkts verwenden, benötigt die APP diese Berechtigung, um die Fotos zu speichern.
+    * Zugriff auf den Standort Ihres Geräts: Diese Berechtigung muss als **Allow** ausgewählt werden, sonst kann die APP nicht über Bluetooth mit dem Produkt verbinden.
 
     .. image:: img/allow_access.jpg
         :align: center
 
-#. Click the Connect icon in the upper left corner.
+#. Klicken Sie auf das Verbindungssymbol in der oberen linken Ecke.
 
     .. image:: img/sp221115_143525.png
         :align: center
 
-#. On the pop-up page, click Connect.
+#. Auf der aufklappenden Seite klicken Sie auf Verbinden.
 
     .. image:: img/click_connect.jpg
         :align: center
 
-
-
-#. Now enter the Bluetooth connection page, it will automatically search for the corresponding Bluetooth, usually the product name is ezb-Raspberry, but the MAC address is different for different products. If you have more than one product, you can identify it by MAC address. Also this Bluetooth name can be changed in the next steps.
+#. Nun gelangen Sie auf die Bluetooth-Verbindungsseite. Es wird automatisch nach dem entsprechenden Bluetooth gesucht, normalerweise ist der Produktname ezb-Raspberry, aber die MAC-Adresse ist für verschiedene Produkte unterschiedlich. Wenn Sie mehr als ein Produkt haben, können Sie es anhand der MAC-Adresse identifizieren. Auch dieser Bluetooth-Name kann in den nächsten Schritten geändert werden.
 
     .. image:: img/connect_bluetooth.jpg
         :align: center
 
-
-#. When the connection is successful, your product will make a "ding dong" sound and the app will prompt that the connection is successful.
+#. Wenn die Verbindung erfolgreich ist, gibt Ihr Produkt ein "Ding-Dong" Geräusch von sich und die App wird anzeigen, dass die Verbindung erfolgreich war.
 
     .. image:: img/connect_success.jpg
         :align: center
 
-
-#. If this is your first time using this product, you will be prompted for a quick configuration of it.
+#. Wenn Sie dieses Produkt zum ersten Mal verwenden, werden Sie zur schnellen Konfiguration desselben aufgefordert.
 
     .. image:: img/config.jpg
         :align: center
 
-#. Enter your Wi-Fi account and password.
+
+#. Geben Sie Ihr WLAN-Konto und Passwort ein.
 
     .. Note::
 
-        * If you have already configured Wi-Fi on the **Raspberry Pi Imager**, then this step will not appear and you will go directly to the next step.
-        * This step is to configure WiFi for the Raspberry Pi, which needs to be the same WiFi network as your mobile device (phone/tablet).
-
+        * Wenn Sie bereits das WLAN im **Raspberry Pi Imager** konfiguriert haben, erscheint dieser Schritt nicht und Sie gehen direkt zum nächsten Schritt.
+        * Dieser Schritt dient zur Konfiguration des WLANs für den Raspberry Pi. Dies sollte dasselbe WLAN-Netzwerk sein, mit dem auch Ihr mobiles Gerät (Handy/Tablet) verbunden ist.
 
     .. image:: img/connect_wifi.jpg
         :align: center
 
-
-#. Select the matching product.
+#. Wählen Sie das passende Produkt aus.
 
     .. image:: img/select_product.jpg
         :align: center
 
-
-#. Give your product a unique name, which will be your Bluetooth name ( takes effect after restarting the product and app) and can also be used as hostname when you use EzBlock on a browser, see :ref:`use_on_web_latest` for more details.
+#. Geben Sie Ihrem Produkt einen einzigartigen Namen. Dieser wird Ihr Bluetooth-Name sein (wird wirksam nach Neustart des Produkts und der App) und kann auch als Hostname verwendet werden, wenn Sie EzBlock in einem Browser nutzen. Siehe :ref:`use_on_web_latest` für weitere Informationen.
 
     .. image:: img/set_name.jpg
         :align: center
 
-
-#. If your product needs to be calibrated, there will be a prompt telling you that you can enter the calibration page by clicking **Calibration Now**. If it is not needed, the pop-up window disappears and returns to the home page.
+#. Falls Ihr Produkt kalibriert werden muss, erhalten Sie eine Aufforderung, dass Sie durch Klicken auf **Calibration Now** zur Kalibrierungsseite gelangen können. Wenn keine Kalibrierung notwendig ist, verschwindet das Pop-up-Fenster und Sie gelangen zurück zur Startseite.
 
     .. image:: img/calibration.jpg
         :align: center
 
-#. The calibration page of each product is different, but there is a reminder which part needs to be calibrated. You can click the corresponding part, and then refer to the **Calibration Help** to calibrate. After the calibration is completed, click **Comfirm**.
+#. Die Kalibrierungsseite jedes Produkts ist unterschiedlich, jedoch gibt es eine Erinnerung, welcher Teil kalibriert werden muss. Sie können den entsprechenden Teil anklicken und sich dann an die **Calibration Help** halten. Nach Abschluss der Kalibrierung klicken Sie auf **Comfirm**.
 
     .. image:: img/cali_page.jpg
         :align: center
 
 .. note::
-    If you want to recalibrate the robot during use, please follow the steps below.
+    Wenn Sie den Roboter während der Nutzung erneut kalibrieren möchten, folgen Sie bitte den unten stehenden Schritten.
     
-    You can open the product detail page by clicking the connect icon in the upper left corner.
+    Sie können die Produktdetailseite öffnen, indem Sie das Verbindungssymbol in der oberen linken Ecke anklicken.
 
     .. image:: img/calibrate0.png
 
-    Click the **Settings** button.
+    Klicken Sie auf den Button **Settings**.
 
     .. image:: img/calibrate1.png
 
-    On this page, you can change the product name, product type, view the app version or calibrate the robot. Once you click on **Calibrate** you can go to the calibration page.
+    Auf dieser Seite können Sie den Produktnamen ändern, den Produkttyp auswählen, die App-Version ansehen oder den Roboter kalibrieren. Wenn Sie auf **Calibrate** klicken, gelangen Sie zur Kalibrierungsseite.
 
     .. image:: img/calibrate2.png

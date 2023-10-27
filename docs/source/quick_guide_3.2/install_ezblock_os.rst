@@ -1,71 +1,68 @@
 .. _install_ezblock_os_latest:
 
-Install EzBlock OS
+EzBlock OS installieren
 ===========================
 
-#. Download the **Raspberry Pi OS with EzBlock Pre-installed** image file here: 
+#. Laden Sie die Datei **Raspberry Pi OS mit vorinstalliertem EzBlock** hier herunter:
 
     https://ezblock.cc/download/v31.html
 
-
-#. Unzip the package downloaded and you will see the ``.img`` file inside.
+#. Entpacken Sie das heruntergeladene Paket und Sie werden die ``.img`` Datei darin finden.
 
     .. note::
-        Do not extract the .img file.
+        Extrahieren Sie die .img Datei nicht.
 
-
-#. Downlaod the tool - **Raspberry Pi Imager** from https://www.raspberrypi.org/software/. Click on the link for the Raspberry Pi Imager that matches your operating system, when the download finishes, click it to launch the installer.
+#. Laden Sie das Tool - **Raspberry Pi Imager** von https://www.raspberrypi.org/software/ herunter. Klicken Sie auf den Link zum Raspberry Pi Imager, der zu Ihrem Betriebssystem passt. Nach dem Herunterladen klicken Sie darauf, um den Installer zu starten.
 
     .. image:: img/image11.png
         :align: center
 
-#. When you launch the installer, your operating system may try to block you from running it. For example, on Windows I receive the following message. If this pops up, click on **More info** and then **Run anyway**, then follow the instructions to install the Raspberry Pi Imager.
-    
+#. Wenn Sie den Installer starten, versucht Ihr Betriebssystem möglicherweise, Sie am Ausführen zu hindern. Zum Beispiel erhalte ich unter Windows folgende Nachricht. Wenn dieses Fenster erscheint, klicken Sie auf **More info** und dann auf **Run anyway** und folgen Sie den Anweisungen, um den Raspberry Pi Imager zu installieren.
+
     .. image:: img/image12.png
         :align: center
 
-#. Insert your SD card into the computer or laptop SD card slot. Then open Raspberry Pi Imager and click **CHOOSE OS**.
+#. Legen Sie Ihre SD-Karte in den SD-Karten-Slot Ihres Computers oder Laptops. Dann öffnen Sie den Raspberry Pi Imager und klicken Sie auf **CHOOSE OS**.
 
     .. image:: img/choose_os.png
         :align: center
 
-#. Go to the bottom of the page and select **Use Custom**. In the pop-up window, select **RaspiOS-xxx_EzBlockOS-xxx.img** that you downloaded in **Step 1**, and click **Open**.
-        
+#. Gehen Sie zum Ende der Seite und wählen Sie **Use Custom**. Im Popup-Fenster wählen Sie **RaspiOS-xxx_EzBlockOS-xxx.img**, die Sie im **Schritt 1** heruntergeladen haben, und klicken Sie auf **Open**.
+
     .. image:: img/use_custom.png
         :align: center
 
-#. Select the SD card you are using.
-        
-    .. image:: img/image14.png
-            :align: center
+#. Wählen Sie die SD-Karte aus, die Sie verwenden.
 
-#. Press **Ctrl+Shift+X** or click **settings** icon to open the **Advanced options** page to set hostname, enable SSH and set username and password. You can choose to always use this image customization options.
+    .. image:: img/image14.png
+        :align: center
+
+#. Drücken Sie **Ctrl+Shift+X** oder klicken Sie auf das **settings** Symbol, um die **Advanced options** Seite zu öffnen, um den Hostnamen festzulegen, SSH zu aktivieren und Benutzernamen und Passwort festzulegen. Sie können wählen, diese Bildanpassungsoptionen immer zu verwenden.
 
     .. note::
-        The hostname is set so that when you :ref:`use_on_web_latest`, you can use the hostname to connect to your product. You can also leave it unset.
-
+        Der Hostname wird festgelegt, damit Sie :ref:`use_on_web_latest` nutzen können, um mit Ihrem Gerät über den Hostnamen zu verbinden. Sie können es auch unbelegt lassen.
 
     .. image:: img/configure.png
         :align: center
 
-#. Then scroll down to complete the wifi configuration and click **SAVE**.
+#. Scrollen Sie dann nach unten, um die WLAN-Konfiguration abzuschließen und klicken Sie auf **SAVE**.
 
     .. note::
 
-        **wifi country** should be set the two-letter `ISO/IEC alpha2 code <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_ for the country in which you are using your Raspberry Pi.
+        Das **wifi country** sollte mit dem zweibuchstabigen `ISO/IEC alpha2 code <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_ des Landes festgelegt werden, in dem Sie Ihren Raspberry Pi verwenden.
         
-        This step is optional, if you do not configure WIFI in this step, you can also use the app to configure it directly later.
+        Dieser Schritt ist optional, wenn Sie in diesem Schritt WIFI nicht konfigurieren, können Sie es später direkt über die App konfigurieren.
 
     .. image:: img/image16.png
         :align: center
 
-#. Click the **WRITE** button.
+#. Klicken Sie auf die Schaltfläche **WRITE**.
 
     .. image:: img/image17.png
         :align: center
 
-
-#. After waiting for a while, you will be prompted to tell you that the image has been written to your Micro SD card and you can remove it. Then you can insert it into the Raspberry Pi.
+#. Nach einer Weile erhalten Sie eine Meldung, die besagt, dass das Image auf Ihre Micro SD-Karte geschrieben wurde und Sie sie entfernen können. Dann können Sie sie in den Raspberry Pi einlegen.
 
     .. image:: img/burning2.png
         :align: center
+

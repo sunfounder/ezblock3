@@ -1,15 +1,14 @@
 .. _quick_guide_latest:
 
-Quick User Guide
+Schnelle Benutzeranleitung
 =====================================
 
-
-The main optimization of EzBlock 3.2 is to switch the online service to offline mode, and add the import and export function of project files.
-At that time, the channel for new user registration will be closed, and registered users will be prompted after logging in to transfer the project offline.
-Online services will be closed after a period of time.
+Die Hauptoptimierung von EzBlock 3.2 besteht darin, den Online-Dienst auf den Offline-Modus umzustellen und die Import- und Exportfunktion für Projektdateien hinzuzufügen.
+Zu diesem Zeitpunkt wird der Kanal für die Neuregistrierung von Benutzern geschlossen, und registrierte Benutzer werden nach dem Einloggen aufgefordert, das Projekt offline zu übertragen.
+Online-Dienste werden nach einer bestimmten Zeit geschlossen.
 
 .. note::
-    The 3.2 update does not need to re-burn the image for the Raspberry Pi.
+    Für das 3.2 Update ist es nicht notwendig, das Image für den Raspberry Pi erneut zu brennen.
 
 .. toctree::
     :maxdepth: 3

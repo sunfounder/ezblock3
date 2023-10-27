@@ -1,132 +1,117 @@
-Ezblock Studio Release Notes
+Ezblock Studio Versionshinweise
 =====================================
-
-
 
 EzBlock Studio 3.2
 -----------------------------------------------
 
-EzBlock Studio will be switched to offline mode from version 3.2 and the online service will be closed on 2023/2/28 for user-friendly use. Thus, you can save your projects locally without registering and import them on different devices later.
+Ab der Version 3.2 wird EzBlock Studio in den Offline-Modus wechseln und der Online-Service wird am 28.02.2023 aus Gründen der Benutzerfreundlichkeit eingestellt. Daher können Sie Ihre Projekte lokal speichern, ohne sich registrieren zu müssen und sie später auf verschiedenen Geräten importieren.
 
+**Detaillierte Informationen**
 
-**Detailed Information**
-
-* After EzBlock Studio goes to offline mode, old users can continue to log in and save cloud projects to local, but all new projects will be saved locally.
-* Registration portal is closed. New users are no longer required to register an account to use EzBlock's project saving feature.
-* Add project import and export function in ``.ezbpro`` format, which allows you to transfer projects between devices or share projects with others.
-* Libraries can also be imported and exported in ``.ezblib`` format for transfer and sharing.
+* Nachdem EzBlock Studio in den Offline-Modus gewechselt hat, können alte Benutzer weiterhin anmelden und Cloud-Projekte lokal speichern. Alle neuen Projekte werden jedoch lokal gespeichert.
+* Das Registrierungsportal ist geschlossen. Neue Benutzer müssen kein Konto mehr registrieren, um die Projektspeicherfunktion von EzBlock zu nutzen.
+* Hinzufügung einer Import- und Exportfunktion im ``.ezbpro`` Format, mit dem Sie Projekte zwischen Geräten übertragen oder Projekte mit anderen teilen können.
+* Bibliotheken können ebenfalls im ``.ezblib`` Format für Übertragung und Teilen importiert und exportiert werden.
 
 **FAQ**
 
-* What happens to my account?
+* Was passiert mit meinem Konto?
 
-    You have until February 28, 2023 to save all your projects in the cloud locally. Here's how to do it: Sign in to your account on EzBlock Studio and select "Save all projects locally" in the pop-up window to save all your cloud projects to My Projects page in one click, then export to your device's folder or share them through the app using the Export button.
+    Sie haben bis zum 28. Februar 2023 Zeit, alle Ihre Projekte aus der Cloud lokal zu speichern. So geht's: Melden Sie sich bei Ihrem Konto in EzBlock Studio an und wählen Sie "Alle Projekte lokal speichern" im Popup-Fenster, um alle Ihre Cloud-Projekte mit einem Klick auf der Seite "Meine Projekte" zu speichern. Danach können Sie sie in den Ordner Ihres Geräts exportieren oder sie über die Export-Schaltfläche in der App teilen.
 
-    After that, EzBlock Studio will close the online service and clear all online data. You can also delete all your data by clicking the "Delete Account and Log out" button after you have saved all your projects and libraries.
+    Danach wird EzBlock Studio den Online-Service schließen und alle Online-Daten löschen. Sie können auch alle Ihre Daten löschen, indem Sie nach dem Speichern aller Ihrer Projekte und Bibliotheken auf die Schaltfläche "Konto löschen und abmelden" klicken.
 
-* How is the web version of EzBlock Studio?
+* Wie sieht es mit der Webversion von EzBlock Studio aus?
 
-    You can still access EzBlock Studio via the web page at http://ezblock.cc/ezblock-studio after upgrading to version 3.2.
+    Nach dem Upgrade auf Version 3.2 können Sie weiterhin über die Webseite http://ezblock.cc/ezblock-studio auf EzBlock Studio zugreifen.
 
-    Data will be saved in your browser, so be sure to clear your browser data. Of course, you can export your project or library to your computer for sharing.
+    Daten werden in Ihrem Browser gespeichert, also vergewissern Sie sich, Ihre Browsersdaten zu löschen. Selbstverständlich können Sie Ihr Projekt oder Ihre Bibliothek auf Ihren Computer exportieren, um sie zu teilen.
 
-* How to transfer projects and libraries between devices?
+* Wie übertrage ich Projekte und Bibliotheken zwischen Geräten?
 
-    After exporting projects to ``.ezbpro`` format and libraries to ``.ezblib`` format, you can transfer them to other devices and then import them.
+    Nach dem Exportieren von Projekten im ``.ezbpro`` Format und von Bibliotheken im ``.ezblib`` Format können Sie diese auf andere Geräte übertragen und dort importieren.
 
+* Wie exportiere ich Bibliotheken/Projekte?
 
-* How to export libraries/projects?
+    Für ein detailliertes Tutorial verweisen Sie bitte auf: :ref:`export_project_library`.
 
+* Wie importiere ich Bibliotheken/Projekte?
 
-    For a detailed tutorial, please refer to: :ref:`export_project_library`.
-
-
-* How to import libraries/projects?
-
-
-    For a detailed tutorial, please refer to: :ref:`import_project_library`.
-
-
+    Für ein detailliertes Tutorial verweisen Sie bitte auf: :ref:`import_project_library`.
 
 EzBlock Studio 3.1
 -----------------------------------------------
 
-**Main Optimization**
+**Hauptoptimierung**
 
-The main optimization of EzBlock 3.1 is the compatibility with the built-in Bluetooth of the Raspberry Pi, no need to use an expansion board with Bluetooth module. 
+Die Hauptoptimierung von EzBlock 3.1 ist die Kompatibilität mit dem eingebauten Bluetooth des Raspberry Pi. Es besteht keine Notwendigkeit mehr, eine Erweiterungsplatine mit Bluetooth-Modul zu verwenden.
 
 .. note::
-    * The old version of the robot can also be used normally after burning the new image. The bluetooth module on the original robot hat will not conflict with the new system.
+    * Die ältere Version des Roboters kann auch nach dem Brennen des neuen Images normal verwendet werden. Das Bluetooth-Modul auf dem ursprünglichen Roboter-Hut wird nicht mit dem neuen System in Konflikt stehen.
 
-    * The EzBlock Studio 3.1 version should be used with the EBlock 3.1 image (https://ezblock.cc/download/v31.html).
+    * Die EzBlock Studio 3.1-Version sollte mit dem EBlock 3.1-Image (https://ezblock.cc/download/v31.html) verwendet werden.
 
-**Add**
+**Hinzufügen**
 
-* A custom Bluetooth name function has been added to the app to avoid the problem that multiple devices are indistinguishable. (Reboot to take effect.)
-* Added three sound effects for boot, successful connection, and disconnection, which gives more feedback.
-* The LED next to the power indicator will be used as a bluetooth indicator, which is always on when connected and flashes slowly when not connected.
-* (**Android**) Add a full-screen input box to prevent the input box from being blocked.
+* Eine Funktion zur individuellen Benennung von Bluetooth wurde zur App hinzugefügt, um das Problem zu vermeiden, dass mehrere Geräte nicht voneinander zu unterscheiden sind. (Neustart zur Aktivierung notwendig.)
+* Drei Soundeffekte für den Start, erfolgreiche Verbindung und Trennung wurden hinzugefügt, um ein besseres Feedback zu geben.
+* Die LED neben der Stromanzeige wird als Bluetooth-Indikator verwendet, die bei Verbindung dauerhaft leuchtet und bei keiner Verbindung langsam blinkt.
+* (**Android**) Ein Vollbild-Eingabefeld wurde hinzugefügt, um zu verhindern, dass das Eingabefeld blockiert wird.
 
+**Optimierung**
 
-**Optimization**
+* Die Akkuanzeige wurde optimiert, sodass nun genauere Informationen in der APP angezeigt werden können.
+* Die Darstellung von Beispielbildern des Produkts und Icons persönlicher Informationen wurde optimiert.
 
-* Optimize the battery display, now you can see more accurate information on the APP.
-* Optimize the display of product example images and personal information icons.
+**Beheben**
 
-**Fix**
-
-* Fix a series of problems of Bluetooth search and Bluetooth connection.
-* Fix the problem that the product name is not displayed after the wifi configuration.
-* Fix the problem of product information not being saved after modification.
-* Fix the problem that the picture cannot be saved after taking pictures in the remote control page.
+* Eine Reihe von Problemen mit der Bluetooth-Suche und -Verbindung wurde behoben.
+* Das Problem, dass der Produktname nach der Wifi-Konfiguration nicht angezeigt wird, wurde behoben.
+* Das Problem, dass Produktinformationen nach Änderungen nicht gespeichert werden, wurde behoben.
+* Das Problem, dass Bilder nach dem Fotografieren auf der Fernbedienungsseite nicht gespeichert werden können, wurde behoben.
 
 EzBlock Studio 3 2021.06.08
 -----------------------------
 
-**Improve the product connection**
+**Produktverbindung verbessern**
 
-* Improve the connection method: Compared with the Bluetooth communication of EzBlock 2, EzBlock 3 uses Websocket to communicate, which is much faster.
-* Improve the connection process: EzBlock 3 uses Bluetooth to assist with the product's fast Wi-Fi connection.
+* Verbindungsmethode verbessern: Im Vergleich zur Bluetooth-Kommunikation von EzBlock 2 verwendet EzBlock 3 Websocket zur Kommunikation, was wesentlich schneller ist.
+* Verbindungsprozess verbessern: EzBlock 3 nutzt Bluetooth, um die schnelle Wi-Fi-Verbindung des Produkts zu unterstützen.
 
+**Startseite**
 
-**Home Page**
+- Den Karussell entfernen.
+- Die Produkt-Auswahlseite entfernen und in ein Pop-up-Fenster ändern.
+- Die Notwendigkeit entfernen, sich anzumelden, um zur Startseite zu gelangen.
 
+- Mein Projekt-Eingang hinzufügen.
+- Schaltfläche für das Pop-up-Fenster mit Produktinformationen hinzufügen. Dieses Pop-up zeigt den Produktnamen, Produkttyp, IP, Version, Arbeitsspannung und Leistung.
+- Online-Aktualisierungsfunktion des Produktbildes hinzufügen.
+- Produkt-Kalibrierungsfunktion hinzufügen.
+- Funktion zur Produktname-Änderung hinzufügen.
+- Das Menü in der oberen linken Ecke hinzufügen.
 
-- Remove the carousel.
-- Remove the product selection page and change it to a pop-up window.
-- Remove the way you must log in to get to the home page.
+- Das Pop-up-Fenster für die Schaltfläche Neues Projekt optimieren.
 
-- Add My Project entry.
-- Add Product Information pop-up window button. This Product Information pop-up window is used to show the product name, product type, IP, version, working voltage, and power.
-- Add online update function of product image.
-- Add product calibration function.
-- Add product name modification function.
-- Add the Menu function in the upper left corner.
+**Beispiele-Seite**
 
-- Optimize the pop-up window for New Project button.
+* Das UI verschönern.
+* Schnellstart-/Bearbeitungsbutton hinzufügen.
+* Fernbedienungs- oder IoT-Hinweis-Icon hinzufügen.
 
+**Programmierseite**
 
-**Examples Page**
+* Die Anordnung der Schaltflächen Programmieren, IoT, Fernsteuerung und Debug Monitor optimieren.
+* Produktverbindungsbutton in der oberen linken Ecke hinzufügen.
+* Stop/Run-Programm-Schaltfläche hinzufügen.
+* Um das Projekt zu speichern und die IoT-Seite zu betreten, stellen Sie sicher, dass Sie sich bei Ihrem Konto angemeldet haben.
 
-* Beautify the UI.
-* Add quick run/edit button.
-* Add remote control or IoT prompt icon.
+**Persönliche Info-Seite**
 
-**Programming Page**
+* Die Einstellungsseite entfernen.
+* Produktkategoriefunktion zur Meine Projekte-Seite hinzufügen.
 
-* Optimize the arrangement of Programming, IoT, Remote Control and Debug Monitor buttons.
-* Add product connect button in the top left corner.
-* Add Stop/Run program button.
-* To save the project and enter the IoT page, make sure that you have logged in to your account.
+**Andere**
 
-
-**Personal Info Page**
-
-* Remove the settings page.
-* Add product category function to My Project page.
-
-
-**Other**
-
-* Change the font of all pages.
-* Add the function of entering IP or hostname on the web to connect to the product.
+* Die Schriftart aller Seiten ändern.
+* Die Funktion hinzufügen, IP oder Hostname im Web einzugeben, um eine Verbindung zum Produkt herzustellen.

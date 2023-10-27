@@ -1,20 +1,20 @@
 .. _remote_control_latest:
 
-How to Use the Remote Control Function?
+Wie verwendet man die Fernsteuerungsfunktion?
 ==============================================
 
-1. Enter the **Remote Control Page**.
+1. Betreten Sie die **Fernsteuerungsseite**.
 
     .. image:: img/img_remote1.png
 
-#. Drag the **widget** you want, the configuration will also pop up.
+#. Ziehen Sie das **Widget**, das Sie verwenden möchten. Die Konfiguration wird ebenfalls angezeigt.
 
     .. image:: img/img_remote3.png
 
-#. Go back to **Programming Page**, you can see the new block appears. Complete your code please.
+#. Kehren Sie zur **Programmierseite** zurück, Sie sehen den neuen Block. Vervollständigen Sie bitte Ihren Code.
 
     .. image:: img/img_remote5.png
 
-#. After you run the code, go back to the **Remote Control Page**, play it.
+#. Nachdem Sie den Code ausgeführt haben, gehen Sie zurück zur **Fernsteuerungsseite** und spielen Sie ihn ab.
 
     .. image:: img/img_remote6.png

@@ -1,38 +1,36 @@
-How to Save Projects or Libraries(For Old Users)
-===========================================================
+Wie man Projekte oder Bibliotheken speichert (Für alte Benutzer)
+==================================================================
 
-EzBlock Studio will switch to offline mode starting with version 3.2, which means new users no longer need to register an account to save and transfer projects.
+Ab Version 3.2 wechselt EzBlock Studio in den Offline-Modus, was bedeutet, dass neue Benutzer kein Konto mehr registrieren müssen, um Projekte zu speichern und zu übertragen.
 
-If you are an old user, you can still login to your account until February 28, 2023. However, it is recommended that you download the projects and libraries inside your account as soon as possible. Otherwise, all data cannot be retrieved.
+Wenn Sie ein alter Benutzer sind, können Sie sich noch bis zum 28. Februar 2023 in Ihr Konto einloggen. Es wird jedoch empfohlen, die Projekte und Bibliotheken in Ihrem Konto so schnell wie möglich herunterzuladen. Andernfalls können alle Daten nicht wiederhergestellt werden.
 
-Now let's see how to save the projects or libraries.
+Sehen wir uns nun an, wie man die Projekte oder Bibliotheken speichert.
 
-
-
-#. Click on the icon in the top right corner to login to your account.
+#. Klicken Sie auf das Symbol in der oberen rechten Ecke, um sich in Ihr Konto einzuloggen.
 
     .. image:: img/login_new.png
 
-#. When you log into your account, you will see a pop-up prompt.
+#. Wenn Sie sich in Ihr Konto einloggen, sehen Sie einen Pop-up-Hinweis.
 
     .. image:: img/sp221116_103418.png
 
-    * If you want to save your project locally, please click ``Save All Project Locally``, it will take you a minute, and then you will be able to access your project directly without logging in.
+    * Wenn Sie Ihr Projekt lokal speichern möchten, klicken Sie bitte auf ``Save All Project Locally``. Dies wird eine Minute in Anspruch nehmen, und danach können Sie ohne Login direkt auf Ihr Projekt zugreifen.
 
-    * Click ``Log out`` if you do not want to transfer items saved to the online service at this time. You can still transfer your items the next time you log in.
+    * Klicken Sie auf ``Log out``, wenn Sie zu diesem Zeitpunkt keine auf dem Online-Dienst gespeicherten Elemente übertragen möchten. Sie können Ihre Elemente beim nächsten Einloggen immer noch übertragen.
 
-    * If you no longer need the items saved to the online service, you can click ``Delete Account and Log out``.
+    * Wenn Sie die auf dem Online-Dienst gespeicherten Elemente nicht mehr benötigen, können Sie auf ``Delete Account and Log out`` klicken.
 
-#. After clicking **Save All Porjects Locally**, you will see that it will detect all the projects and libraries in your account and download them all. The download here is not to a folder in your device, but to the **My Projects** page of the app.
+#. Nachdem Sie **Save All Porjects Locally** angeklickt haben, werden alle Projekte und Bibliotheken in Ihrem Konto erkannt und heruntergeladen. Der Download erfolgt hier nicht in einen Ordner auf Ihrem Gerät, sondern auf die Seite **My Projects** der App.
 
     .. image:: img/ez32_download.png
 
-#. Once the download is complete, you will be prompted to go to the **My Projects** page to view the downloaded items. At this point, you can delete your account and logout, or if you are not very confident, you can just click Logout, and check the downloaded projects first.
+#. Sobald der Download abgeschlossen ist, werden Sie aufgefordert, zur Seite **My Projects** zu gehen, um die heruntergeladenen Elemente anzusehen. An dieser Stelle können Sie Ihr Konto löschen und sich abmelden oder, wenn Sie nicht ganz sicher sind, einfach auf Ausloggen klicken und die heruntergeladenen Projekte zuerst überprüfen.
 
     .. image:: img/ez32_view.png
 
-#. Now come to the **My Projects** page to see the downloaded projects. If you have multiple products, you can go to different product pages to view the projects.
+#. Gehen Sie jetzt zur Seite **My Projects**, um die heruntergeladenen Projekte anzusehen. Wenn Sie mehrere Produkte haben, können Sie zu verschiedenen Produktseiten gehen, um die Projekte anzusehen.
 
     .. image:: img/ez32_download_myproject.png
 
-#. At this point if you want to export your project to your mobile device or share it through other APP, you can refer to :ref:`import_export_latest`.
+#. Wenn Sie zu diesem Zeitpunkt Ihr Projekt auf Ihr Mobilgerät exportieren oder es über eine andere App teilen möchten, können Sie sich auf :ref:`import_export_latest` beziehen.

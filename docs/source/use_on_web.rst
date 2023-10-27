@@ -1,34 +1,34 @@
 .. _use_on_web_latest:
 
-How to use EzBlock in a Browser
+Wie man EzBlock in einem Browser verwendet
 ===========================================
 
-In addition to using EzBlock Studio on a mobile device, you can also use it in a browser.
+Neben der Nutzung von EzBlock Studio auf einem mobilen Gerät können Sie es auch in einem Browser verwenden.
 
-The steps are as follows:
+Die Schritte sind wie folgt:
 
-1. First, you need to :ref:`install_ezblock_os_latest`. During this time you can set a hostname to connect to your Raspberry Pi in the browser.
+1. Zunächst müssen Sie :ref:`install_ezblock_os_latest`. In dieser Zeit können Sie einen Hostnamen festlegen, um sich über den Browser mit Ihrem Raspberry Pi zu verbinden.
 
-#. Open the browser and enter the following URL. Google Chrome is recommended.
+#. Öffnen Sie den Browser und geben Sie die folgende URL ein. Google Chrome wird empfohlen.
 
     http://ezblock.cc/ezblock-studio
 
-#. Then click the **connect** icon in the upper left corner.
+#. Klicken Sie dann auf das **connect**-Symbol in der oberen linken Ecke.
 
     .. image:: img/click_connect.png
 
-#. And click **Connect**.
+#. Und klicken Sie auf **Connect**.
 
     .. image:: img/web3.png
 
-#. Enter the IP/Hostname, or enter the name you have given to the product.
+#. Geben Sie die IP/Hostname ein oder geben Sie den Namen ein, den Sie dem Produkt gegeben haben.
 
     .. image:: img/web4.png
 
     .. note::
 
-        If you have already connected your product on your mobile device, you can click the product icon in the upper left corner to get the IP.
+        Wenn Sie Ihr Produkt bereits auf Ihrem mobilen Gerät verbunden haben, können Sie auf das Produktsymbol in der oberen linken Ecke klicken, um die IP zu erhalten.
 
         .. image:: img/IMG_0458.PNG
 
-#. When prompted that the connection is successful, you can run the examples or create your own porjects.
+#. Wenn angezeigt wird, dass die Verbindung erfolgreich ist, können Sie die Beispiele ausführen oder eigene Projekte erstellen.

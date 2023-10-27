@@ -1,26 +1,26 @@
 FAQ
 ============
 
-Check the APP Version
+APP-Version überprüfen
 -----------------------------
 
-Confirm the app version by the following method, and then go to the FAQ of different versions.
+Bestätigen Sie die App-Version mit folgender Methode und navigieren Sie dann zu den FAQ der jeweiligen Versionen.
 
-Click the **Menu** button in the upper left corner.
+Klicken Sie auf den **Menu**-Button in der oberen linken Ecke.
 
 .. image:: img/click_menu.jpg
     :align: center
 
-Then click the **Version** button.
+Dann klicken Sie auf den **Version**-Button.
 
 .. image:: img/version.jpg
     :align: center
 
-Now you can view the version.
+Jetzt können Sie die Version einsehen.
 
 .. note::
 
-    If it is EzBlock 3.1, it is recommended to update to the new version, for a detailed tutorial please refer to: :ref:`quick_guide_latest`.
+    Falls es sich um EzBlock 3.1 handelt, wird empfohlen, auf die neue Version zu aktualisieren. Eine ausführliche Anleitung finden Sie unter: :ref:`quick_guide_latest`.
 
     .. image:: img/check_version.png
         :align: center
@@ -30,71 +30,73 @@ Now you can view the version.
 EzBlock Studio 3.1
 --------------------------
 
-#. APP can't search Bluetooth
+#. APP kann Bluetooth nicht finden
 
-    * Power on the product and see if there is pleasant music (not only current "zi~" sound). If not, please :ref:`install_ezblock_os_latest` again.
-    * whether the Bluetooth of your mobile device is turned on or not.
-    * Whether the app is allowed to access the device's location.
-    * Some mobile devices also require location services to be turned on.
-    * Check the power level. If both power indicators are off, or only one is blinking; the power level is low, please charge the batteries.
-    * If all the above methods have been tried, try to press RST button, or restart the product and APP.
+    * Schalten Sie das Produkt ein und prüfen Sie, ob eine angenehme Melodie erklingt (nicht nur der aktuelle "zi~"-Ton). Falls nicht, installieren Sie bitte :ref:`install_ezblock_os_latest` erneut.
+    * Überprüfen Sie, ob das Bluetooth Ihres Mobilgeräts aktiviert ist.
+    * Überprüfen Sie, ob die App den Zugriff auf den Standort des Geräts hat.
+    * Einige Mobilgeräte erfordern auch, dass die Standortdienste aktiviert sind.
+    * Überprüfen Sie den Ladezustand. Wenn beide Stromanzeigen aus sind oder nur eine blinkt, ist der Akkustand niedrig. Bitte laden Sie die Batterien auf.
+    * Wenn Sie alle oben genannten Methoden ausprobiert haben, versuchen Sie, den RST-Knopf zu drücken oder das Produkt und die APP neu zu starten.
 
-#. The APP searches for Bluetooth, but cannot connect.
 
-    * Power on the product and see if there is pleasant music (not only current "zi~" sound). If not, please :ref:`install_ezblock_os_latest` again.
-    * Check if the BLE or USR light on ROBOT HAT is always on (which means the product is connected by other devices), if yes, disconnect the other devices or restart the product.
-    * If all the above methods have been tried, try to press RST button, or restart the product and APP.
+#. Die APP sucht nach Bluetooth, kann aber nicht verbinden.
 
-#. APP can't connect after configuring WIFI.
+    * Schalten Sie das Produkt ein und prüfen Sie, ob eine angenehme Melodie erklingt (nicht nur der aktuelle "zi~"-Ton). Falls nicht, installieren Sie bitte :ref:`install_ezblock_os_latest` erneut.
+    * Überprüfen Sie, ob die BLE- oder USR-Leuchte auf ROBOT HAT ständig leuchtet (was bedeutet, dass das Produkt von anderen Geräten verbunden ist). Falls ja, trennen Sie die anderen Geräte oder starten Sie das Produkt neu.
+    * Wenn Sie alle oben genannten Methoden ausprobiert haben, versuchen Sie, den RST-Knopf zu drücken oder das Produkt und die APP neu zu starten.
 
-    * Check if the country, SSID and PSK are correct.
-    * Check the network status of this WIFI.
-    * Check the power level. If both power indicators are off or only one power indicator is blinking; the power level is low, please charge the batteries.
-    * Check whether the configured WiFi and the Wi-Fi connected by the mobile device are the same.
+#. Die APP kann nach der WIFI-Konfiguration nicht verbinden.
 
-#. The Video block doesn't work?
+    * Überprüfen Sie, ob das Land, die SSID und das PSK korrekt sind.
+    * Überprüfen Sie den Netzwerkstatus dieses WLANs.
+    * Überprüfen Sie den Ladezustand. Wenn beide Stromanzeigen aus sind oder nur eine blinkt, ist der Akkustand niedrig. Bitte laden Sie die Batterien auf.
+    * Überprüfen Sie, ob das konfigurierte WLAN und das vom Mobilgerät verbundene WLAN identisch sind.
+
+#. Der Videoblock funktioniert nicht?
 
     .. image:: img/video_not.png
         :width: 400
 
-    When using the video function on the web page, if your code does not report an error and has run successfully, but you do not see the shot on the remote control page, you need to check the following 2 situations:.
-    
-    * Check the network status and retry.
-    * For the latest version of Google Chrome, you need to set it manually.
-        
-        Open Google Chrome and go to: chrome://flags/page.
+    Wenn Sie die Videofunktion auf der Webseite verwenden und Ihr Code keinen Fehler meldet und erfolgreich ausgeführt wurde, aber Sie den Aufnahmeschuss auf der Fernsteuerungsseite nicht sehen, müssen Sie die folgenden 2 Situationen überprüfen:
+
+    * Überprüfen Sie den Netzwerkstatus und versuchen Sie es erneut.
+    * Für die neueste Version von Google Chrome müssen Sie es manuell einstellen.
+
+        Öffnen Sie Google Chrome und gehen Sie zu: chrome://flags/page.
 
         .. image:: img/chrome1.jpg
 
-        Search for: Block insecure private network requests
+        Suchen Sie nach: Block insecure private network requests
 
         .. image:: img/chrome2.jpg
 
-        Set it to **Disabled** and then click **Relaunch**.
+        Stellen Sie es auf **Disabled** und klicken Sie dann auf **Relaunch**.
+
 
 
 .. EzBlock Studio 3.0
 .. -------------------------------
 
 .. .. note::
-..     EzBlock Studio has been updated to version 3.1, it is recommended to update to the new version, for a detailed tutorial please refer to: :ref:`quick_guide_latest`.
+..     EzBlock Studio wurde auf Version 3.1 aktualisiert. Es wird empfohlen, auf die neue Version zu aktualisieren. Für ein detailliertes Tutorial verweisen Sie bitte auf: :ref:`quick_guide_latest`.
 
+.. #. APP findet Bluetooth nicht
+..     * Schalten Sie das Produkt ein. Nach dem aktuellen "zi~"-Ton erscheint ein weiteres Stück angenehmer Musik; dies bedeutet, dass das EzBlock OS nicht korrekt heruntergeladen wurde. Bitte beziehen Sie sich auf :ref:`install_ezblock_os_3.0`, um das richtige zu installieren.
+..     * Überprüfen Sie, ob das Bluetooth Ihres Mobilgeräts eingeschaltet ist.
+..     * Überprüfen Sie, ob die App Zugriff auf den Standort des Geräts hat.
+..     * Einige Mobilgeräte erfordern auch, dass die Standortdienste aktiviert sind.
+..     * Überprüfen Sie den Ladezustand. Wenn beide Stromanzeigen aus sind oder nur eine blinkt, ist der Akkustand niedrig. Bitte laden Sie die Batterien auf.
+..     * Wenn Sie alle oben genannten Methoden ausprobiert haben, versuchen Sie, den RST-Knopf zu drücken oder das Produkt und die APP neu zu starten.
 
-.. #. APP can't search Bluetooth
-..     * Turn on the product, after the current "zi~" sound, another piece of pleasant music appears; it means that EzBlock OS is downloaded incorrectly, please refer to :ref:`install_ezblock_os_3.0` to install the correct one.
-..     * whether the Bluetooth of your mobile device is turned on or not.
-..     * Whether the app is allowed to access the device's location.
-..     * Some mobile devices also require location services to be turned on.
-..     * Check the power level. If both power indicators are off, or only one is blinking; the power level is low, please charge the batteries.
-..     * If all the above methods have been tried, try to press RST button, or restart the product and APP.
+.. #. Die APP sucht nach Bluetooth, kann aber nicht verbinden
+..     * Schalten Sie das Produkt ein. Nach dem aktuellen "zi~"-Ton erscheint ein weiteres Stück angenehmer Musik; dies bedeutet, dass das EzBlock OS nicht korrekt heruntergeladen wurde. Bitte beziehen Sie sich auf :ref:`install_ezblock_os_3.0`, um das richtige zu installieren.
+..     * Überprüfen Sie, ob die BLE- oder USR-Leuchte auf ROBOT HAT ständig leuchtet (was bedeutet, dass das Produkt von anderen Geräten verbunden ist). Falls ja, trennen Sie die anderen Geräte oder starten Sie das Produkt neu.
+..     * Wenn Sie alle oben genannten Methoden ausprobiert haben, versuchen Sie, den RST-Knopf zu drücken oder das Produkt und die APP neu zu starten.
 
-.. #. The APP searches for Bluetooth, but cannot connect
-..     * Turn on the product, after the current "zi~" sound, another piece of pleasant music appears; it means that EzBlock OS is downloaded incorrectly, please refer to :ref:`install_ezblock_os_3.0` to install the correct one.
-..     * Check if the BLE or USR light on ROBOT HAT is always on (which means the product is connected by other devices), if yes, disconnect the other devices or restart the product.
-..     * If all the above methods have been tried, try to press RST button, or restart the product and APP.
+.. #. Die APP kann nach der WIFI-Konfiguration nicht verbinden
+..     * Überprüfen Sie, ob das Land, die SSID und das PSK korrekt sind.
+..     * Überprüfen Sie den Netzwerkstatus dieses WLANs.
+..     * Überprüfen Sie den Ladezustand. Wenn beide Stromanzeigen aus sind oder nur eine blinkt, ist der Akkustand niedrig. Bitte laden Sie die Batterien auf.
+..     * Überprüfen Sie, ob das konfigurierte WLAN und das vom Mobilgerät verbundene WLAN identisch sind.
 
-.. #. APP can't connect after configuring WIFI
-..     * Check if the country, SSID and PSK are correct.
-..     * Check the network status of this WIFI.
-..     * Check the power level. If both power indicators are off or only one power indicator is blinking; the power level is low, please charge the batteries.
-..     * Check whether the configured WiFi and the Wi-Fi connected by the mobile device are the same.
