@@ -1,132 +1,122 @@
-Ezblock Studio Release Notes
+Ezblock Studio 更新日志
 =====================================
-
-
 
 EzBlock Studio 3.2
 -----------------------------------------------
 
-EzBlock Studio will be switched to offline mode from version 3.2 and the online service will be closed on 2023/2/28 for user-friendly use. Thus, you can save your projects locally without registering and import them on different devices later.
+从3.2版本开始，EzBlock Studio将转为离线模式，2023年2月28日在线服务将关闭，以便用户友好使用。因此，您可以在不注册的情况下在本地保存您的项目，并在之后在不同的设备上导入它们。
 
+**详细信息**
 
-**Detailed Information**
+* 在EzBlock Studio转为离线模式后，旧用户仍可登录并将云端项目保存至本地，但所有新项目都将在本地保存。
+* 注册入口已关闭。新用户无需再注册账户即可使用EzBlock的项目保存功能。
+* 新增项目的导入与导出功能，格式为 ``.ezbpro``，这允许您在设备之间传输项目或与他人分享项目。
+* 库也可以以 ``.ezblib`` 格式导入和导出，以便于传输和共享。
 
-* After EzBlock Studio goes to offline mode, old users can continue to log in and save cloud projects to local, but all new projects will be saved locally.
-* Registration portal is closed. New users are no longer required to register an account to use EzBlock's project saving feature.
-* Add project import and export function in ``.ezbpro`` format, which allows you to transfer projects between devices or share projects with others.
-* Libraries can also be imported and exported in ``.ezblib`` format for transfer and sharing.
+**常见问题解答**
 
-**FAQ**
+* 我的账户会怎样？
 
-* What happens to my account?
+    您需要在2023年2月28日之前将云端的所有项目保存至本地。操作方法如下：在EzBlock Studio中登录您的账户并在弹出的窗口中选择“一键保存所有项目至本地”，然后通过应用中的导出按钮将其导出到您设备的文件夹或分享它们。
 
-    You have until February 28, 2023 to save all your projects in the cloud locally. Here's how to do it: Sign in to your account on EzBlock Studio and select "Save all projects locally" in the pop-up window to save all your cloud projects to My Projects page in one click, then export to your device's folder or share them through the app using the Export button.
+    此后，EzBlock Studio将关闭在线服务并清除所有在线数据。在保存了所有项目和库之后，您也可以点击“删除账户并登出”按钮以删除您所有的数据。
 
-    After that, EzBlock Studio will close the online service and clear all online data. You can also delete all your data by clicking the "Delete Account and Log out" button after you have saved all your projects and libraries.
+* EzBlock Studio的网络版如何？
 
-* How is the web version of EzBlock Studio?
+    在升级到3.2版本后，您仍然可以通过网页 http://ezblock.cc/ezblock-studio 访问EzBlock Studio。
 
-    You can still access EzBlock Studio via the web page at http://ezblock.cc/ezblock-studio after upgrading to version 3.2.
+    数据将保存在您的浏览器中，所以请确保清除您的浏览器数据。当然，您可以将您的项目或库导出至您的电脑以进行分享。
 
-    Data will be saved in your browser, so be sure to clear your browser data. Of course, you can export your project or library to your computer for sharing.
+* 如何在设备间传输项目和库？
 
-* How to transfer projects and libraries between devices?
+    在将项目导出为 ``.ezbpro`` 格式和库导出为 ``.ezblib`` 格式后，您可以将它们传输到其他设备，然后导入它们。
 
-    After exporting projects to ``.ezbpro`` format and libraries to ``.ezblib`` format, you can transfer them to other devices and then import them.
+* 如何导出库/项目？
 
+    详细教程，请参考: :ref:`export_project_library`。
 
-* How to export libraries/projects?
+* 如何导入库/项目？
 
-
-    For a detailed tutorial, please refer to: :ref:`export_project_library`.
-
-
-* How to import libraries/projects?
-
-
-    For a detailed tutorial, please refer to: :ref:`import_project_library`.
+    详细教程，请参考: :ref:`import_project_library`。
 
 
 
 EzBlock Studio 3.1
 -----------------------------------------------
 
-**Main Optimization**
+**主要优化**
 
-The main optimization of EzBlock 3.1 is the compatibility with the built-in Bluetooth of the Raspberry Pi, no need to use an expansion board with Bluetooth module. 
+EzBlock 3.1的主要优化是与树莓派的内置蓝牙的兼容性，无需使用带有蓝牙模块的扩展板。
 
 .. note::
-    * The old version of the robot can also be used normally after burning the new image. The bluetooth module on the original robot hat will not conflict with the new system.
+    * 旧版本的机器人在烧录新镜像后也可以正常使用。原机器人帽子上的蓝牙模块与新系统不会冲突。
 
-    * The EzBlock Studio 3.1 version should be used with the EBlock 3.1 image (https://ezblock.cc/download/v31.html).
+    * EzBlock Studio 3.1版本应与EBlock 3.1镜像(https://ezblock.cc/download/v31.html)一起使用。
 
-**Add**
+**新增**
 
-* A custom Bluetooth name function has been added to the app to avoid the problem that multiple devices are indistinguishable. (Reboot to take effect.)
-* Added three sound effects for boot, successful connection, and disconnection, which gives more feedback.
-* The LED next to the power indicator will be used as a bluetooth indicator, which is always on when connected and flashes slowly when not connected.
-* (**Android**) Add a full-screen input box to prevent the input box from being blocked.
+* 在应用中新增了自定义蓝牙名称功能，以避免多个设备无法区分的问题。（重新启动生效）
+* 新增了启动、成功连接和断开连接的三种声音效果，提供更多的反馈。
+* 靠近电源指示灯的LED将用作蓝牙指示灯，连接时始终亮起，未连接时慢慢闪烁。
+* (**Android**) 添加了全屏输入框，以防止输入框被遮挡。
 
 
-**Optimization**
 
-* Optimize the battery display, now you can see more accurate information on the APP.
-* Optimize the display of product example images and personal information icons.
 
-**Fix**
+**优化**
 
-* Fix a series of problems of Bluetooth search and Bluetooth connection.
-* Fix the problem that the product name is not displayed after the wifi configuration.
-* Fix the problem of product information not being saved after modification.
-* Fix the problem that the picture cannot be saved after taking pictures in the remote control page.
+* 优化电池显示，现在您可以在APP上看到更准确的信息。
+* 优化产品示例图片和个人信息图标的显示。
+
+**修复**
+
+* 修复了蓝牙搜索和蓝牙连接的一系列问题。
+* 修复了wifi配置后产品名称不显示的问题。
+* 修复了修改后产品信息无法保存的问题。
+* 修复了在遥控页面拍照后图片无法保存的问题。
 
 EzBlock Studio 3 2021.06.08
 -----------------------------
 
-**Improve the product connection**
+**提高产品连接性能**
 
-* Improve the connection method: Compared with the Bluetooth communication of EzBlock 2, EzBlock 3 uses Websocket to communicate, which is much faster.
-* Improve the connection process: EzBlock 3 uses Bluetooth to assist with the product's fast Wi-Fi connection.
+* 改进连接方式：与EzBlock 2的蓝牙通信相比，EzBlock 3使用Websocket进行通信，速度快得多。
+* 改进连接流程：EzBlock 3使用蓝牙辅助产品的快速Wi-Fi连接。
 
+**首页**
 
-**Home Page**
+- 移除轮播功能。
+- 移除产品选择页面，改为弹出窗口。
+- 移除必须登录才能进入首页的方式。
 
+- 新增“我的项目”入口。
+- 新增产品信息弹窗按钮。该产品信息弹窗用于显示产品名称、产品类型、IP、版本、工作电压和功率。
+- 新增产品图片的在线更新功能。
+- 新增产品校准功能。
+- 新增产品名称修改功能。
+- 在左上角新增菜单功能。
 
-- Remove the carousel.
-- Remove the product selection page and change it to a pop-up window.
-- Remove the way you must log in to get to the home page.
+- 优化“新项目”按钮的弹出窗口。
 
-- Add My Project entry.
-- Add Product Information pop-up window button. This Product Information pop-up window is used to show the product name, product type, IP, version, working voltage, and power.
-- Add online update function of product image.
-- Add product calibration function.
-- Add product name modification function.
-- Add the Menu function in the upper left corner.
+**示例页面**
 
-- Optimize the pop-up window for New Project button.
+* 美化用户界面。
+* 添加快速运行/编辑按钮。
+* 添加遥控或IoT提示图标。
 
+**编程页面**
 
-**Examples Page**
+* 优化编程、IoT、遥控和调试监视器按钮的布局。
+* 在左上角添加产品连接按钮。
+* 添加停止/运行程序按钮。
+* 保存项目并进入IoT页面前，请确保已登录您的账户。
 
-* Beautify the UI.
-* Add quick run/edit button.
-* Add remote control or IoT prompt icon.
+**个人信息页面**
 
-**Programming Page**
+* 移除设置页面。
+* 在“我的项目”页面中添加产品类别功能。
 
-* Optimize the arrangement of Programming, IoT, Remote Control and Debug Monitor buttons.
-* Add product connect button in the top left corner.
-* Add Stop/Run program button.
-* To save the project and enter the IoT page, make sure that you have logged in to your account.
+**其他**
 
-
-**Personal Info Page**
-
-* Remove the settings page.
-* Add product category function to My Project page.
-
-
-**Other**
-
-* Change the font of all pages.
-* Add the function of entering IP or hostname on the web to connect to the product.
+* 更改所有页面的字体。
+* 添加在网页上输入IP或主机名以连接产品的功能。

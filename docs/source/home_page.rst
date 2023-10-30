@@ -1,130 +1,128 @@
-Home Page
+主页
 ===================
 
-When we open EzBlock, we can see the homepage, as shown below:
+打开EzBlock后，我们可以看到如下所示的主页：
 
 .. image:: img/sp210805_135127.png
 
-* :ref:`home_menu`: After clicking, a menu window will pop up.
-* :ref:`home_product`: Connect your robot from here, please see :ref:`quick_guide_latest` and :ref:`use_on_web_latest` for specific operations.
-* **3. Profile**: After version 3.2, you will no longer need to register or log in to your account, and this icon will be removed.
-* :ref:`home_examples`: You can view the preset examples here to let you play quickly.
-* :ref:`home_myprojects`: Your personal project or library will be saved here.
-* :ref:`home_newproject`: Create a new project.
-* :ref:`import_project_library`: Used to import projects or libraries.
+* :ref:`home_menu`: 点击后，菜单窗口将会弹出。
+* :ref:`home_product`: 从此处连接您的机器人，请参见 :ref:`quick_guide_latest` 和 :ref:`use_on_web_latest` 以获取具体操作。
+* **3. 个人资料**: 从3.2版本开始，您无需再注册或登录您的账户，此图标将被移除。
+* :ref:`home_examples`: 您可以在此查看预设的示例，帮助您快速上手。
+* :ref:`home_myprojects`: 您的个人项目或库将保存在此处。
+* :ref:`home_newproject`: 创建新项目。
+* :ref:`import_project_library`: 用于导入项目或库。
 
 .. _home_menu:
 
-1. Menu
+1. 菜单
 -------------------------
 
 .. image:: img/sp210805_140425.png
 
-* Language: Chinese and English are included.
-* Version: View the current version. 
-* Contact us: If you have any questions, you can ask for help here.
-* About Us: Introduction to SunFounder.
-* Help: When selected, EzBlock related tutorials will pop up, including FAQ, get started and `reference <https://docs.ezblock.cc/en/latest/reference.html>`_.
+* Language：包括中文和英文。
+* Version：查看当前版本。
+* Contact us：如您有任何疑问，可在此处寻求帮助。
+* About Us：SunFounder的介绍。
+* Help：选中后，EzBlock相关教程将弹出，包括常见问题解答、入门指南和 `参考手册 <https://docs.ezblock.cc/en/latest/reference.html>`_。
 
 .. _home_product:
 
-2. Product
+2. 产品
 ------------------
 
-**Product Information**
+**产品信息**
 
 .. image:: img/product_page.jpg
     :align: center
 
-This is the product information page, which contains the product name (you name it), product type, Raspberry Pi IP, APP version, operating voltage and the current power of the product.
+这是产品信息页面，其中包括产品名称（由您命名）、产品类型、树莓派IP、APP版本、操作电压和产品的当前功率。
 
-**Settings**
+**设置**
 
 .. image:: img/settings.jpg
     :align: center
 
-* **Edit Name**: If you are not satisfied with the name you gave before, you can change it here.
-* **Change Product**: Change to another product.
-* **Check for Updates**: Check the current version of the app, and check if there is a newer version.
-* **Calibrate**: If you think your product is still a bit deviated during use, you can use this button to recalibrate it to the right position.
+* **Edit Name**: 如您对之前的命名不满意，您可以在此更改。
+* **Change Product**: 切换到另一产品。
+* **Check for Updates**: 检查应用的当前版本，并查看是否有新版本。
+* **Calibrate**: 如果您觉得产品在使用中仍有些许偏差，您可以使用此按钮重新校准至正确位置。
 
 
-.. 3. Profile
+
+
+.. 3. 个人资料
 .. ------------------
 
-.. This feature will be canceled after version 3.2.
+.. 3.2版本后此功能将被取消。
 
-.. The Profile interface is as follows:
+.. 个人资料界面如下：
 
 .. .. image:: img/sp210805_140821.png
 
-.. 1. Long press to edit profile picture.
-.. 2. Click Edit at the bottom right to edit personal information.
-.. 3. Your personal projects are saved here, you can also enter here from the homepage.
-.. 4. Your personal library.
-.. 5. Modify email, password or delete account here.
-.. 6. Log out.
+.. 1. 长按以编辑头像。
+.. 2. 点击右下角的编辑来修改个人信息。
+.. 3. 您的个人项目在此处保存，您也可以从主页进入此界面。
+.. 4. 您的个人库。
+.. 5. 在此处修改邮箱、密码或删除账户。
+.. 6. 注销登录。
 
-
-.. **My Project**
+.. **我的项目**
 
 .. .. image:: img/sp210805_140940.png
 
-.. 1. Your project will be saved under the corresponding product category, switch the product category here.
-.. 2. Choose your personal project here. Click Run to flash and run the program directly (if the project uses remote control, it will also enter the remote control interface), click edit to enter the programming interface.
+.. 1. 您的项目将保存在相应的产品类别下，从此处切换产品类别。
+.. 2. 在此处选择您的个人项目。点击运行以直接烧录并运行程序（如果项目使用遥控，它还会进入遥控界面），点击编辑进入编程界面。
 
-.. **My Library**
+.. **我的库**
 
 .. .. image:: img/sp210805_141703.png
 
-.. The information of the library you have saved will be displayed here. If you want to use it, you need to import it from a specific project.
+.. 您已保存的库的信息将在此处显示。如果您想使用它，需要从特定项目中导入。
 
-.. **Security**
+.. **安全**
 
 .. .. image:: img/sp210805_141840.png
 
-.. Modify email, password or delete account here.
+.. 在此处修改邮箱、密码或删除账户。
+
 
 .. _home_examples:
 
-4. Examples
+4. 示例
 -------------------
 
 .. image:: img/sp210805_135846.png
 
-1. Back to home page
-2. Choose an example. Click Run to flash and run the program directly, and click Edit to enter the programming interface.
-3. To choose a programming language, there are two options: Blockly and Python.
+1. 返回主页
+2. 选择一个示例。点击运行以直接烧录并运行程序，点击编辑进入编程界面。
+3. 选择编程语言，有两个选项：Blockly和Python。
 
 .. note::
 
-    Before entering the Examples page, you need to select the correct product first.
+    在进入示例页面前，您需要先选择正确的产品。
 
 .. _home_myprojects:
 
-5. My Projects
+5. 我的项目
 -----------------
 
 .. image:: img/my_projects_page.png
 
-1. Import projects or libraries.
-2. Select button: After clicking it, you can choose to select multiple projects or libraries at once, or select all to export or delete.
-3. Here are two categories My Projects or My Library.
-4. Your project will be saved under the corresponding product category.
-5. Select your personal project here. You can click **Run** to flash and run the program directly (if the project uses remote control, it will also take you to the remote control page), and click **Edit** to enter the programming page.
-6. The export icon is located in the upper right corner of each project or library.
+1. 导入项目或库。
+2. 选择按钮：点击后，您可以选择同时选择多个项目或库，或者全选以导出或删除。
+3. 这里有两个类别：我的项目和我的库。
+4. 您的项目将保存在相应的产品类别下。
+5. 在此处选择您的个人项目。您可以点击 **Run** 以直接烧录并运行程序（如果项目使用遥控，它也会导您至遥控界面），点击 **Edit** 进入编程界面。
+6. 每个项目或库的右上角都有一个导出图标。
 
 .. _home_newproject:
 
-6. New Project
+6. 新项目
 --------------------
 
 .. image:: img/sp210805_143611.png
 
-1. Enter the name of the project.
-2. To choose a programming language, there are two options: Blockly and Python.
-3. Click to enter the programming interface.
-
-
-
-
+1. 输入项目的名称。
+2. 选择编程语言，有两个选项：Blockly和Python。
+3. 点击进入编程界面。

@@ -1,159 +1,160 @@
-
 .. _programming_block:
 
-Programming Page
+编程页面
 ==========================
 
-When you write code (create new project, edit example, edit your personal project), you will enter the Programming Page.
-Shown here is the programming interface in blockly language. For programming in python language, please see :ref:`programming_python`.
+当您编写代码（创建新项目、编辑示例、编辑个人项目）时，您将进入编程页面。
+此处显示的是Blockly语言的编程界面。关于Python语言的编程，请查看 :ref:`programming_python`。
 
 .. image:: img/sp210805_143809.png
 
-1. Return to the home page
-2. Choose a product
-3. Project name
-4. Help
-5. Menu
-6. Programming interface
+1. 返回主页
+2. 选择产品
+3. 项目名称
+4. 帮助
+5. 菜单
+6. 编程界面
 
-7. Remote control interface
-8. Debug Monitor
-    
-A. Block Categories
-B. Programming Area
-C. Run
-D. Flash & Run
+7. 遥控界面
+8. 调试监视器
 
-**Block Categories**
+A. 代码块分类
+B. 编程区域
+C. 运行
+D. 烧录并运行
+
+**代码块分类**
 
 .. image:: img/sp210805_151353.png
 
-Find the code block from here, and drag the code block into the Programming Area for programming. Please check the specific usage in `Block Reference <https://docs.ezblock.cc/en/latest/reference-for-block/block.html>`_.
+从此处找到代码块，并将代码块拖到编程区域进行编程。具体用法请查看 `代码块参考 <https://docs.ezblock.cc/en/latest/reference-for-block/block.html>`_。
 
-**Debug Monitor**
+**调试监视器**
 
 .. image:: img/sp210805_145042.png
 
-Click the debug icon in the lower right corner, and a movable debug monitor will appear. The text of the **print** block will be displayed here.
+点击右下角的调试图标，会出现一个可移动的调试监视器。 **print** 块的文本会在这里显示。
 
-**Help**
+**帮助**
 
 .. image:: img/sp210805_150120.png
 
-After selection, ezblock tutorials will pop up, including FAQ, get started and `reference <https://docs.ezblock.cc/en/latest/reference.html>`_.
+选择后，ezblock的教程会弹出，包括FAQ、入门指南和 `参考 <https://docs.ezblock.cc/en/latest/reference.html>`_。
 
-
-**Menu**
+**菜单**
 
 .. image:: img/sp210805_150436.png
 
-* **New Project**: Use to create a new project.
-* **My Projects**: Use this button to go to the **My Projects** page to view, export or import projects or libraries.
-* **Save**: Adds the project to **My Projects**.
-* **Save As**: The project is saved to the **My Projects** page as a new file name.
-* **Create Library**: To create a library by selecting the functions in the project. For a detailed tutorial, please refer to: :ref:`library_function_latest`.
-* **Import Library**: Import the saved library.
-* **Save As File**: Save to the device's folder. The project (``.ezbpro``) is downloaded to your computer if you are using Web access to EzBlock Studio. With a mobile device, you can save the project (``.ezbpro``) to the device folder or share it with the app.
+* **New Project**：用于创建一个新项目。
+* **My Projects**：使用此按钮进入 **My Projects** 页面，查看、导出或导入项目或库。
+* **Save**：将项目添加到 **My Projects**。
+* **Save As**：项目以新文件名保存到 **My Projects** 页面。
+* **Create Library**：通过选择项目中的功能来创建一个库。详细教程请参考：:ref:`library_function_latest`。
+* **Import Library**：导入已保存的库。
+* **Save As File**：保存到设备的文件夹。如果您通过Web访问EzBlock Studio，项目(``.ezbpro``)将下载到您的计算机。使用移动设备，您可以将项目(``.ezbpro``)保存到设备文件夹或使用应用程序共享。
 
 
-**TIPS**
 
-You can long press the programming area or block to use some auxiliary functions.
+
+
+**提示**
+
+您可以长按编程区域或代码块来使用一些辅助功能。
 
 .. image:: img/sp210805_151610.png
 .. image:: img/sp210805_151819.png
 
-.. list-table:: Menu of Block
+.. list-table:: 代码块菜单
 
-    * - **Option**
-      - **Description**
+    * - **选项**
+      - **描述**
     * - Duplicate 
-      - Copy selected (and dominated by) blocks.
+      - 复制选中的（及其子块）代码块。
     * - Add/Remove Comment
-      - After clicking, a ``?`` icon will appear at the top right of the block, which is used to write text that is helpful for reading the code. These texts will not be executed by the program.
+      - 点击后，代码块右上角会出现一个 ``?`` 图标，用于添加有助于阅读代码的文字。这些文字不会被程序执行。
     * - Expand/Conllapse Block
-      - When your code has more blocks, you can collapse them and expand them when necessary.
+      - 当您的代码有更多的块时，可以折叠它们，并在需要时展开。
     * - Disable/Enable Block
-      - This function disables specific blocks without changing the program.
+      - 此功能可以禁用特定的代码块，而不更改程序。
     * - Delete `xxx` Blocks
-      - Remove selected (and dominated by) blocks.
-    * - Help
+      - 移除选中的（及其子块）代码块。
+    * - 帮助
       - 
     * - Create `xxx`
-      - Used in `Vibration` or `Function` blocks. It enables you to quickly create a block paired with the selected block (click `create` from the Function block, the call block appears).
+      - 用于 `Vibration` 或 `Function` 代码块。它允许您快速创建与所选代码块配对的块（从函数块点击`创建`，调用块就会出现）。
     * - Hightlight Function Definition
-      - Used in the call block of funtion, allows you to find the funtion definition
+      - 用于函数的调用块，允许您找到函数的定义。
 
-.. list-table:: Menu of Programming Page
+.. list-table:: 编程页面菜单
 
-    * - **Option**
-      - **Description**
+    * - **选项**
+      - **描述**
     * - Undo
       - 
     * - Redo
-      - Cancel Undo
+      - 取消撤销
     * - Clean up Blocks
-      - Align the blocks
+      - 对齐代码块
     * - Conllapse Blocks
-      - Collapse all blocks
+      - 折叠所有的块
     * - Expand Blocks
-      - Expand all blocks
+      - 展开所有的块
     * - Delete `xxx` Blocks
-      - Delete all blocks
+      - 删除所有的代码块
+
 
 .. _programming_python:
 
 
-Python Programming Page
----------------------------
+Python编程页面
+-----------------------
 
-If you use python language when creating a project, you can enter the Python Programming Page.
+当您创建项目时选择Python语言，您可以进入Python编程页面。
 
 .. image:: img/sp210805_154924.png
 
-You will need to refer to `Python Reference <https://docs.ezblock.cc/en/latest/reference-for-python/ezblock.html>`_ to complete your project.
+为了完成您的项目，您需要参考 `Python参考 <https://docs.ezblock.cc/en/latest/reference-for-python/ezblock.html>`_。
 
 
 
-Remote Control Interface
---------------------------------
+遥控界面
+------------------------
 
-For how to use it, please see :ref:`remote_control_latest`
+关于如何使用，请查看 :ref:`remote_control_latest`
 
 .. image:: img/sp210805_144019.png
 
-1. Widget Categories
-2. Remote Control Area
-
+1. 控件类别
+2. 遥控区域
 
 .. image:: img/sp210805_152451.png
 
-Click on the widget to display the message box, long press the widget or click the delete button to delete the widget.
+点击控件以显示消息框，长按控件或点击删除按钮以删除该控件。
 
+.. list-table:: 遥控界面的控件
 
-.. list-table:: Widget of Remote Control
+    * - **控件**
+      - **描述**
+    * - 操纵杆
+      - 白点居中时，X和Y值都是0。向右拖动白点以增加X值；向上拖动以增加Y值。X和Y的范围均为(-100, 100)。
+    * - 滑杆
+      - 当白点在最左侧时，值为0。向右拖动白点以增加值。范围是(0, 100)。
+    * - 方向键
+      - 由4个按钮组成的控制器，每个按钮互不影响。按下时按钮的值为1，释放时值为0。
+    * - 按钮
+      - 按下时的值为1，释放时的值为0。
+    * - 开关
+      - 打开时，值为1；关闭时，值为0。
+    * - 视频
+      - 请查看 :ref:`video_latest`
+    * - 数字管
+      - 可以像真实的四位数字管一样显示数字（如123.3）或时间（如11:55）。
+    * - 饼状图
+      - 用于指示数据系列中部分与整体的比例。每组数据应包含一个 ``name`` 和 ``value``。
+    * - 柱状图
+      - 可以直观地显示多个对象的数据，用于比较分析。每个对象应包括一个 ``name`` 和 ``value``。
+    * - 折线图
+      - 可以显示多个对象的连续数据。每个对象应包括一个 ``name`` 和 ``value``。连续数据的生成基于多次调用（通常使用循环）。
+    * - 灯泡
+      - 就像真实的LED，当写入1时它会亮起，写入0时则熄灭。
 
-    * - **Widget**
-      - **Description**
-    * - Joystick
-      - The white dot is centered, and both X and Y values are 0. Drag the white point to the right to increase the X value; drag it upwards to increase the Y value. The ranges of X and Y are both (-100, 100).
-    * - Slider
-      - When the white point is on the far left, the value is 0. Drag the white point to the right to increase the value. The range is (0, 100).
-    * - D-Pad
-      - This is a control composed of 4 Buttons, each button is independent of each other. The value of the Button is 1 when it is pressed and 0 when it is released.
-    * - Button
-      - The value is 1 when pressed and 0 when released.
-    * - Switch
-      - When ON, the value is 1; when OFF, the value is 0.
-    * - Video
-      - Please check :ref:`video_latest`
-    * - Digital Tube
-      - It can display NUMBER (such as 123.3) or TIME (such as 11:55) like a real four-digit digital tube.
-    * - Pie Chart
-      - It is used to indicate the proportion of the part and the whole in the data series. Each set of data should include a ``name`` and ``value``.
-    * - Bar Chart
-      - The data of multiple objects can be displayed intuitively for comparative analysis. Each object should include a ``name`` and ``value``.
-    * - Line Chart
-      - Continuous data of multiple objects can be displayed. Each object should include a ``name`` and ``value``. Continuous data generation is based on multiple calls (usually, using loops).
-    * - Bulb
-      - Like the actual LED, it lights up when 1 is written, and turns off when 0 is written.

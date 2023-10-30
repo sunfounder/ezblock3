@@ -1,26 +1,26 @@
-FAQ
+常见问题解答
 ============
 
-Check the APP Version
+检查APP版本
 -----------------------------
 
-Confirm the app version by the following method, and then go to the FAQ of different versions.
+按照以下方法确认应用版本，然后前往不同版本的常见问题解答。
 
-Click the **Menu** button in the upper left corner.
+点击左上角的 **Menu** 按钮。
 
 .. image:: img/click_menu.jpg
     :align: center
 
-Then click the **Version** button.
+接着点击 **Version** 按钮。
 
 .. image:: img/version.jpg
     :align: center
 
-Now you can view the version.
+现在您可以查看到版本信息。
 
 .. note::
 
-    If it is EzBlock 3.1, it is recommended to update to the new version, for a detailed tutorial please refer to: :ref:`quick_guide_latest`.
+    如果是EzBlock 3.1，建议您更新至最新版本，详细教程请参见：:ref:`quick_guide_latest`。
 
     .. image:: img/check_version.png
         :align: center
@@ -30,71 +30,71 @@ Now you can view the version.
 EzBlock Studio 3.1
 --------------------------
 
-#. APP can't search Bluetooth
+#. APP无法搜索到蓝牙
 
-    * Power on the product and see if there is pleasant music (not only current "zi~" sound). If not, please :ref:`install_ezblock_os_latest` again.
-    * whether the Bluetooth of your mobile device is turned on or not.
-    * Whether the app is allowed to access the device's location.
-    * Some mobile devices also require location services to be turned on.
-    * Check the power level. If both power indicators are off, or only one is blinking; the power level is low, please charge the batteries.
-    * If all the above methods have been tried, try to press RST button, or restart the product and APP.
+    * 开启产品电源，查看是否有悦耳的音乐声（而非仅有"zi~"的声音）。若无，请重新 :ref:`install_ezblock_os_latest`。
+    * 检查您的移动设备的蓝牙是否已开启。
+    * 检查应用是否获得了访问设备位置的权限。
+    * 有些移动设备还需要开启位置服务功能。
+    * 检查电源状态。如果两个电源指示灯都熄灭，或只有一个在闪烁；则表示电量较低，请充电。
+    * 如果以上方法都已尝试，可尝试按下RST按钮，或重启产品和APP。
 
-#. The APP searches for Bluetooth, but cannot connect.
+#. APP搜索到蓝牙但无法连接。
 
-    * Power on the product and see if there is pleasant music (not only current "zi~" sound). If not, please :ref:`install_ezblock_os_latest` again.
-    * Check if the BLE or USR light on ROBOT HAT is always on (which means the product is connected by other devices), if yes, disconnect the other devices or restart the product.
-    * If all the above methods have been tried, try to press RST button, or restart the product and APP.
+    * 开启产品电源，查看是否有悦耳的音乐声（而非仅有"zi~"的声音）。若无，请重新 :ref:`install_ezblock_os_latest`。
+    * 检查ROBOT HAT上的BLE或USR灯是否常亮（意味着产品已被其他设备连接），如是，请断开其他设备连接或重启产品。
+    * 如果以上方法都已尝试，可尝试按下RST按钮，或重启产品和APP。
 
-#. APP can't connect after configuring WIFI.
+#. 配置WIFI后APP无法连接。
 
-    * Check if the country, SSID and PSK are correct.
-    * Check the network status of this WIFI.
-    * Check the power level. If both power indicators are off or only one power indicator is blinking; the power level is low, please charge the batteries.
-    * Check whether the configured WiFi and the Wi-Fi connected by the mobile device are the same.
+    * 检查国家、SSID及PSK是否正确。
+    * 检查此WIFI的网络状态。
+    * 检查电源状态。如果两个电源指示灯都熄灭或只有一个电源指示灯在闪烁；则表示电量较低，请充电。
+    * 检查配置的WiFi与移动设备连接的WiFi是否一致。
 
-#. The Video block doesn't work?
+#. 视频模块不工作？
 
     .. image:: img/video_not.png
         :width: 400
 
-    When using the video function on the web page, if your code does not report an error and has run successfully, but you do not see the shot on the remote control page, you need to check the following 2 situations:.
-    
-    * Check the network status and retry.
-    * For the latest version of Google Chrome, you need to set it manually.
+    当在网页上使用视频功能时，如果您的代码没有报错并已成功运行，但在遥控页面上看不到拍摄画面，您需要检查以下2种情况：
+
+    * 检查网络状态并重试。
+    * 对于Google Chrome的最新版本，您需要手动设置。
         
-        Open Google Chrome and go to: chrome://flags/page.
+        打开Google Chrome并前往：chrome://flags/page。
 
         .. image:: img/chrome1.jpg
 
-        Search for: Block insecure private network requests
+        搜索：Block insecure private network requests
 
         .. image:: img/chrome2.jpg
 
-        Set it to **Disabled** and then click **Relaunch**.
+        设置为 **Disabled**，然后点击 **Relaunch**。
+
 
 
 .. EzBlock Studio 3.0
 .. -------------------------------
 
 .. .. note::
-..     EzBlock Studio has been updated to version 3.1, it is recommended to update to the new version, for a detailed tutorial please refer to: :ref:`quick_guide_latest`.
+..     EzBlock Studio已更新至3.1版本，建议您更新至最新版本，详细教程请参见：:ref:`quick_guide_latest`。
 
+.. #. APP无法搜索到蓝牙
+..     * 开启产品，听到当前的"zi~"声音后，再出现一段悦耳的音乐；这意味着EzBlock OS下载不正确，请参照:ref:`install_ezblock_os_3.0`安装正确版本。
+..     * 检查您的移动设备的蓝牙是否已开启。
+..     * 确认应用是否被授权访问设备位置。
+..     * 部分移动设备需要开启位置服务功能。
+..     * 检查电源状态。如果两个电源指示灯都熄灭或只有一个在闪烁；则表示电量较低，请充电。
+..     * 如果已尝试上述所有方法，可试着按下RST按钮，或重启产品和APP。
 
-.. #. APP can't search Bluetooth
-..     * Turn on the product, after the current "zi~" sound, another piece of pleasant music appears; it means that EzBlock OS is downloaded incorrectly, please refer to :ref:`install_ezblock_os_3.0` to install the correct one.
-..     * whether the Bluetooth of your mobile device is turned on or not.
-..     * Whether the app is allowed to access the device's location.
-..     * Some mobile devices also require location services to be turned on.
-..     * Check the power level. If both power indicators are off, or only one is blinking; the power level is low, please charge the batteries.
-..     * If all the above methods have been tried, try to press RST button, or restart the product and APP.
+.. #. APP搜索到蓝牙但无法连接
+..     * 开启产品，听到当前的"zi~"声音后，再出现一段悦耳的音乐；这意味着EzBlock OS下载不正确，请参照:ref:`install_ezblock_os_3.0`安装正确版本。
+..     * 检查ROBOT HAT上的BLE或USR指示灯是否常亮（表示产品已被其他设备连接），如果是，请断开其他设备的连接或重启产品。
+..     * 如果已尝试上述所有方法，可试着按下RST按钮，或重启产品和APP。
 
-.. #. The APP searches for Bluetooth, but cannot connect
-..     * Turn on the product, after the current "zi~" sound, another piece of pleasant music appears; it means that EzBlock OS is downloaded incorrectly, please refer to :ref:`install_ezblock_os_3.0` to install the correct one.
-..     * Check if the BLE or USR light on ROBOT HAT is always on (which means the product is connected by other devices), if yes, disconnect the other devices or restart the product.
-..     * If all the above methods have been tried, try to press RST button, or restart the product and APP.
-
-.. #. APP can't connect after configuring WIFI
-..     * Check if the country, SSID and PSK are correct.
-..     * Check the network status of this WIFI.
-..     * Check the power level. If both power indicators are off or only one power indicator is blinking; the power level is low, please charge the batteries.
-..     * Check whether the configured WiFi and the Wi-Fi connected by the mobile device are the same.
+.. #. 配置WIFI后APP无法连接
+..     * 确认国家、SSID和PSK设置是否正确。
+..     * 检查此WIFI的网络状态。
+..     * 检查电源状态。如果两个电源指示灯都熄灭或只有一个在闪烁；则表示电量较低，请充电。
+..     * 确认配置的WiFi与移动设备连接的WiFi是否相同。

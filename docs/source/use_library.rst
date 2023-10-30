@@ -1,25 +1,26 @@
 .. _library_function_latest:
 
-How to Use Library Function?
+如何使用库功能？
 ======================================
 
-When you need to reuse the same code in multiple projects, you can use the library function in the menu.
+当你需要在多个项目中重复使用相同的代码时，你可以在菜单中使用库功能。
 
 .. image:: img/sp210809_111713.png
 
-After writing the function, click create library in the Menu and select the function you want.
+编写函数后，点击菜单中的创建库，并选择你想要的函数。
 
 .. image:: img/create_libraries.png
 
-Fill in a description for your library.
+为你的库填写一个描述。
 
 .. image:: img/sp210805_150848.png
 
-When using it, click **Import Library** in the **Menu**. Find the one you want and click on **Import**.
+在使用时，点击 **Import Library** 中的 **Menu**。找到你想要的库，然后点击 **Import**。
 
 .. image:: img/sp210805_151150.png
 
-The results are as follows. You can click Expand Block to see the content of the function.
+结果如下。您可以点击展开块来查看函数的内容。
 
 .. image:: img/sp210805_151105.png
+
 

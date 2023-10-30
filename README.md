@@ -17,8 +17,8 @@ EzBlock Studio is a development platform developed by SunFounder designed for be
 
 <a id="update"></a>
 ## Update:
-2023-10-27:
-    - Add README file
+2023-10-30:
+    - The first release of the chine version.
 
 <a id="trouble"></a>
 ## Trouble Shootings:

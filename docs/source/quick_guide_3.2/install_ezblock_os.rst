@@ -1,71 +1,69 @@
 .. _install_ezblock_os_latest:
 
-Install EzBlock OS
+安装EzBlock操作系统
 ===========================
 
-#. Download the **Raspberry Pi OS with EzBlock Pre-installed** image file here: 
+#. 从此处下载 **预装EzBlock的树莓派操作系统** 镜像文件：
 
     https://ezblock.cc/download/v31.html
 
 
-#. Unzip the package downloaded and you will see the ``.img`` file inside.
+#. 解压您下载的包，您会看到里面的 ``.img`` 文件。
 
     .. note::
-        Do not extract the .img file.
+        不要提取.img文件。
 
-
-#. Downlaod the tool - **Raspberry Pi Imager** from https://www.raspberrypi.org/software/. Click on the link for the Raspberry Pi Imager that matches your operating system, when the download finishes, click it to launch the installer.
+#. 从 https://www.raspberrypi.org/software/ 下载工具 - **Raspberry Pi Imager** 。点击与您操作系统匹配的Raspberry Pi Imager链接，下载完成后，点击启动安装程序。
 
     .. image:: img/image11.png
         :align: center
 
-#. When you launch the installer, your operating system may try to block you from running it. For example, on Windows I receive the following message. If this pops up, click on **More info** and then **Run anyway**, then follow the instructions to install the Raspberry Pi Imager.
-    
+#. 当您启动安装程序时，您的操作系统可能会试图阻止您运行它。例如，在Windows上，我收到以下消息。如果弹出此消息，点击 **More info** ，然后点击 **Run anyway** ，然后按照指引安装Raspberry Pi Imager。
+
     .. image:: img/image12.png
         :align: center
 
-#. Insert your SD card into the computer or laptop SD card slot. Then open Raspberry Pi Imager and click **CHOOSE OS**.
+#. 将您的SD卡插入计算机或笔记本电脑的SD卡插槽。然后打开Raspberry Pi Imager并点击 **CHOOSE OS**。
 
     .. image:: img/choose_os.png
         :align: center
 
-#. Go to the bottom of the page and select **Use Custom**. In the pop-up window, select **RaspiOS-xxx_EzBlockOS-xxx.img** that you downloaded in **Step 1**, and click **Open**.
+#. 滚动至页面底部，选择 **Use Custom** 。在弹出窗口中，选择您在 **第1步** 中下载的 **RaspiOS-xxx_EzBlockOS-xxx.img** ，然后点击 **Open** 。
         
     .. image:: img/use_custom.png
         :align: center
 
-#. Select the SD card you are using.
+#. 选择您正在使用的SD卡。
         
     .. image:: img/image14.png
             :align: center
 
-#. Press **Ctrl+Shift+X** or click **settings** icon to open the **Advanced options** page to set hostname, enable SSH and set username and password. You can choose to always use this image customization options.
+#. 按 **Ctrl+Shift+X** 或点击 **settings** 图标，打开 **Advanced options** 页面来设置主机名、启用SSH以及设置用户名和密码。您可以选择总是使用此图像的自定义选项。
 
     .. note::
-        The hostname is set so that when you :ref:`use_on_web_latest`, you can use the hostname to connect to your product. You can also leave it unset.
-
+        设置主机名是为了您在 :ref:`use_on_web_latest` 时，可以使用主机名连接到您的产品。您也可以选择不设置。
 
     .. image:: img/configure.png
         :align: center
 
-#. Then scroll down to complete the wifi configuration and click **SAVE**.
+#. 然后向下滚动以完成wifi配置，然后点击 **SAVE** 。
 
     .. note::
 
-        **wifi country** should be set the two-letter `ISO/IEC alpha2 code <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_ for the country in which you are using your Raspberry Pi.
+        **wifi country** 应设置为您正在使用树莓派的国家的两个字母的 `ISO/IEC alpha2代码 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_。
         
-        This step is optional, if you do not configure WIFI in this step, you can also use the app to configure it directly later.
+        此步骤是可选的，如果您在此步骤中不配置WIFI，您稍后也可以直接使用应用程序来配置。
 
     .. image:: img/image16.png
         :align: center
 
-#. Click the **WRITE** button.
+#. 点击 **WRITE** 按钮。
 
     .. image:: img/image17.png
         :align: center
 
 
-#. After waiting for a while, you will be prompted to tell you that the image has been written to your Micro SD card and you can remove it. Then you can insert it into the Raspberry Pi.
+#. 等待一段时间后，系统会提示您镜像已写入到您的Micro SD卡中，您可以取出它。然后，您可以将其插入树莓派。
 
     .. image:: img/burning2.png
         :align: center

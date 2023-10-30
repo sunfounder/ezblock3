@@ -1,26 +1,25 @@
-
 Ezblock Studio 3
 ==================================================
 
-**EzBlock Studio** is a development platform developed by SunFounder designed for beginners to lower the barriers to getting started with Raspberry Pi. 
+**EzBlock Studio** 是由SunFounder开发的一个为初学者设计的开发平台，旨在降低使用树莓派的入门门槛。
 
-It has two programming languages: Graphical and Python, and available on almost all different types of devices.
+它支持两种编程语言：图形化和Python，并且几乎适用于所有不同的设备上。
 
-With Bluetooth and Wi-Fi support, you can download code, remote control a Raspberry Pi, on EzBlock Studio.
+通过蓝牙和Wi-Fi功能，你可以在EzBlock Studio上下载代码，远程控制树莓派。
 
-This includes the quick start guide of EzBlock Studio and other basic operations. Later we will add the use of each page and the introduction of related block or python functions.
+本指南包括EzBlock Studio的快速启动指南和其他基本操作。稍后我们会添加每个页面的使用方法和相关块或Python函数的介绍。
 
-Please do not hesitate to point out any inconveniences or errors, and any suggestions are welcome.
+如果您发现任何不便或错误，请随时指出，并欢迎提供任何建议。
 
-Here is the Email: cs@sunfounder.com.
+以下是联系邮箱：cs@sunfounder.com。
 
 .. toctree::
     :maxdepth: 2
 
 
-    About this Kit <self>
+    关于此套件 <self>
 
-**Quick Guide :**
+**快速指南：**
 
 .. toctree::
     :maxdepth: 3
@@ -28,7 +27,7 @@ Here is the Email: cs@sunfounder.com.
     quick_guide_3.2/quick_guide_3.2
 
 
-**How to ... :**
+**如何操作... :**
 
 .. toctree::
     :maxdepth: 3
@@ -40,7 +39,7 @@ Here is the Email: cs@sunfounder.com.
     remote
     use_library
 
-**Interface:**
+**界面介绍：**
 
 .. toctree::
     :maxdepth: 3
@@ -50,7 +49,7 @@ Here is the Email: cs@sunfounder.com.
 
 
 
-**Release Note**
+**版本说明**
   
 .. toctree::
     :maxdepth: 3

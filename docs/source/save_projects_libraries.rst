@@ -1,38 +1,37 @@
-How to Save Projects or Libraries(For Old Users)
+如何保存项目或库（针对老用户）
 ===========================================================
 
-EzBlock Studio will switch to offline mode starting with version 3.2, which means new users no longer need to register an account to save and transfer projects.
+从3.2版本开始，EzBlock Studio将切换到离线模式，这意味着新用户不再需要注册帐户来保存和传输项目。
 
-If you are an old user, you can still login to your account until February 28, 2023. However, it is recommended that you download the projects and libraries inside your account as soon as possible. Otherwise, all data cannot be retrieved.
+如果您是老用户，您仍然可以在2023年2月28日之前登录您的帐户。但建议您尽快下载账户内的项目和库。否则，所有数据将无法找回。
 
-Now let's see how to save the projects or libraries.
+现在，让我们看看如何保存项目或库。
 
-
-
-#. Click on the icon in the top right corner to login to your account.
+#. 点击右上角的图标登录您的账户。
 
     .. image:: img/login_new.png
 
-#. When you log into your account, you will see a pop-up prompt.
+#. 当您登录到您的帐户时，您会看到一个弹出提示。
 
     .. image:: img/sp221116_103418.png
 
-    * If you want to save your project locally, please click ``Save All Project Locally``, it will take you a minute, and then you will be able to access your project directly without logging in.
+    * 如果您想本地保存您的项目，请点击 ``Save All Project Locally`` ，这将花费您一分钟，然后您将能够直接访问您的项目，无需登录。
 
-    * Click ``Log out`` if you do not want to transfer items saved to the online service at this time. You can still transfer your items the next time you log in.
+    * 如果您此时不想转移保存到在线服务的项目，请点击 ``Log out`` 。您下次登录时仍然可以转移您的项目。
 
-    * If you no longer need the items saved to the online service, you can click ``Delete Account and Log out``.
+    * 如果您不再需要保存到在线服务的项目，您可以点击 ``Delete Account and Log out`` 。
 
-#. After clicking **Save All Porjects Locally**, you will see that it will detect all the projects and libraries in your account and download them all. The download here is not to a folder in your device, but to the **My Projects** page of the app.
+#. 点击 **Save All Porjects Locally** 后，您会看到它会检测您帐户中的所有项目和库并全部下载它们。这里的下载不是下载到您设备的文件夹中，而是下载到应用程序的 **My Projects** 页面中。
 
     .. image:: img/ez32_download.png
 
-#. Once the download is complete, you will be prompted to go to the **My Projects** page to view the downloaded items. At this point, you can delete your account and logout, or if you are not very confident, you can just click Logout, and check the downloaded projects first.
+#. 一旦下载完成，您会被提示前往 **My Projects** 页面查看已下载的项目。此时，您可以删除您的帐户并注销，或者，如果您还不太确定，您可以只点击注销，并首先检查下载的项目。
 
     .. image:: img/ez32_view.png
 
-#. Now come to the **My Projects** page to see the downloaded projects. If you have multiple products, you can go to different product pages to view the projects.
+#. 现在，前往 **My Projects** 页面查看已下载的项目。如果您有多个产品，您可以前往不同的产品页面查看项目。
 
     .. image:: img/ez32_download_myproject.png
 
-#. At this point if you want to export your project to your mobile device or share it through other APP, you can refer to :ref:`import_export_latest`.
+#. 此时，如果您想将您的项目导出到您的移动设备或通过其他APP分享，您可以参考 :ref:`import_export_latest`。
+

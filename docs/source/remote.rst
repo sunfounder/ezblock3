@@ -1,20 +1,21 @@
 .. _remote_control_latest:
 
-How to Use the Remote Control Function?
+如何使用远程控制功能？
 ==============================================
 
-1. Enter the **Remote Control Page**.
+1. 进入 **远程控制页面**。
 
     .. image:: img/img_remote1.png
 
-#. Drag the **widget** you want, the configuration will also pop up.
+2. 拖拽您想要的 **小部件**，相应的配置也会弹出。
 
     .. image:: img/img_remote3.png
 
-#. Go back to **Programming Page**, you can see the new block appears. Complete your code please.
+3. 返回到 **编程页面**，您会看到新的编程块已经出现。请完成您的代码。
 
     .. image:: img/img_remote5.png
 
-#. After you run the code, go back to the **Remote Control Page**, play it.
+4. 运行代码后，返回到 **远程控制页面**，开始使用它。
 
     .. image:: img/img_remote6.png
+
