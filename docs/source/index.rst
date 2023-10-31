@@ -1,6 +1,18 @@
 Ezblock Studio 3
 ==================================================
 
+感谢您选择我们的EzBlock Studio。
+
+.. note::
+    本文档提供以下语言版本。
+
+        * |link_german_tutorials|
+        * |link_jp_tutorials|
+        * |link_en_tutorials|
+        * |link_zh_tutorials|
+    
+    请点击相应的链接，选择您偏好的语言阅读文档。
+
 **EzBlock Studio** 是由SunFounder开发的一个为初学者设计的开发平台，旨在降低使用树莓派的入门门槛。
 
 它支持两种编程语言：图形化和Python，并且几乎适用于所有不同的设备上。
