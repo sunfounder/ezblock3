@@ -63,3 +63,27 @@ html_js_files = [
 html_css_files = [
     'https://ezblock.cc/readDocFile/custom.css',
 ]
+
+
+
+# Language switching links
+
+rst_epilog = """
+
+.. |link_german_tutorials| raw:: html
+
+    <a href="https://docs.sunfounder.com/projects/ezblock3/de/latest/" target="_blank">Deutsch Online-Kurs</a>
+
+.. |link_jp_tutorials| raw:: html
+
+    <a href="https://docs.sunfounder.com/projects/ezblock3/ja/latest/" target="_blank">日本語オンライン教材</a>
+
+.. |link_en_tutorials| raw:: html
+
+    <a href="https://docs.sunfounder.com/projects/ezblock3/en/latest/" target="_blank">English Online-tutorials</a>
+
+.. |link_en_tutorials| raw:: html
+
+    <a href="https://docs.sunfounder.com/projects/ezblock3/zh/latest/" target="_blank">中文在线教程</a>
+
+"""
