@@ -80,7 +80,7 @@ rst_epilog = """
 
     <a href="https://docs.sunfounder.com/projects/ezblock3/en/latest/" target="_blank">English Online-tutorials</a>
 
-.. |link_en_tutorials| raw:: html
+.. |link_zh_tutorials| raw:: html
 
     <a href="https://docs.sunfounder.com/projects/ezblock3/zh/latest/" target="_blank">中文在线教程</a>
 
