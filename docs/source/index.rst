@@ -1,6 +1,19 @@
 Ezblock Studio 3
 ==================================================
 
+Danke, dass Sie sich für unser EzBlock Studio entschieden haben.
+
+.. note::
+    Dieses Dokument ist in den folgenden Sprachen verfügbar.
+
+        * |link_german_tutorials|
+        * |link_jp_tutorials|
+        * |link_en_tutorials|
+        * |link_zh_tutorials|
+
+    Bitte klicken Sie auf die jeweiligen Links, um das Dokument in Ihrer bevorzugten Sprache aufzurufen.
+
+
 **EzBlock Studio** ist eine Entwicklungsplattform von SunFounder für Anfänger entwickelt, um den Einstieg in den Raspberry Pi zu erleichtern.
 
 Es unterstützt zwei Programmiersprachen: Grafisch und Python und ist auf fast allen verschiedenen Gerätetypen verfügbar.
