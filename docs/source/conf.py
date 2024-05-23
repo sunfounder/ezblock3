@@ -62,3 +62,13 @@ html_js_files = [
 html_css_files = [
     'https://ezblock.cc/readDocFile/custom.css',
 ]
+
+# open link in a new window
+
+rst_epilog = """
+
+.. |link_sf_facebook| raw:: html
+
+    <a href="https://bit.ly/3V02L7b" target="_blank">here</a>
+
+"""
