@@ -68,6 +68,10 @@ html_css_files = [
 
 rst_epilog = """
 
+.. |link_sf_facebook| raw:: html
+
+    <a href="https://bit.ly/3V02L7b" target="_blank">ここ</a>
+
 .. |link_german_tutorials| raw:: html
 
     <a href="https://docs.sunfounder.com/projects/ezblock3/de/latest/" target="_blank">Deutsch Online-Kurs</a>
