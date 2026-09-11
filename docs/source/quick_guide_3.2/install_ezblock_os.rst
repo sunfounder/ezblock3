@@ -26,7 +26,12 @@ EzBlock OS installieren
     .. note::
         Extrahieren Sie die .img Datei nicht.
 
-#. Laden Sie das Tool - **Raspberry Pi Imager** von https://www.raspberrypi.org/software/ herunter. Klicken Sie auf den Link zum Raspberry Pi Imager, der zu Ihrem Betriebssystem passt. Nach dem Herunterladen klicken Sie darauf, um den Installer zu starten.
+#. Laden Sie das Tool - **Raspberry Pi Imager** herunter. Bitte verwenden Sie eine Version **unter 2.0**. Wir empfehlen `Raspberry Pi Imager v1.9.6 <https://github.com/raspberrypi/rpi-imager/releases/tag/v1.9.6>`_.
+
+    .. note::
+        Die offizielle **Raspberry Pi Imager 2.0** und neuere Versionen haben einen Fehler: Beim Flashen eines benutzerdefinierten OS-Images kann das WLAN-Netzwerk nicht konfiguriert werden. Verwenden Sie daher eine Version unter 2.0.
+
+    Klicken Sie auf der Release-Seite auf den Link zum Installer, der zu Ihrem Betriebssystem passt. Nach dem Herunterladen klicken Sie darauf, um den Installer zu starten.
 
     .. image:: img/image11.png
         :align: center
