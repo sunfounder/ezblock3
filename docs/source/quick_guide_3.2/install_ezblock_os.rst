@@ -13,7 +13,12 @@
     .. note::
         不要提取.img文件。
 
-#. 从 https://www.raspberrypi.org/software/ 下载工具 - **Raspberry Pi Imager** 。点击与您操作系统匹配的Raspberry Pi Imager链接，下载完成后，点击启动安装程序。
+#. 下载工具 - **Raspberry Pi Imager** 。请使用 **2.0以下** 的版本，我们推荐 `Raspberry Pi Imager v1.9.6 <https://github.com/raspberrypi/rpi-imager/releases/tag/v1.9.6>`_ 。
+
+    .. note::
+        官方 **Raspberry Pi Imager 2.0** 及以上版本存在一个bug：刷写自定义的镜像系统时无法配置WiFi网络。因此，请使用2.0以下的版本。
+
+    在发布页面上，点击与您操作系统匹配的安装程序链接。下载完成后，点击启动安装程序。
 
     .. image:: img/image11.png
         :align: center
